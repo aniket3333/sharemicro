@@ -70,6 +70,7 @@ export class LoginComponent implements OnInit {
     this.sharePointService.getAccessToken(this.code).subscribe((res) => {
         debugger
 console.log(res);
+this._router.navigate(['/all-sites']);
     
     });
   }
