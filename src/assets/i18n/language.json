@@ -1,0 +1,5763 @@
+[
+  {
+    "Key": "HEADER.SEARCH",
+    "EnglishName": "Search...",
+    "DutchName": "Zoeken..."
+  },
+  {
+    "Key": "HEADER.SETTINGS",
+    "EnglishName": "Settings",
+    "DutchName": "Instellingen"
+  },
+  {
+    "Key": "HEADER.LOGIN.PROFILE",
+    "EnglishName": "Profile",
+    "DutchName": "Profiel"
+  },
+  {
+    "Key": "HEADER.LOGIN.SETTINGS",
+    "EnglishName": "Settings",
+    "DutchName": "Instellingen"
+  },
+  {
+    "Key": "HEADER.LOGIN.LOCK_SCREEN",
+    "EnglishName": "Lock screen",
+    "DutchName": "Vergrendelen"
+  },
+  {
+    "Key": "HEADER.LOGIN.LOGOUT",
+    "EnglishName": "Logout",
+    "DutchName": "Uitloggen"
+  },
+  {
+    "Key": "MENUITEMS.MENU.TEXT",
+    "EnglishName": "Menu",
+    "DutchName": "Menu"
+  },
+  {
+    "Key": "MENUITEMS.DASHBOARDS.TEXT",
+    "EnglishName": "Dashboards",
+    "DutchName": "Dashboards"
+  },
+  {
+    "Key": "MENUITEMS.DASHBOARDS.BADGE",
+    "EnglishName": "04",
+    "DutchName": "04"
+  },
+  {
+    "Key": "MENUITEMS.DASHBOARDS.LIST.DEFAULT",
+    "EnglishName": "Statistics",
+    "DutchName": "Statistieken"
+  },
+  {
+    "Key": "MENUITEMS.THIRDPARTYFINANCES.TEXT",
+    "EnglishName": "Finance",
+    "DutchName": "Finance"
+  },
+  {
+    "Key": "MENUITEMS.THIRDPARTYFINANCES.LIST.BANK",
+    "EnglishName": "Bank Transactions",
+    "DutchName": "Banktransacties"
+  },
+  {
+    "Key": "MENUITEMS.THIRDPARTYFINANCES.LIST.PARKTOPO",
+    "EnglishName": "PARK TO PO",
+    "DutchName": "PARKEER PO"
+  },
+   {
+    "Key": "MENUITEMS.THIRDPARTYFINANCES.LIST.PARKTOCUSTOMER",
+    "EnglishName": "PARK TO CUSTOMER",
+    "DutchName": "PARKEER BIJ KLANT"
+  },
+  {
+    "Key": "MENUITEMS.FINANCE.TEXT",
+    "EnglishName": "Finance",
+    "DutchName": "Finance"
+  },
+  {
+    "Key": "MENUITEMS.FINANCE.LIST.BANK",
+    "EnglishName": "Bank Transactions",
+    "DutchName": "Banktransacties"
+  },
+  {
+    "Key": "MENUITEMS.FINANCE.LIST.FILEUPLOAD",
+    "EnglishName": "Upload OCR",
+    "DutchName": "Inboeken"
+  },
+  {
+    "Key": "MENUITEMS.FINANCE.LIST.PURCHASEORDER",
+    "EnglishName": "Purchase Order History",
+    "DutchName": "Inkoopfacturen"
+  },
+  {
+    "Key": "MENUITEMS.FINANCE.LIST.PROCESSSALESINVOICES",
+    "EnglishName": "Process Sales Invoices",
+    "DutchName": "Factureren"
+  },
+  {
+    "Key": "MENUITEMS.FINANCE.LIST.PROCESSEDSALESINVOICES",
+    "EnglishName": "Processed Sales Invoices",
+    "DutchName": "Verkoopfacturen"
+  },
+  {
+    "Key": "MENUITEMS.FINANCE.LIST.NOTMATCHHISTORY",
+    "EnglishName": "No Match History",
+    "DutchName": "Geen wedstrijdgeschiedenis"
+  },
+  {
+    "Key": "MENUITEMS.MEMBERS.TEXT",
+    "EnglishName": "Members",
+    "DutchName": "Relatiebeheer"
+  },
+  {
+    "Key": "MENUITEMS.MEMBERS.LIST.SUBTYPE",
+    "EnglishName": "Vendor Types",
+    "DutchName": "Relatietype"
+  },
+  {
+    "Key": "MENUITEMS.MEMBERS.LIST.RELATIONSHIP",
+    "EnglishName": "Relationship",
+    "DutchName": "Relaties"
+  },
+  {
+    "Key": "MENUITEMS.MEMBERS.LIST.DEPARTMENT",
+    "EnglishName": "Department",
+    "DutchName": "Afdelingen"
+  },
+  {
+    "Key": "MENUITEMS.CASEMANAGEMENT.TEXT",
+    "EnglishName": "Case Management",
+    "DutchName": "Dossierbeheer"
+  },
+  {
+    "Key": "MENUITEMS.CASEMANAGEMENT.LIST.CASE",
+    "EnglishName": "Details",
+    "DutchName": "Overzicht"
+  },
+  {
+    "Key": "MENUITEMS.STATISTICS.TEXT",
+    "EnglishName": "Statistics",
+    "DutchName": "Statistieken"
+  },
+  {
+    "Key": "MENUITEMS.STATISTICS.LIST.REVENUE",
+    "EnglishName": "Revenue",
+    "DutchName": "Omzet"
+  },
+  {
+    "Key": "MENUITEMS.STATISTICS.LIST.EXPENSES",
+    "EnglishName": "Expenses",
+    "DutchName": "Verschotten"
+  },
+  {
+    "Key": "MENUITEMS.STATISTICS.LIST.EMPLOYEE_REVENUE",
+    "EnglishName": "Employee Revenue",
+    "DutchName": "Inkomsten van medewerkers"
+  },
+  {
+    "Key": "MENUITEMS.LEADS.TEXT",
+    "EnglishName": "Lead Management",
+    "DutchName": "Lead Management"
+  },
+  {
+    "Key": "MENUITEMS.LEADS.LIST.DETAILS",
+    "EnglishName": "Details",
+    "DutchName": "Details"
+  },
+  {
+    "Key": "MENUITEMS.STANDARDLETTERS.TEXT",
+    "EnglishName": "Standard Letters---",
+    "DutchName": "Standaardbrieven"
+  },
+  {
+    "Key": "MENUITEMS.STANDARDLETTERS.LETTERS",
+    "EnglishName": "Letters",
+    "DutchName": "Brieven"
+  },
+  {
+    "Key": "MENUITEMS.SETTING.TEXT",
+    "EnglishName": "Settings",
+    "DutchName": "Instellingen"
+  },
+  {
+    "Key": "MENUITEMS.USERMANAGEMENT.TEXT",
+    "EnglishName": "User management",
+    "DutchName": "Gebruikersbeheer"
+  },
+  {
+    "Key": "MENUITEMS.USERMANAGEMENT.LIST.USERS",
+    "EnglishName": "Users",
+    "DutchName": "Gebruikers"
+  },
+  {
+    "Key": "MENUITEMS.USERMANAGEMENT.LIST.USERROLES",
+    "EnglishName": "User roles",
+    "DutchName": "Rollen"
+  },
+  {
+    "Key": "MENUITEMS.COMPANY.TEXT",
+    "EnglishName": "Companies",
+    "DutchName": "Kantoren"
+  },
+  {
+    "Key": "MENUITEMS.COMPANY.LIST.MASTER",
+    "EnglishName": "Master",
+    "DutchName": "Kantoren"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.TITLE",
+    "EnglishName": "Upload OCR",
+    "DutchName": "Factuur Inboeken"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.SEARCH",
+    "EnglishName": "Search",
+    "DutchName": "Zoek"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.SEARCH_PLACEHOLDER",
+    "EnglishName": "Search",
+    "DutchName": "Zoek"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.SEARCH_FILTER",
+    "EnglishName": "Filter",
+    "DutchName": "Filter"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.DRAG_DROP",
+    "EnglishName": "Drop files here or click here to upload.",
+    "DutchName": "Zet hier bestanden neer of klik hier om te uploaden."
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.SORT_FILE",
+    "EnglishName": "Sort File",
+    "DutchName": "Type document"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.UPLOAD_FILE",
+    "EnglishName": "Upload File",
+    "DutchName": "Factuur invoeren"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.PROCEED",
+    "EnglishName": "Proceed",
+    "DutchName": "Verwerken"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.FILE_NAME",
+    "EnglishName": "File Name",
+    "DutchName": "Bestandsnaam"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.CREATED_AT",
+    "EnglishName": "Created at",
+    "DutchName": "Gemaakt bij"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.UPLOADED_BY",
+    "EnglishName": "Uploaded by",
+    "DutchName": "Geupload door"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.CLOSE",
+    "EnglishName": "Close",
+    "DutchName": "Sluiten"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.RESET_READ_FROM_INVOICE",
+    "EnglishName": "Reset & Read from Invoice",
+    "DutchName": "Reset & lees opnieuw van factuur"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.VENDOR_DETAILS",
+    "EnglishName": "Vendor Details",
+    "DutchName": "Relatiegegevens"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.INVOICE_DETAILS",
+    "EnglishName": "Invoice Details",
+    "DutchName": "Factuurgegevens"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.TYPE",
+    "EnglishName": "Type",
+    "DutchName": "Type relatie"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.SUB_TYPE",
+    "EnglishName": "Sub Type",
+    "DutchName": "Soort relatie"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.NAME",
+    "EnglishName": "Name",
+    "DutchName": "Bedrijfsnaam"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.BTW",
+    "EnglishName": "BTW No",
+    "DutchName": "BTW Nummer"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.KVK",
+    "EnglishName": "KVK No",
+    "DutchName": "KvK Nummer"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.HOUSE_NO",
+    "EnglishName": "House No",
+    "DutchName": "Huisnummer"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.ZIP_CODE",
+    "EnglishName": "Zip Code",
+    "DutchName": "Postcode"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.CITY",
+    "EnglishName": "City",
+    "DutchName": "Plaats"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.STREET",
+    "EnglishName": "Street",
+    "DutchName": "Straat"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.ADD_NEW_ADDRESS",
+    "EnglishName": "Add New Address",
+    "DutchName": "Voeg nieuw adres toe"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.ADD_NEW_EMAIL",
+    "EnglishName": "Add New Email",
+    "DutchName": "Voeg nieuw email toe"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.ADD_NEW_PHONE",
+    "EnglishName": "Add New Phone",
+    "DutchName": "Voeg nieuw telefoonnummer toe"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.ADD_NEW_BANK",
+    "EnglishName": "Add New Bank",
+    "DutchName": "Voeg nieuw IBAN toe "
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.ADD_ADDRESS",
+    "EnglishName": "Address Details",
+    "DutchName": "Adres toe"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.ADD_EMAIL",
+    "EnglishName": "Email Details",
+    "DutchName": "Email toe"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.ADD_PHONE",
+    "EnglishName": "Phone Details",
+    "DutchName": "Telefoonnummer toe "
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.ADD_BANK",
+    "EnglishName": "Bank Details",
+    "DutchName": "IBAN toe"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.EMAIL",
+    "EnglishName": "Email Address",
+    "DutchName": "Emailadres"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.REMARK",
+    "EnglishName": "Remark",
+    "DutchName": "Opmerking"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.ACTION",
+    "EnglishName": "Action",
+    "DutchName": "Bewerken"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.PHONE_NUMBER",
+    "EnglishName": "Phone Number",
+    "DutchName": "Telefoonnummer"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.PHONE_TYPE",
+    "EnglishName": "Phone Type",
+    "DutchName": "Telefoontype"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.SELECT_TYPE",
+    "EnglishName": "Select Type",
+    "DutchName": "Selecteer Type"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.NAME_DETAILS",
+    "EnglishName": "Name Details",
+    "DutchName": "Naamdetails"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.PHONE_DETAILS",
+    "EnglishName": "Phone Details",
+    "DutchName": "Telefoongegevens"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.ADDRESS_DETAILS",
+    "EnglishName": "Address Details",
+    "DutchName": "Adresgegevens"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.EMAIL_DETAILS",
+    "EnglishName": "Email Details",
+    "DutchName": "Emailgegevens"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.BANK_DETAILS",
+    "EnglishName": "Bank Details",
+    "DutchName": "Bankgegevens"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.KIND",
+    "EnglishName": "Kind",
+    "DutchName": "Soort"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.IBAN",
+    "EnglishName": "IBAN",
+    "DutchName": "IBAN"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.IN_THE_NAME_OF",
+    "EnglishName": "In the name of",
+    "DutchName": "Ten name van"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.PREVIOUS",
+    "EnglishName": "Previous",
+    "DutchName": "Vorige"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.NEXT",
+    "EnglishName": "Next",
+    "DutchName": "Volgende"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.KVK_DETAILS",
+    "EnglishName": "KVK Details-",
+    "DutchName": "KvK Gegevens"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.ALREADY_SELECTED",
+    "EnglishName": "Already Selected?",
+    "DutchName": "Geselecteerd"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.SAVE_BTN",
+    "EnglishName": "Save",
+    "DutchName": "Opslaan"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.CLOSE_BTN",
+    "EnglishName": "Close",
+    "DutchName": "Sluiten"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.RN_CODE",
+    "EnglishName": "RN Code",
+    "DutchName": "Dossiernummer"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.INVOICE_DATE",
+    "EnglishName": "Invoice Date",
+    "DutchName": "Factuurdatum"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.WITHOUT_TAX",
+    "EnglishName": "Without Tax",
+    "DutchName": "Exclusief btw"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.TOTAL_TAX",
+    "EnglishName": "Total Tax",
+    "DutchName": "BTW bedrag"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.WITH_TAX",
+    "EnglishName": "With tax",
+    "DutchName": "Totaalbedrag"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.RECIEPT_NO",
+    "EnglishName": "Receipt No",
+    "DutchName": "Factuurnummer"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.DESCRIPTION",
+    "EnglishName": "Description",
+    "DutchName": "Omschrijving"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.AMOUNT",
+    "EnglishName": "Amount",
+    "DutchName": "Bedrag"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.TAX",
+    "EnglishName": "Tax",
+    "DutchName": "BTW"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.TAX_RATE",
+    "EnglishName": "Tax Rate",
+    "DutchName": "BTW Percentage"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.TOTAL",
+    "EnglishName": "Total",
+    "DutchName": "Totaal"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.ADD",
+    "EnglishName": "Add",
+    "DutchName": "Voeg toe"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.SUBMIT",
+    "EnglishName": "Submit",
+    "DutchName": "Bevestigen"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.DEPARTMENT",
+    "EnglishName": "Department",
+    "DutchName": "Afdelingen"
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.TITLE",
+    "EnglishName": "Bank Transaction",
+    "DutchName": "Banktransacties"
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.SEARCH_PLACEHOLDER",
+    "EnglishName": "Search For",
+    "DutchName": "Zoeken..."
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.SEARCH_FILTER",
+    "EnglishName": "Filter",
+    "DutchName": "Filter"
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.EXPORT_EXCEL",
+    "EnglishName": "Export Excel",
+    "DutchName": "Exporteer naar Excel"
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.HIDE",
+    "EnglishName": "Hide",
+    "DutchName": "Verbergen"
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.DEBIT",
+    "EnglishName": "Debit",
+    "DutchName": "Debiteren"
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.CREDIT",
+    "EnglishName": "Credit",
+    "DutchName": "Credit"
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.ALL",
+    "EnglishName": "All",
+    "DutchName": "Alle"
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.EMPTY",
+    "EnglishName": "Empty",
+    "DutchName": "leeg"
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.NON_EMPTY",
+    "EnglishName": "Non Empty",
+    "DutchName": "niet leeg"
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.YES",
+    "EnglishName": "Yes",
+    "DutchName": "Ja"
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.NO",
+    "EnglishName": "NO",
+    "DutchName": "Nee"
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.STATUS",
+    "EnglishName": "Status",
+    "DutchName": "Toestand"
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.IBAN",
+    "EnglishName": "IBAN",
+    "DutchName": "IBAN"
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.RELATION",
+    "EnglishName": "Relation",
+    "DutchName": "Relatie"
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.PROCESSED",
+    "EnglishName": "Processed",
+    "DutchName": "Verwerkt"
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.ACTION",
+    "EnglishName": "Action",
+    "DutchName": "Verwijderen"
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.CASE_NO",
+    "EnglishName": "Case No",
+    "DutchName": "Dossiernummer"
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.PROFORMA_NO",
+    "EnglishName": "Proforma No",
+    "DutchName": "Proformanummber"
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.DATE",
+    "EnglishName": "Date",
+    "DutchName": "Datum"
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.COUNTER_ACCOUNT",
+    "EnglishName": "Counter Account",
+    "DutchName": "IBAN"
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.AMOUNT",
+    "EnglishName": "Amount",
+    "DutchName": "Totaalbedrag"
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.TAX",
+    "EnglishName": "Tax",
+    "DutchName": "BTW"
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.WITHOUT_TAX",
+    "EnglishName": "Without Tax",
+    "DutchName": "Exclusief btw"
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.NOTICES",
+    "EnglishName": "Notices",
+    "DutchName": "Omschrijving"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.TITLE",
+    "EnglishName": "Purchase Order History",
+    "DutchName": "Inkoopfacturen"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.SEARCH_PLACEHOLDER",
+    "EnglishName": "Search",
+    "DutchName": "Zoeken..."
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.SEARCH_FILTER",
+    "EnglishName": "Filter",
+    "DutchName": "Filter"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.FROM_DATE",
+    "EnglishName": "From Date",
+    "DutchName": "Vanaf Datum"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.TO_DATE",
+    "EnglishName": "To Date",
+    "DutchName": "Tot Datum"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.EXPORT_EXCEL",
+    "EnglishName": "Export Excel",
+    "DutchName": "Exporteer naar Excel"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.EXPORT_XML",
+    "EnglishName": "Export XML",
+    "DutchName": "Exporteer naar XML"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.ACTION",
+    "EnglishName": "Action",
+    "DutchName": "Verwijderen"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.CLIENT_NAME",
+    "EnglishName": "Client Name",
+    "DutchName": "Klantnaam"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.VENDOR_SUBTYPE",
+    "EnglishName": "Vendor Subtype",
+    "DutchName": "Relatie Subtype"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.CASE_NUMBER",
+    "EnglishName": "Case No",
+    "DutchName": "Dossiernummer"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.INVOICE_DATE",
+    "EnglishName": "Invoice Date",
+    "DutchName": "Factuur datum"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.AMOUNT_WITHOUT_TAX",
+    "EnglishName": "Amount Without Tax",
+    "DutchName": "Exclusief btw"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.TAX_PERCENTAGE",
+    "EnglishName": "Tax",
+    "DutchName": "BTW"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.TOTAL_AMOUNT",
+    "EnglishName": "Total Amount",
+    "DutchName": "Totaalbedrag"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.VENDOR_STATUS",
+    "EnglishName": "Vendor Status",
+    "DutchName": "Status relatie"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.VENDOR_IBAN",
+    "EnglishName": "Vendor IBAN",
+    "DutchName": "Relatie IBAN"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.VENDOR_NAME",
+    "EnglishName": "Vendor Name",
+    "DutchName": "Relatie"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.PROCESS_DATE",
+    "EnglishName": "Process Date",
+    "DutchName": "Verwerkingsdatum"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.PROCESS_TIME",
+    "EnglishName": "Process Time",
+    "DutchName": "Procestijd"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.PAY_DATE",
+    "EnglishName": "Pay Date",
+    "DutchName": "Betalingsdatum"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.RECIEPT_NO",
+    "EnglishName": "Receipt No",
+    "DutchName": "Ontvangstnr"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.GENERATED",
+    "EnglishName": "Generated",
+    "DutchName": "Gegenereerd"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.NON_GENERATED",
+    "EnglishName": "Non Generated",
+    "DutchName": "Niet gegenereerd"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_NOT_MATCH_HISTORY.TITLE",
+    "EnglishName": "Purchase Order Not Match History ",
+    "DutchName": "Inkooporder komt niet overeen met geschiedenis"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_NOT_MATCH_HISTORY.SEARCH_PLACEHOLDER",
+    "EnglishName": "Search",
+    "DutchName": "Zoek"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_NOT_MATCH_HISTORY.FROM_DATE",
+    "EnglishName": "From Date",
+    "DutchName": "Vanaf Datum"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_NOT_MATCH_HISTORY.TO_DATE",
+    "EnglishName": "To Date",
+    "DutchName": "Tot Datum"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_NOT_MATCH_HISTORY.GENERATED",
+    "EnglishName": "Generated",
+    "DutchName": "Gegenereerd"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_NOT_MATCH_HISTORY.NON_GENERATED",
+    "EnglishName": "Non Generated",
+    "DutchName": "Niet gegenereerd"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_NOT_MATCH_HISTORY.MATCH",
+    "EnglishName": "Match",
+    "DutchName": "Overeenkomst"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_NOT_MATCH_HISTORY.NOT_MATCH",
+    "EnglishName": "Not Match",
+    "DutchName": "Niet overeenkomen"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_NOT_MATCH_HISTORY.FILTER_BTN",
+    "EnglishName": "Filter",
+    "DutchName": "Filter"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_NOT_MATCH_HISTORY.VIEW_PDF",
+    "EnglishName": "View PDF",
+    "DutchName": "Bekijk pdf"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_NOT_MATCH_HISTORY.CASE_NO",
+    "EnglishName": "Case No",
+    "DutchName": "Dossiernummer"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_NOT_MATCH_HISTORY.CLIENT_NAME",
+    "EnglishName": "Client Name",
+    "DutchName": "klantnaam"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_NOT_MATCH_HISTORY.VENDOR_SUBTYPE",
+    "EnglishName": "Vendor Subtype",
+    "DutchName": "Relatie Subtype"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_NOT_MATCH_HISTORY.VENDOR_NAME",
+    "EnglishName": "Vendor Name",
+    "DutchName": "Relatie"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_NOT_MATCH_HISTORY.VENDOR_IBAN",
+    "EnglishName": "Vendor IBAN",
+    "DutchName": "Relatie IBAN"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_NOT_MATCH_HISTORY.INVOICE_DATE",
+    "EnglishName": "Invoice Date",
+    "DutchName": "Factuurdatum"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_NOT_MATCH_HISTORY.WITHOUT_TAX",
+    "EnglishName": "Amount Without Tax",
+    "DutchName": "Exclusief BTW"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_NOT_MATCH_HISTORY.TAX",
+    "EnglishName": "Tax",
+    "DutchName": "BTW"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_NOT_MATCH_HISTORY.TOTAL_AMOUNT",
+    "EnglishName": "Total Amount",
+    "DutchName": "Totaalbedrag"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_NOT_MATCH_HISTORY.PROCESS_TIME",
+    "EnglishName": "Process Time",
+    "DutchName": "Procestijd"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_NOT_MATCH_HISTORY.RECIEPT_NO",
+    "EnglishName": "Receipt No",
+    "DutchName": "Factuurnummer"
+  },
+  {
+    "Key": "FINANCE.PROCESS_SALES_INVOICES.TITLE",
+    "EnglishName": "Process Sales Invoices",
+    "DutchName": "Facturen opmaken"
+  },
+  {
+    "Key": "FINANCE.PROCESS_SALES_INVOICES.SEARCH_PLACEHOLDER",
+    "EnglishName": "Search",
+    "DutchName": "Zoeken..."
+  },
+  {
+    "Key": "FINANCE.PROCESS_SALES_INVOICES.FILTER",
+    "EnglishName": "Filter",
+    "DutchName": "Filter"
+  },
+  {
+    "Key": "FINANCE.PROCESS_SALES_INVOICES.TOTAL_COUNT",
+    "EnglishName": "Total Count",
+    "DutchName": "Wachtrij"
+  },
+  {
+    "Key": "FINANCE.PROCESS_SALES_INVOICES.PROCESS_QUEUE",
+    "EnglishName": "Process Queue",
+    "DutchName": "Verwerk wachtrij"
+  },
+  {
+    "Key": "FINANCE.PROCESS_SALES_INVOICES.PROCESS_ALL_INVOICES",
+    "EnglishName": "Process All Invoices",
+    "DutchName": "Verwerk alles"
+  },
+  {
+    "Key": "FINANCE.PROCESS_SALES_INVOICES.PROCESS_SALES_INVOICES",
+    "EnglishName": "Process Sales Invoices",
+    "DutchName": "Verwerk selectie"
+  },
+  {
+    "Key": "FINANCE.PROCESS_SALES_INVOICES.EXPORT_EXCEL",
+    "EnglishName": "Export Excel",
+    "DutchName": "Exporteer naar Excel"
+  },
+  {
+    "Key": "FINANCE.PROCESS_SALES_INVOICES.CASE_NUMBER",
+    "EnglishName": "Case No",
+    "DutchName": "Dossiernummer"
+  },
+  {
+    "Key": "FINANCE.PROCESS_SALES_INVOICES.PROFORMA_NO",
+    "EnglishName": "Proforma No",
+    "DutchName": "Proformanummer"
+  },
+  {
+    "Key": "FINANCE.PROCESS_SALES_INVOICES.AMOUNT",
+    "EnglishName": "Amount",
+    "DutchName": "Bedrag"
+  },
+  {
+    "Key": "FINANCE.PROCESS_SALES_INVOICES.VENDOR_INVOICE_AMOUNT",
+    "EnglishName": "Vendor Invoice Amount",
+    "DutchName": "Verschotnotas"
+  },
+  {
+    "Key": "FINANCE.PROCESS_SALES_INVOICES.COUNTER_ACCOUNT",
+    "EnglishName": "Counter Account",
+    "DutchName": "IBAN"
+  },
+  {
+    "Key": "FINANCE.PROCESS_SALES_INVOICES.TAX",
+    "EnglishName": "Tax",
+    "DutchName": "BTW"
+  },
+  {
+    "Key": "FINANCE.PROCESS_SALES_INVOICES.WITHOUT_TAX",
+    "EnglishName": "Without Tax",
+    "DutchName": "Exclusief BTW"
+  },
+  {
+    "Key": "FINANCE.PROCESS_SALES_INVOICES.ACTION",
+    "EnglishName": "Action",
+    "DutchName": "Verwijder"
+  },
+  {
+    "Key": "FINANCE.PROCESS_SALES_INVOICES.DATE",
+    "EnglishName": "Date",
+    "DutchName": "Transactiedatum"
+  },
+  {
+    "Key": "FINANCE.PROCESS_SALES_INVOICES.NOTICES",
+    "EnglishName": "Notices",
+    "DutchName": "Omschrijving"
+  },
+  {
+    "Key": "FINANCE.PROCESSED_SALES_INVOICES.TITLE",
+    "EnglishName": "Processed Sales Invoices",
+    "DutchName": "Verkoopfacturen"
+  },
+  {
+    "Key": "FINANCE.PROCESSED_SALES_INVOICES.SEARCH_PLACEHOLDER",
+    "EnglishName": "Search For",
+    "DutchName": "Zoeken..."
+  },
+  {
+    "Key": "FINANCE.PROCESSED_SALES_INVOICES.FILTER",
+    "EnglishName": "Filter",
+    "DutchName": "Filter"
+  },
+  {
+    "Key": "FINANCE.PROCESSED_SALES_INVOICES.DOWNLOAD_ALL_INVOICES",
+    "EnglishName": "Download All Invoices",
+    "DutchName": "Download alle facturen"
+  },
+  {
+    "Key": "FINANCE.PROCESSED_SALES_INVOICES.EXPORT_EXCEL",
+    "EnglishName": "Export Excel",
+    "DutchName": "Exporteer naar Excel"
+  },
+  {
+    "Key": "FINANCE.PROCESSED_SALES_INVOICES.FROM_DATE",
+    "EnglishName": "From Date",
+    "DutchName": "Vanaf Datum"
+  },
+  {
+    "Key": "FINANCE.PROCESSED_SALES_INVOICES.TO_DATE",
+    "EnglishName": "To Date",
+    "DutchName": "Tot Datum"
+  },
+  {
+    "Key": "FINANCE.PROCESSED_SALES_INVOICES.ACTION",
+    "EnglishName": "Action",
+    "DutchName": "Verwijderen"
+  },
+  {
+    "Key": "FINANCE.PROCESSED_SALES_INVOICES.CASE_NUMBER",
+    "EnglishName": "Case No",
+    "DutchName": "Dossiernummer"
+  },
+  {
+    "Key": "FINANCE.PROCESSED_SALES_INVOICES.VIEW_PDF",
+    "EnglishName": "View PDF",
+    "DutchName": "PDF Openen"
+  },
+  {
+    "Key": "FINANCE.PROCESSED_SALES_INVOICES.PROFORMA_NO",
+    "EnglishName": "Proforma No",
+    "DutchName": "Proformanummer"
+  },
+  {
+    "Key": "FINANCE.PROCESSED_SALES_INVOICES.AMOUNT",
+    "EnglishName": "Amount",
+    "DutchName": "Totaalbedrag"
+  },
+  {
+    "Key": "FINANCE.PROCESSED_SALES_INVOICES.COUNTER_ACCOUNT",
+    "EnglishName": "Counter Account",
+    "DutchName": "IBAN"
+  },
+  {
+    "Key": "FINANCE.PROCESSED_SALES_INVOICES.TAX",
+    "EnglishName": "Tax",
+    "DutchName": "BTW"
+  },
+  {
+    "Key": "FINANCE.PROCESSED_SALES_INVOICES.WITHOUT_TAX",
+    "EnglishName": "Without Tax",
+    "DutchName": "Exclusief BTW"
+  },
+  {
+    "Key": "FINANCE.PROCESSED_SALES_INVOICES.DATE",
+    "EnglishName": "Date",
+    "DutchName": "Factuurdatum"
+  },
+  {
+    "Key": "FINANCE.PROCESSED_SALES_INVOICES.VENDOR_INVOICE_AMOUNT",
+    "EnglishName": "Vendor Invoice Amount",
+    "DutchName": "Verschotnotas"
+  },
+  {
+    "Key": "FINANCE.PROCESSED_SALES_INVOICES.NOTICES",
+    "EnglishName": "Notices",
+    "DutchName": "Omschrijving"
+  },
+  {
+    "Key": "FINANCE.PROCESSED_SALES_INVOICES.CLOSE",
+    "EnglishName": "Close",
+    "DutchName": "Sluiten"
+  },
+  {
+    "Key": "FINANCE.PROCESSED_SALES_INVOICES.CONFIRM",
+    "EnglishName": "Confirm",
+    "DutchName": "Bevestigen"
+  },
+  {
+    "Key": "FINANCE.PENDING_TRANSACTION_AMOUNT.TITLE",
+    "EnglishName": "Pending Invoice Transaction",
+    "DutchName": "In Afwachting van Factuurtransactie"
+  },
+  {
+    "Key": "FINANCE.PENDING_TRANSACTION_AMOUNT.SEARCH_PLACEHOLDER",
+    "EnglishName": "Search for ...",
+    "DutchName": "Zoeken naar"
+  },
+  {
+    "Key": "FINANCE.PENDING_TRANSACTION_AMOUNT.CASE_NO",
+    "EnglishName": "Search for ...",
+    "DutchName": "Dossiernummer"
+  },
+  {
+    "Key": "FINANCE.PENDING_TRANSACTION_AMOUNT.PROFORMA",
+    "EnglishName": "Proforma No",
+    "DutchName": "Proforma"
+  },
+  {
+    "Key": "FINANCE.PENDING_TRANSACTION_AMOUNT.INVOICE_NO",
+    "EnglishName": "Invoice No",
+    "DutchName": "Factuurnummer"
+  },
+  {
+    "Key": "FINANCE.PENDING_TRANSACTION_AMOUNT.AMOUNT",
+    "EnglishName": "Amount",
+    "DutchName": "Bedrag"
+  },
+  {
+    "Key": "FINANCE.PENDING_TRANSACTION_AMOUNT.WITHOUT_TAX_AMOUNT",
+    "EnglishName": "Without Tax Amount",
+    "DutchName": "Bedrag zonder Belasting"
+  },
+  {
+    "Key": "FINANCE.PENDING_TRANSACTION_AMOUNT.DUTCH_TAX",
+    "EnglishName": "Dutch Tax",
+    "DutchName": "Nederlandse Belasting"
+  },
+  {
+    "Key": "FINANCE.PENDING_TRANSACTION_AMOUNT.VENDOR_INVOICE_AMOUNT",
+    "EnglishName": "Vendor Invoice Amount",
+    "DutchName": "Bedrag Leveranciersfactuur"
+  },
+  {
+    "Key": "FINANCE.PENDING_TRANSACTION_AMOUNT.DATE",
+    "EnglishName": "Date",
+    "DutchName": "Datum"
+  },
+  {
+    "Key": "FINANCE.PENDING_TRANSACTION_AMOUNT.COUNTER_ACCOUNT",
+    "EnglishName": "Counter Account",
+    "DutchName": "Tegenrekening"
+  },
+  {
+    "Key": "FINANCE.PENDING_TRANSACTION_AMOUNT.DESCRIPTION",
+    "EnglishName": "Description",
+    "DutchName": "Omschrijving"
+  },
+  {
+    "Key": "FINANCE.PENDING_TRANSACTION_AMOUNT.NOTICES",
+    "EnglishName": "Notices",
+    "DutchName": "Notities"
+  },
+  {
+    "Key": "FINANCE.PENDING_TRANSACTION_AMOUNT.FROM_DATE",
+    "EnglishName": "From Date",
+    "DutchName": "Vanaf datum"
+  },
+  {
+    "Key": "FINANCE.PENDING_TRANSACTION_AMOUNT.TO_DATE",
+    "EnglishName": "To Date",
+    "DutchName": "Tot datum"
+  },
+  {
+    "Key": "FINANCE.PENDING_TRANSACTION_AMOUNT.FILTER",
+    "EnglishName": "Filter",
+    "DutchName": "Filter"
+  },
+  {
+    "Key": "FINANCE.CASE_PROFARMA.TITLE",
+    "EnglishName": "Case Profarma",
+    "DutchName": "Zaak Profarma"
+  },
+  {
+    "Key": "FINANCE.CASE_PROFARMA.SEARCH_PLACEHOLDER",
+    "EnglishName": "Search For",
+    "DutchName": "Zoeken naar"
+  },
+  {
+    "Key": "FINANCE.CASE_PROFARMA.CASE_NO",
+    "EnglishName": "Case No",
+    "DutchName": "Zaaknummer"
+  },
+  {
+    "Key": "FINANCE.CASE_PROFARMA.PROFORMA_NO",
+    "EnglishName": "Proforma No",
+    "DutchName": "Proforma-nummer"
+  },
+  {
+    "Key": "FINANCE.CASE_PROFARMA.INTREESTED_PARTY",
+    "EnglishName": "Interested Party",
+    "DutchName": "Betrokken partij"
+  },
+  {
+    "Key": "FINANCE.CASE_PROFARMA.PARCTITIONER",
+    "EnglishName": "Practitioner",
+    "DutchName": "Behandelaar"
+  },
+  {
+    "Key": "FINANCE.CASE_PROFARMA.DEBTOR",
+    "EnglishName": "Debtor",
+    "DutchName": "Debiteur"
+  },
+  {
+    "Key": "FINANCE.CASE_PROFARMA.INVOICE_DATE",
+    "EnglishName": "Invoice Date",
+    "DutchName": "Factuurdatum"
+  },
+  {
+    "Key": "FINANCE.CASE_PROFARMA.AMOUNT",
+    "EnglishName": "Amount",
+    "DutchName": "Bedrag"
+  },
+  {
+    "Key": "FINANCE.CASE_PROFARMA.TAX_AMOUNT",
+    "EnglishName": "Tax Amount",
+    "DutchName": "Belastingbedrag"
+  },
+  {
+    "Key": "FINANCE.CASE_PROFARMA.TOTAL_AMOUNT",
+    "EnglishName": "Total Amount",
+    "DutchName": "Totaalbedrag"
+  },
+  {
+    "Key": "FINANCE.CASE_PROFARMA.OUTSTANDING",
+    "EnglishName": "Outstanding",
+    "DutchName": "Uitstaand"
+  },
+  {
+    "Key": "FINANCE.CASE_PROFARMA.FILTER",
+    "EnglishName": "Filter",
+    "DutchName": "Filter"
+  },
+  {
+    "Key": "MEMBERS.VENDR_TYPE.TITLE",
+    "EnglishName": "Sub Types",
+    "DutchName": "Sub Categorien"
+  },
+  {
+    "Key": "MEMBERS.VENDR_TYPE.SEARCH_PLACEHOLDER",
+    "EnglishName": "Search",
+    "DutchName": "Zoeken..."
+  },
+  {
+    "Key": "MEMBERS.VENDR_TYPE.ADD_NEW_BTN",
+    "EnglishName": "Add Subtype",
+    "DutchName": "Voeg subcategorie toe"
+  },
+  {
+    "Key": "MEMBERS.VENDR_TYPE.ADD_NEW_DEPARTMENT",
+    "EnglishName": "Add New Department",
+    "DutchName": "Nieuwe afdeling toevoegen"
+  },
+  {
+    "Key": "MEMBERS.VENDR_TYPE.POPUP_TITLE",
+    "EnglishName": "Add New Subtype",
+    "DutchName": "Nieuw subtype toevoegen"
+  },
+  {
+    "Key": "MEMBERS.VENDR_TYPE.POPUP_TITLE2",
+    "EnglishName": "Subtype bewerken",
+    "DutchName": "Edit Subtype"
+  },
+  {
+    "Key": "MEMBERS.VENDR_TYPE.TYPE",
+    "EnglishName": "Type",
+    "DutchName": "Categorie"
+  },
+  {
+    "Key": "MEMBERS.VENDR_TYPE.LEGAL_ENTITY",
+    "EnglishName": "Legal Entity",
+    "DutchName": "Rechtspersoon"
+  },
+  {
+    "Key": "MEMBERS.VENDR_TYPE.NATURAL_PERSON",
+    "EnglishName": "Natural Person",
+    "DutchName": "Natuurlijk persoon"
+  },
+  {
+    "Key": "MEMBERS.VENDR_TYPE.NAME",
+    "EnglishName": "Name",
+    "DutchName": "Naam"
+  },
+  {
+    "Key": "MEMBERS.VENDR_TYPE.SELECT_TYPE",
+    "EnglishName": "Select Type",
+    "DutchName": "Selecteer Type"
+  },
+  {
+    "Key": "MEMBERS.VENDR_TYPE.ENGLISH_NAME",
+    "EnglishName": "English Name",
+    "DutchName": "Engelse naam"
+  },
+  {
+    "Key": "MEMBERS.VENDR_TYPE.DUTCH_NAME",
+    "EnglishName": "Dutch Name",
+    "DutchName": "Nederlandse naam"
+  },
+  {
+    "Key": "MEMBERS.VENDR_TYPE.ADMIN_APPROVED",
+    "EnglishName": "Admin Approved",
+    "DutchName": "Vierogen akkoord"
+  },
+  {
+    "Key": "MEMBERS.VENDR_TYPE.ACTION",
+    "EnglishName": "Action",
+    "DutchName": "Bewerken"
+  },
+  {
+    "Key": "MEMBERS.VENDR_TYPE.IS_AUTO_APPROVED_REQUIRED",
+    "EnglishName": "Is auto approved required",
+    "DutchName": "Mag het automatisch worden geaccordeerd?"
+  },
+  {
+    "Key": "MEMBERS.VENDR_TYPE.SAVE_BTN",
+    "EnglishName": "Save",
+    "DutchName": "Opslaan"
+  },
+  {
+    "Key": "MEMBERS.VENDR_TYPE.CLOSE_BTN",
+    "EnglishName": "Close",
+    "DutchName": "Sluiten"
+  },
+  {
+    "Key": "MEMBERS.VENDR_TYPE.FILTER",
+    "EnglishName": "Filter",
+    "DutchName": "Filter"
+  },
+  {
+    "Key": "MEMBERS.DEPARTMENT.TITLE",
+    "EnglishName": "Department",
+    "DutchName": "Afdelingen"
+  },
+  {
+    "Key": "MEMBERS.DEPARTMENT.ADD_NEW_BTN",
+    "EnglishName": "Add Department",
+    "DutchName": "Voeg toe"
+  },
+  {
+    "Key": "MEMBERS.DEPARTMENT.POPUP_TITLE",
+    "EnglishName": "Update Department",
+    "DutchName": "Bewerk Afdeling"
+  },
+  {
+    "Key": "MEMBERS.DEPARTMENT.SUB_TYPE",
+    "EnglishName": "Subtype",
+    "DutchName": "Voeg Afdeling Toe"
+  },
+  {
+    "Key": "MEMBERS.DEPARTMENT.NAME",
+    "EnglishName": "Name",
+    "DutchName": "Naam"
+  },
+  {
+    "Key": "MEMBERS.DEPARTMENT.ENGLISH_NAME",
+    "EnglishName": "English Name",
+    "DutchName": "Engelse naam"
+  },
+  {
+    "Key": "MEMBERS.DEPARTMENT.DUTCH_NAME",
+    "EnglishName": "Dutch Name",
+    "DutchName": "Nederlandse naam"
+  },
+  {
+    "Key": "MEMBERS.DEPARTMENT.ACTION",
+    "EnglishName": "Action",
+    "DutchName": "Bewerk"
+  },
+  {
+    "Key": "MEMBERS.DEPARTMENT.SEARCH_PLACEHOLDER",
+    "EnglishName": "Search",
+    "DutchName": "Zoeken..."
+  },
+  {
+    "Key": "MEMBERS.DEPARTMENT.FILTER",
+    "EnglishName": "Filter",
+    "DutchName": "Filter"
+  },
+  {
+    "Key": "MEMBERS.DEPARTMENT.SAVE_BTN",
+    "EnglishName": "Save",
+    "DutchName": "Opslaan"
+  },
+  {
+    "Key": "MEMBERS.DEPARTMENT.CLOSE_BTN",
+    "EnglishName": "Close",
+    "DutchName": "Sluiten"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP.TITLE",
+    "EnglishName": "Relationship",
+    "DutchName": "Relatie"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP.ADD_NEW_BTN",
+    "EnglishName": "Add Relationship",
+    "DutchName": "Toevoegen"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP.STATUS",
+    "EnglishName": "Status",
+    "DutchName": "Toestand"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP.TYPE",
+    "EnglishName": "Type",
+    "DutchName": "Type"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP.SEARCH_PLACEHOLDER",
+    "EnglishName": "Search",
+    "DutchName": "Zoeken op Naam, IBAN, BTW, KVK..."
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP.ADD_NEW_RELATIONSHIP",
+    "EnglishName": "Add New Relationship",
+    "DutchName": "Toevoegen"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP.EDIT_RELATIONSHIP",
+    "EnglishName": "Edit Relationship",
+    "DutchName": "Bewerken"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP.NAME",
+    "EnglishName": "Name",
+    "DutchName": "Naam"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP.BTW",
+    "EnglishName": "BTW No",
+    "DutchName": "BTW nummer"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP.KVK",
+    "EnglishName": "KVK No",
+    "DutchName": "KVK nummer"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP.CATEGORY",
+    "EnglishName": "Category",
+    "DutchName": "Categorie"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP.ACTION",
+    "EnglishName": "Action",
+    "DutchName": "Bewerken"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP.EDIT",
+    "EnglishName": "Edit",
+    "DutchName": "Wijzigen"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP.UPDATE_STATUS",
+    "EnglishName": "Update Status",
+    "DutchName": "Beoordelen"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP.DELETE",
+    "EnglishName": "Delete",
+    "DutchName": "Verwijder"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP.ADD_EMPLOYEE",
+    "EnglishName": "Add Employee",
+    "DutchName": "Werknemer toevoegen"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP.UPDATE_POPUP",
+    "EnglishName": "Update realtionship status",
+    "DutchName": "Relatiestatus bijwerken"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP.SAVE_BTN",
+    "EnglishName": "Save",
+    "DutchName": "Opslaan"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP.CLOSE_BTN",
+    "EnglishName": "Close",
+    "DutchName": "Sluiten"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP.PENDING",
+    "EnglishName": "Pending",
+    "DutchName": "In behandeling"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP.APPROVE",
+    "EnglishName": "Approve",
+    "DutchName": "Goedkeuren"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP.REJECTED",
+    "EnglishName": "Rejected",
+    "DutchName": "Afgewezen"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.TYPE",
+    "EnglishName": "Type",
+    "DutchName": "Relatietype"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.SUB_TYPE",
+    "EnglishName": "Sub Type",
+    "DutchName": "Relatie categorie"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.NAME",
+    "EnglishName": "Name",
+    "DutchName": "Naam"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.ADDITION",
+    "EnglishName": "Addition",
+    "DutchName": "Toevoeging"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.TITLE",
+    "EnglishName": "Title",
+    "DutchName": "Titel"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.PREFIX",
+    "EnglishName": "Prefix",
+    "DutchName": "Voorvoegsel"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.DOB",
+    "EnglishName": "DOB",
+    "DutchName": "Geboortedatum"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.INITIALS",
+    "EnglishName": "Initials",
+    "DutchName": "Initialen"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.GENDER",
+    "EnglishName": "Gender",
+    "DutchName": "Geslacht"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.SEPERATE_SALUTATION",
+    "EnglishName": "Seperate Salutation",
+    "DutchName": "Aparte aanhef"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.FIRST_NAME",
+    "EnglishName": "First Name",
+    "DutchName": "Voornaam"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.LAST_NAME",
+    "EnglishName": "Last Name",
+    "DutchName": "Achternaam"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.CALL_SIGN",
+    "EnglishName": "Call Sign",
+    "DutchName": "Roepnaam"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.SEPERATE_NAME",
+    "EnglishName": "Seperate Name Display",
+    "DutchName": "Aparte naamweergave"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.UPLOAD_IMAGE",
+    "EnglishName": "Upload Image",
+    "DutchName": "Upload foto"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.BTW",
+    "EnglishName": "BTW No",
+    "DutchName": "BTW nummer"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.KVK",
+    "EnglishName": "KVK No",
+    "DutchName": "KVK nummer"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.REMARK",
+    "EnglishName": "Remark",
+    "DutchName": "Opmerking"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.NEXT_BTN",
+    "EnglishName": "Next",
+    "DutchName": "Volgende"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.HOUSE_NO",
+    "EnglishName": "House Number",
+    "DutchName": "Huisnummer"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.ZIP_CODE",
+    "EnglishName": "Zip Code",
+    "DutchName": "Postcode"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.CITY",
+    "EnglishName": "City",
+    "DutchName": "Plaats"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.STREET",
+    "EnglishName": "Street",
+    "DutchName": "Adres"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.ADD_NAME_DETAILS",
+    "EnglishName": "Name Details",
+    "DutchName": "Naamdetails"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.ADD_NEW_ADDRESS",
+    "EnglishName": "Add New Address Details",
+    "DutchName": "Adres toevoegen"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.ADD_NEW_EMAIL",
+    "EnglishName": "Add New Email Details",
+    "DutchName": "Email toevoegen"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.ADD_NEW_PHONE",
+    "EnglishName": "Add New Phone Details",
+    "DutchName": "Telefoon toevoegen"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.ADD_NEW_BANK",
+    "EnglishName": "Add New Bank Details",
+    "DutchName": "Bankgegevens toevoegen"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.ADD_ADDRESS",
+    "EnglishName": "Address Details",
+    "DutchName": "Adresgegevens"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.ADD_EMAIL",
+    "EnglishName": "Email Details",
+    "DutchName": "E-mailgegevens"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.ADD_PHONE",
+    "EnglishName": "Phone Details",
+    "DutchName": "Telefoongegevens"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.ADD_BANK",
+    "EnglishName": "Bank Details",
+    "DutchName": "Bankgegevens"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.SAVE_BTN",
+    "EnglishName": "Save",
+    "DutchName": "Opslaan"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.CLOSE_BTN",
+    "EnglishName": "Close",
+    "DutchName": "Sluiten"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.ADDRESSS",
+    "EnglishName": "Address",
+    "DutchName": "Adres"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.ACTION",
+    "EnglishName": "Action",
+    "DutchName": "Bewerk"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.EMAIL",
+    "EnglishName": "Email Address",
+    "DutchName": "Email"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.PHONE_NUMBER",
+    "EnglishName": "Phone Number",
+    "DutchName": "Telefoonnummer"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.PHONE_TYPE",
+    "EnglishName": "Phone Type",
+    "DutchName": "Telefoon Type"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.SELECT_TYPE",
+    "EnglishName": "Select Type",
+    "DutchName": "Selecteer Type"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.SELECT_STATUS",
+    "EnglishName": "Select Status",
+    "DutchName": "Selecteer Status"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.KIND",
+    "EnglishName": "Kind",
+    "DutchName": "Soort"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.IBAN",
+    "EnglishName": "IBAN",
+    "DutchName": "IBAN"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.IN_THE_NAME_OF",
+    "EnglishName": "In the name of",
+    "DutchName": "Ten name van"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.PREVIOUS",
+    "EnglishName": "Previous",
+    "DutchName": "Vorige"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.NEXT",
+    "EnglishName": "Next",
+    "DutchName": "Volgende"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.SUBMIT",
+    "EnglishName": "Submit",
+    "DutchName": "Bevestigen"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.FILTER",
+    "EnglishName": "Filter",
+    "DutchName": "Filter"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_DETAILS.POPUP_TITLE",
+    "EnglishName": "Update Case Details",
+    "DutchName": "Wijzig dossier"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_DETAILS.POPUP_TITLE2",
+    "EnglishName": "Add Case Details",
+    "DutchName": "Wijzig gegevens"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_DETAILS.CASE_NUMBER",
+    "EnglishName": "Case Number",
+    "DutchName": "Dossiernummer"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_DETAILS.CASE_NUMBER_VALIDATION",
+    "EnglishName": "Case No is required",
+    "DutchName": "Dossiernummer is vereist"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_DETAILS.CUSTOMER",
+    "EnglishName": "Customer",
+    "DutchName": "Client"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_DETAILS.VIA",
+    "EnglishName": "Referral",
+    "DutchName": "Verwijzing"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_DETAILS.PAID",
+    "EnglishName": "Paid",
+    "DutchName": "Betaald"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_DETAILS.CASE_HANDLER",
+    "EnglishName": "Case Handler",
+    "DutchName": "Behandelaar"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_DETAILS.INSURER_MANUAL",
+    "EnglishName": "Insurer (Manual)",
+    "DutchName": "Wederpartij"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_DETAILS.INVOICED",
+    "EnglishName": "Invoiced",
+    "DutchName": "Gefactureerd"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_DETAILS.STATUS",
+    "EnglishName": "Status",
+    "DutchName": "Toestand"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_DETAILS.PAID_AMOUNT",
+    "EnglishName": "Paid Amount",
+    "DutchName": "Betaald bedrag"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_DETAILS.DONE",
+    "EnglishName": "Done",
+    "DutchName": "Afgelegd"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_DETAILS.REFERLPAY",
+    "EnglishName": "Referral Paid",
+    "DutchName": "RefrelPay"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_DETAILS.ACCEPTED",
+    "EnglishName": "Accepted",
+    "DutchName": "Erkenning"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_DETAILS.ACCEPTED_PERCENTAGE",
+    "EnglishName": "Accepted%",
+    "DutchName": "Erkenning%"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_DETAILS.FROM_DATE",
+    "EnglishName": "From Date",
+    "DutchName": "Vanaf Datum"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_DETAILS.DAMAGE_DATE",
+    "EnglishName": "Damage Date",
+    "DutchName": "Schadedatum"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_DETAILS.END_DATE",
+    "EnglishName": "End Date",
+    "DutchName": "Tot Datum"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_DETAILS.ALL",
+    "EnglishName": "All",
+    "DutchName": "Alle"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_DETAILS.YES",
+    "EnglishName": "Yes",
+    "DutchName": "Ja"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_DETAILS.NO",
+    "EnglishName": "No",
+    "DutchName": "Nee"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_DETAILS.NO_SUCCESS",
+    "EnglishName": "No Success",
+    "DutchName": "Geen succes"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_DETAILS.IS_ACTIVE",
+    "EnglishName": "Is active",
+    "DutchName": "Actieve behandelaar"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_DETAILS.SAVE_BTN",
+    "EnglishName": "Save",
+    "DutchName": "Opslaan"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_DETAILS.CLOSE_BTN",
+    "EnglishName": "Close",
+    "DutchName": "Sluiten"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.TITLE",
+    "EnglishName": "Case Statistics",
+    "DutchName": "Casusstatistieken"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.SEARCH_PLACEHOLDER",
+    "EnglishName": "Search for ...",
+    "DutchName": "Zoeken ..."
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.ACTION",
+    "EnglishName": "Action",
+    "DutchName": "Actie"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.CASE_NO",
+    "EnglishName": "Case No",
+    "DutchName": "Dossiernummer"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.CUSTOMER",
+    "EnglishName": "Customer",
+    "DutchName": "Client"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.VIA",
+    "EnglishName": "Referral",
+    "DutchName": "Referral"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.FILTER",
+    "EnglishName": "Filter",
+    "DutchName": "Filter"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.INSURER_MANUAL",
+    "EnglishName": "Insurer (Manual)",
+    "DutchName": "Wederpartij"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.START_DATE",
+    "EnglishName": "Start Date",
+    "DutchName": "Begin datum"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.STATUS",
+    "EnglishName": "Status",
+    "DutchName": "Toestand"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.DONE",
+    "EnglishName": "Done",
+    "DutchName": "Afgelegd"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.ALL",
+    "EnglishName": "All",
+    "DutchName": "Alle"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.NEW",
+    "EnglishName": "New",
+    "DutchName": "Nieuw"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.CASE_HANDLER_FILTER",
+    "EnglishName": "Case Handler",
+    "DutchName": "Behandelaar"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.INSURER_MANUAL_FILTER",
+    "EnglishName": "Insurer (Manual)",
+    "DutchName": "Wederpartij"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.STATUS_FILTER",
+    "EnglishName": "Status",
+    "DutchName": "Toestand"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.UNACKNOWLEDGED",
+    "EnglishName": "Unacknowledged",
+    "DutchName": "Niet erkend"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.RUNNING",
+    "EnglishName": "Running",
+    "DutchName": "Rennen"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.SETTLING",
+    "EnglishName": "Settling",
+    "DutchName": "Afwikkeling"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.FINISHED",
+    "EnglishName": "Finished",
+    "DutchName": "Afgerond"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.CLOSED",
+    "EnglishName": "Closed",
+    "DutchName": "Gesloten"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.NO_SUCCESS",
+    "EnglishName": "No Success",
+    "DutchName": "Geen succes"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.REFERLPAY",
+    "EnglishName": "Referral Paid",
+    "DutchName": "VerwijzingBetaald"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.ACCEPTED",
+    "EnglishName": "Accepted",
+    "DutchName": "Erkenning"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.ACCEPTED_FILTER",
+    "EnglishName": "Accepted",
+    "DutchName": "Erkenning"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.ACCEPTED_PERCENTAGE",
+    "EnglishName": "Accepted%",
+    "DutchName": "Erkenning%"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.INVOICED",
+    "EnglishName": "Invoiced",
+    "DutchName": "Gefactureerd"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.PAID",
+    "EnglishName": "Paid",
+    "DutchName": "Betaald"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.PAID_AMOUNT",
+    "EnglishName": "Paid Amount",
+    "DutchName": "Betaald bedrag"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.FROM_DATE",
+    "EnglishName": "From Date",
+    "DutchName": "Vanaf datum"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.TO_DATE",
+    "EnglishName": "To Date",
+    "DutchName": "Tot datum"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.DAMAGE_DATE",
+    "EnglishName": "Damage Date",
+    "DutchName": "Schadedatum"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.CLOSE_DATE",
+    "EnglishName": "Closed Date",
+    "DutchName": "Sluitingsdatum"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.SHOULD_REFERRAL_BE_PAID",
+    "EnglishName": "Should Referral be Paid?",
+    "DutchName": "Moet de verwijzing worden betaald?"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.INTAKE_DATE",
+    "EnglishName": "Intake Date",
+    "DutchName": "Intakedatum"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.DAYS_RUNNING",
+    "EnglishName": "Days running",
+    "DutchName": "Dagen hardlopen"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.INVOICE_PER_DAY",
+    "EnglishName": "Invoiced per day",
+    "DutchName": "Gefactureerd per dag"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.PAID_PER_DAY",
+    "EnglishName": "Paid per day",
+    "DutchName": "Betaald per dag"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.OPEN",
+    "EnglishName": "Open",
+    "DutchName": "Open"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.YES",
+    "EnglishName": "Yes",
+    "DutchName": "Ja"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATISTICS.NO",
+    "EnglishName": "No",
+    "DutchName": "Nee"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.TITLE",
+    "EnglishName": "Case Finance",
+    "DutchName": "Financien Case"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.SEARCH_PLACEHOLDER",
+    "EnglishName": "Search for ...",
+    "DutchName": "Zoeken ..."
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.CASE_NO",
+    "EnglishName": "Case No",
+    "DutchName": "Dossiernummer"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.CASE_HANDLER",
+    "EnglishName": "Case Handler",
+    "DutchName": "Behandelaar"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.CASE_HANDLER_FILTER",
+    "EnglishName": "Case Handler",
+    "DutchName": "Behandelaar"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.CUSTOMER",
+    "EnglishName": "Customer",
+    "DutchName": "Client"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.DAMAGE_DATE",
+    "EnglishName": "Damage Date",
+    "DutchName": "Schadedatum"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.INVOICED",
+    "EnglishName": "Invoiced",
+    "DutchName": "Gefactureerd"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.PAID",
+    "EnglishName": "Paid",
+    "DutchName": "Betaald"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.PAID_AMOUNT",
+    "EnglishName": "Paid Amount",
+    "DutchName": "Betaald bedrag"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.LIABLE_COMPNAY",
+    "EnglishName": "Liable company",
+    "DutchName": "Aansprakelijk Bedrijf"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.PURCHASE_ORDER",
+    "EnglishName": "Purchase Order",
+    "DutchName": "Bestelling"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.PERCENTAGE",
+    "EnglishName": "Percentage",
+    "DutchName": "Percentage"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.PERCENTAGE_FILTER",
+    "EnglishName": "Percentage",
+    "DutchName": "Percentage"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.INSURER_MANUAL",
+    "EnglishName": "Insurer (Manual)",
+    "DutchName": "Wederpartij"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.INSURER_MANUAL_FILTER",
+    "EnglishName": "Insurer (Manual)",
+    "DutchName": "Wederpartij"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.ACCEPTED",
+    "EnglishName": "Accepted",
+    "DutchName": "Erkenning"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.ACCEPTED_FILTER",
+    "EnglishName": "Accepted",
+    "DutchName": "Erkenning"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.STATUS",
+    "EnglishName": "Status",
+    "DutchName": "Toestand"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.STATUS_FILTER",
+    "EnglishName": "Status",
+    "DutchName": "Toestand"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.ALL",
+    "EnglishName": "All",
+    "DutchName": "Alle"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.YES",
+    "EnglishName": "Yes",
+    "DutchName": "Ja"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.NO",
+    "EnglishName": "No",
+    "DutchName": "Nee"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.NEW",
+    "EnglishName": "New",
+    "DutchName": "Nieuw"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.UNACKNOWLEDGED",
+    "EnglishName": "Unacknowledged",
+    "DutchName": "Ongeaccepteerd"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.ACTION",
+    "EnglishName": "Action",
+    "DutchName": "Actie"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.START_DATE",
+    "EnglishName": "Start Date",
+    "DutchName": "Begin datum"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.DONE",
+    "EnglishName": "Done",
+    "DutchName": "Afgelegd"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.INSURER_MANUAL",
+    "EnglishName": "Insurer (Manual)",
+    "DutchName": "Wederpartij"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.UNACKNOWLEDGED",
+    "EnglishName": "Unacknowledged",
+    "DutchName": "Niet erkend"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.RUNNING",
+    "EnglishName": "Running",
+    "DutchName": "Rennen"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.SETTLING",
+    "EnglishName": "Settling",
+    "DutchName": "Afwikkeling"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.FINISHED",
+    "EnglishName": "Finished",
+    "DutchName": "Afgerond"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.CLOSED",
+    "EnglishName": "Closed",
+    "DutchName": "Gesloten"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.NO_SUCCESS",
+    "EnglishName": "No Success",
+    "DutchName": "Geen succes"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.RUNNING",
+    "EnglishName": "Running",
+    "DutchName": " Lopend"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.SETTLING",
+    "EnglishName": "Settling",
+    "DutchName": "Afrekening"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.FINISHED",
+    "EnglishName": "Finished",
+    "DutchName": "Afgewerkt"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.CLOSED",
+    "EnglishName": "Closed",
+    "DutchName": "Gesloten"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.NO_SUCCESS",
+    "EnglishName": "No Success",
+    "DutchName": "Geen Succes"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.OPEN",
+    "EnglishName": "Open",
+    "DutchName": "Open"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_FINANCE.FILTER",
+    "EnglishName": "Filter",
+    "DutchName": "Filter"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATUS.TITLE",
+    "EnglishName": "Case Status",
+    "DutchName": "Status van de Zaak"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATUS.SEARCH_PLACEHOLDER",
+    "EnglishName": "Search for",
+    "DutchName": "Zoeken naar ..."
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATUS.ACTION",
+    "EnglishName": "Action",
+    "DutchName": "Actie"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATUS.CASE_NO",
+    "EnglishName": "Case No",
+    "DutchName": "Zaaknummer"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATUS.CUSTOMER",
+    "EnglishName": "Customer",
+    "DutchName": "Klant"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATUS.DAMAGE_DATE",
+    "EnglishName": "Damage Date",
+    "DutchName": "Schadedatum"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATUS.LIABLE_COMPANY",
+    "EnglishName": "Liable company",
+    "DutchName": "Aansprakelijk Bedrijf"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATUS.INSURER_MANUAL",
+    "EnglishName": "Insurer (Manual)",
+    "DutchName": "Verzekeraar (Handmatig)"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATUS.ACCEPTED",
+    "EnglishName": "Accepted",
+    "DutchName": "Geaccepteerd"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATUS.ACCEPTED_PERCENTAGE",
+    "EnglishName": "Accepted%",
+    "DutchName": "Geaccepteerd%"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATUS.STATUS",
+    "EnglishName": "Status",
+    "DutchName": "Toestand"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATUS.FILTER",
+    "EnglishName": "Filter",
+    "DutchName": "Filter"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATUS.ALL",
+    "EnglishName": "All",
+    "DutchName": "Alles"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATUS.YES",
+    "EnglishName": "Yes",
+    "DutchName": "Ja"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATUS.NO",
+    "EnglishName": "No",
+    "DutchName": "Nee"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATUS.NEW",
+    "EnglishName": "New",
+    "DutchName": "Nieuw"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATUS.UNACKNOWLEDGED",
+    "EnglishName": "Unacknowledged",
+    "DutchName": "Niet Geaccepteerd"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATUS.RUNNING",
+    "EnglishName": "Running",
+    "DutchName": "Lopend"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATUS.SETTLING",
+    "EnglishName": "Settling",
+    "DutchName": "Afhandeling"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATUS.FINISHED",
+    "EnglishName": "Finished",
+    "DutchName": "Afgewerkt"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATUS.CLOSED",
+    "EnglishName": "Closed",
+    "DutchName": "Gesloten"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATUS.NO_SUCCESS",
+    "EnglishName": "No Success",
+    "DutchName": "Geen Succes"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATUS.OPEN",
+    "EnglishName": "Open",
+    "DutchName": "Open"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATUS.ALL",
+    "EnglishName": "All",
+    "DutchName": "Alle"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATUS.YES",
+    "EnglishName": "Yes",
+    "DutchName": "Ja"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_STATUS.NO",
+    "EnglishName": "No",
+    "DutchName": "Nee"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.PAID_AMOUNT_TRANSACTION.TITLE",
+    "EnglishName": "Paid Amount Transaction",
+    "DutchName": "Betaald Bedrag Transactie"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.PAID_AMOUNT_TRANSACTION.SEARCH_PLACEHOLDER",
+    "EnglishName": "Search",
+    "DutchName": "Zoeken"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.PAID_AMOUNT_TRANSACTION.CASE_NO",
+    "EnglishName": "Case No",
+    "DutchName": "Dossiernummer"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.PAID_AMOUNT_TRANSACTION.PROFORMA",
+    "EnglishName": "Proforma",
+    "DutchName": "Proforma"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.PAID_AMOUNT_TRANSACTION.AMOUNT",
+    "EnglishName": "Amount",
+    "DutchName": "Bedrag"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.PAID_AMOUNT_TRANSACTION.WITHOUT_TAX_AMOUNT",
+    "EnglishName": "Without Tax Amount",
+    "DutchName": "Bedrag zonder Belasting"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.PAID_AMOUNT_TRANSACTION.TAX",
+    "EnglishName": "Tax",
+    "DutchName": "Belasting"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.PAID_AMOUNT_TRANSACTION.DATE",
+    "EnglishName": "Date",
+    "DutchName": "Datum"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.PAID_AMOUNT_TRANSACTION.DESCRIPTION",
+    "EnglishName": "Omschrijving",
+    "DutchName": "Description"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.PAID_AMOUNT_TRANSACTION.NOTICES",
+    "EnglishName": "Notices",
+    "DutchName": "Notities"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.PAID_AMOUNT_TRANSACTION.FILTER",
+    "EnglishName": "Filter",
+    "DutchName": "Filter"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_MGM_LIST.TITLE",
+    "EnglishName": "Lead Management",
+    "DutchName": "Lead Management"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_MGM_LIST.ADD_NEW_BTN",
+    "EnglishName": "Add New",
+    "DutchName": "Nieuw toevoegen"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_MGM_LIST.ACTION",
+    "EnglishName": "Actie",
+    "DutchName": "Naam"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_MGM_LIST.NAME",
+    "EnglishName": "Name",
+    "DutchName": "Naam"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_MGM_LIST.EMAIL",
+    "EnglishName": "Email",
+    "DutchName": "E-mail"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_MGM_LIST.PHONE",
+    "EnglishName": "Phone",
+    "DutchName": "Telefoon"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_MGM_LIST.DATE_OF_ACCIDENT",
+    "EnglishName": "Date incident ",
+    "DutchName": "Datum incident"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_MGM_LIST.INJURY",
+    "EnglishName": "Injury",
+    "DutchName": "Blessure"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_MGM_LIST.INJURY_RATING",
+    "EnglishName": "Injury Rating",
+    "DutchName": "Blessurebeoordeling"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_MGM_LIST.INJURY_BLAME",
+    "EnglishName": "Injury Blame",
+    "DutchName": "Blessure schuld"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_MGM_LIST.EMERGENCY_SERVICES",
+    "EnglishName": "Emergency Services",
+    "DutchName": "Hulpdiensten"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_MGM_LIST.HOSPITAL_ADMITTED",
+    "EnglishName": "Hospital Admitted",
+    "DutchName": "Ziekenhuis toegelaten"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_MGM_LIST.ADVOCATE",
+    "EnglishName": "Advocate",
+    "DutchName": "Voorstander"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_MGM_LIST.SEARCH_PLACEHOLDER",
+    "EnglishName": "Search",
+    "DutchName": " Zoeken"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_MGM_LIST.STATUS",
+    "EnglishName": "Status",
+    "DutchName": " Toestand11"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_UPSERT_DETAILS.POPUP_TITLE",
+    "EnglishName": "Add New Lead",
+    "DutchName": " Zoeken"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_UPSERT_DETAILS.POPUP_TITLE2",
+    "EnglishName": "Update Lead",
+    "DutchName": " Lead bijwerken"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_UPSERT_DETAILS.NAME",
+    "EnglishName": "Name",
+    "DutchName": " Naam"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_UPSERT_DETAILS.EMAIL",
+    "EnglishName": "Email",
+    "DutchName": "E-mail"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_UPSERT_DETAILS.PHONE",
+    "EnglishName": "Phone",
+    "DutchName": "Telefoon"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_UPSERT_DETAILS.DATE_OF_ACCIDENT",
+    "EnglishName": "Date of Accident",
+    "DutchName": "Datum ongeval"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_UPSERT_DETAILS.INJURY",
+    "EnglishName": "Injury",
+    "DutchName": "Blessure"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_UPSERT_DETAILS.INJURY_RATING",
+    "EnglishName": "Injury Rating",
+    "DutchName": "Blessurebeoordeling"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_UPSERT_DETAILS.INJURY_BLAME",
+    "EnglishName": "Injury Blame",
+    "DutchName": "Blessure schuld"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_UPSERT_DETAILS.EMERGENCY_SERVICES",
+    "EnglishName": "Emergency Services",
+    "DutchName": "Hulpdiensten"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_UPSERT_DETAILS.HOSPITAL_ADMITTED",
+    "EnglishName": "Hospital Admitted",
+    "DutchName": "Ziekenhuis toegelaten"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_UPSERT_DETAILS.ADVOCATE",
+    "EnglishName": "Advocate",
+    "DutchName": "Voorstander"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_UPSERT_DETAILS.SAVE_BTN",
+    "EnglishName": "Save",
+    "DutchName": "Opslaan"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_UPSERT_DETAILS.CLOSE_BTN",
+    "EnglishName": "Close",
+    "DutchName": "Sluiten"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.TITLE",
+    "EnglishName": "Client Injury Form",
+    "DutchName": "Schadeformulier client"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.FIRST_NAME",
+    "EnglishName": "First Name",
+    "DutchName": "Voornaam"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.LAST_NAME",
+    "EnglishName": "Last Name",
+    "DutchName": "Achternaam"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.GENDER",
+    "EnglishName": "Gender",
+    "DutchName": "Geslacht"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.MALE",
+    "EnglishName": "Male",
+    "DutchName": "Man"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.FEMALE",
+    "EnglishName": "Female",
+    "DutchName": "Vrouw"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.OTHER",
+    "EnglishName": "Other",
+    "DutchName": "Anders"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.PHONE",
+    "EnglishName": "Phone",
+    "DutchName": "Telefoon"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.INCIDENT_DETAILS",
+    "EnglishName": "Incident Details",
+    "DutchName": "Incidentgegevens"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.DATE_OF_ACCIDENT",
+    "EnglishName": "Date Of Accident",
+    "DutchName": "Datum incident"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.TYPE_OF_INCIDENT",
+    "EnglishName": "Type of incident",
+    "DutchName": "Soort incident"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.SHORT_TEXT",
+    "EnglishName": "Write a short text",
+    "DutchName": "Schrijf een korte tekst"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.CLAIM_TYPE",
+    "EnglishName": "Claim type",
+    "DutchName": "Claim soort"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.CLAIM_NOTE",
+    "EnglishName": "Claim Note",
+    "DutchName": "Claimnota"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.INVOLVED_AS",
+    "EnglishName": "Involved as",
+    "DutchName": "Betrokken als"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.THE_OTHER_PARTY_WAS",
+    "EnglishName": "The other party was",
+    "DutchName": "De wederpartij is"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.AT_WHICH_COMPANY_DID",
+    "EnglishName": "At which company did the incident occur ?",
+    "DutchName": "Bij welk bedrijf heeft het ongeval plaatsvonden?"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.CAN_YOU_PROVE",
+    "EnglishName": "Can you prove that the incident occurred at work ? ",
+    "DutchName": "Kun je bewijzen dat het ongeval op of tijdens het werk is gebeurd?"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.POLICE",
+    "EnglishName": "Police ",
+    "DutchName": "Politie"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.POLICE_NOTE",
+    "EnglishName": "Politice Note ",
+    "DutchName": "Politie opmerking"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.INCIDENT_DESCRIPTION",
+    "EnglishName": "Incident description",
+    "DutchName": "Toedrachtsomschrijving"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.WERE_EMERGENCY_UNITS_PRESENT",
+    "EnglishName": "Were emergency units present",
+    "DutchName": "Waren er hulpdiensten aanwezig?"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.OTHER",
+    "EnglishName": "Other",
+    "DutchName": "Anders"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.IS_EMERGENCY",
+    "EnglishName": "Is Emergency",
+    "DutchName": "Is een noodgeval"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.AMBULANCE",
+    "EnglishName": "Ambulance",
+    "DutchName": "Ambulance"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.AMBULANCE_NOTE",
+    "EnglishName": "Ambulance opmerking",
+    "DutchName": "Ambulance Note"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.FIRE_BRIGADE",
+    "EnglishName": "Fire Brigade",
+    "DutchName": "Brandweer"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.FIRE_BRIGADE_NOTE",
+    "EnglishName": "Fire Brigade Note",
+    "DutchName": "Brandweer opmerking"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.INJURY_DETAILS",
+    "EnglishName": "Injury Details",
+    "DutchName": "Letselgegevens"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.DESCRIBE_THE_INJURY",
+    "EnglishName": "Describe the injury",
+    "DutchName": "Beschrijf het letsel"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.INJURY_DESCRIPTION",
+    "EnglishName": "Injury Description",
+    "DutchName": "Blessurebeschrijving"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.BRIEF_DESCRIPTION",
+    "EnglishName": "Brief Description",
+    "DutchName": "Korte beschrijving"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.DESCRIBE_BRIEFLY",
+    "EnglishName": "Describe Briefly",
+    "DutchName": "Kort beschrijven"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.YES",
+    "EnglishName": "Yes",
+    "DutchName": "Ja"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.ADD",
+    "EnglishName": "Add",
+    "DutchName": "Toevoegen"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.DID_YOU_VISIT_MEDICAL_P",
+    "EnglishName": "Did you visit medical professionals?",
+    "DutchName": "Heb je medici bezocht?"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.VISIT_MEDICAL_PROFESSIONALS",
+    "EnglishName": "Visit Medical Professional",
+    "DutchName": "Bezoek medische professionals"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.EMERGENCY_ROOM",
+    "EnglishName": "Emergency Room",
+    "DutchName": "Spoedeisend hulp"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.EMERGENCY_NOTE",
+    "EnglishName": "Emergency Note",
+    "DutchName": "Noodmelding"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.MEDICAL_CENTER_NOTE",
+    "EnglishName": "Medical Center Note",
+    "DutchName": "Opmerking medisch centrum"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.FAMILY_DOCTORS_NOTE",
+    "EnglishName": "Family Doctors Note",
+    "DutchName": "Notitie huisartsen"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.PHYSICAL_THERAPIST_NOTE",
+    "EnglishName": "Physical Therapist  Note",
+    "DutchName": "Notitie fysiotherapeut"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.HOSPITAL",
+    "EnglishName": "Hospital",
+    "DutchName": "Ziekenhuis"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.HOSPITAL_NOTE",
+    "EnglishName": "Hospital Note",
+    "DutchName": "Ziekenhuis opmerking"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.OUT_OF_HOURS",
+    "EnglishName": "Out-of hours medical center",
+    "DutchName": "Huisartsenpost"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.FAMILY_DOCTORS",
+    "EnglishName": "Family docters practice",
+    "DutchName": "Huisartsenpraktijk"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.PHYSICAL_THERAPIST",
+    "EnglishName": "Physical therapist",
+    "DutchName": "Fysiotherapeut"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.OTHERS",
+    "EnglishName": "Other, specify",
+    "DutchName": "Anders, namelijk"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.FINANCE_DETAILS",
+    "EnglishName": "Finance Details",
+    "DutchName": "Financiele gegevens"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.DO_YOU_HAVE_INCOME",
+    "EnglishName": "Do you have income?",
+    "DutchName": "Heb je een inkomen?"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.PLEASE_SPECIFY",
+    "EnglishName": "If yes please specify",
+    "DutchName": "Indien ja, specificeren"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.OCCUPATIONAL_DISABILITY",
+    "EnglishName": "Is there occupational disability?",
+    "DutchName": "Is er sprake van arbeidsongeschiktheid? "
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.SALARIED_DETAILS",
+    "EnglishName": "Salaried Details",
+    "DutchName": "Gegevens in loondienst "
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.COMPANY_NAME_EMPLOYER",
+    "EnglishName": "Company name employer",
+    "DutchName": "Bedrijfsnaam werkgever"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.TYPE_OF_CONTRACT",
+    "EnglishName": "Type of contract",
+    "DutchName": "Soort contract"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.POSITION",
+    "EnglishName": "Position",
+    "DutchName": "Functie"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.ADD_COMPANY",
+    "EnglishName": "Add Company",
+    "DutchName": "Bedrijf toevoegen"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.ACTION",
+    "EnglishName": "Action",
+    "DutchName": "Actie"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.COMPANY_NAME",
+    "EnglishName": "Company Name",
+    "DutchName": "Bedrijfsnaam"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.ENTREPRENEUR_DETAILS",
+    "EnglishName": "Entreprenuer Details",
+    "DutchName": "Gegevens ondernemer"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.TYPE_OF_COMPANY",
+    "EnglishName": "Type of company",
+    "DutchName": "Type bedrijf"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.EMPLOYEES",
+    "EnglishName": "Employees",
+    "DutchName": "Werknemers"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.BLACK_MARKET_DETAILS",
+    "EnglishName": "Black Market Details",
+    "DutchName": "Details zwart geld circuit"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.BLACK_MARKET_INCOME",
+    "EnglishName": "Do you want to claim black market income?",
+    "DutchName": "Wil je zwarte inkomsten claimen?"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.PROVE_BLACK_MARKET_INCOME",
+    "EnglishName": "Can you prove your black market income?",
+    "DutchName": "Kunt u uw zwart geld inkomen bewijzen?"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.HOUSEHOLD_DETAILS",
+    "EnglishName": "Gegevens huishouden",
+    "DutchName": "Household Details"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.DO_YOU_HAVE_PARTNER",
+    "EnglishName": "Do you have a partner?",
+    "DutchName": "Heb je een partner?"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.NO",
+    "EnglishName": "No",
+    "DutchName": "Nee"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.YES_A_GIRLFRIEND",
+    "EnglishName": "Yes a girlfriend",
+    "DutchName": "Ja, een vriendin"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.YES_A_BOYFRIEND",
+    "EnglishName": "Yes a boyfriend",
+    "DutchName": "Ja, een vriendn"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.YES_A_WIFE",
+    "EnglishName": "Yes a wife",
+    "DutchName": "Ja, een vrouw"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.YES_A_HUSBAND",
+    "EnglishName": "Yes a husband",
+    "DutchName": "Ja, een man"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.MARITAL_STATUS",
+    "EnglishName": "Marital Status",
+    "DutchName": "Burgerlijke staat"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.UNMARRIED",
+    "EnglishName": "Unmarried",
+    "DutchName": "Ongehuwd"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.MARRIED",
+    "EnglishName": "Married",
+    "DutchName": "Getrouwd"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.REGISTERED_PARTNERSHIP",
+    "EnglishName": "Registered partnership",
+    "DutchName": "Geregistreerd partnerschap"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.DIVORCED",
+    "EnglishName": "Divorced",
+    "DutchName": "Gescheiden "
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.WIDOWED",
+    "EnglishName": "Widowed",
+    "DutchName": "Weduwe/weduwnaar "
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.OTHER_NAMELY",
+    "EnglishName": "Other, namely",
+    "DutchName": "Anderen, namelijk "
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.OTHER_NOTE",
+    "EnglishName": "Other, namely",
+    "DutchName": "Andere opmerkingen "
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.OTHER_NOTE",
+    "EnglishName": "Others note",
+    "DutchName": "Andere opmerkingen"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.LIVING_TOGETHER_WITH",
+    "EnglishName": "Living together with?",
+    "DutchName": "Met wie woon je samen?"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.TYPE_OF_LIVING_TOGETHER",
+    "EnglishName": "Type samenwoning",
+    "DutchName": "Type samenwoning"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.HOUSEHOLD_SITUATION",
+    "EnglishName": "Household Situation",
+    "DutchName": "Huishoudsituatie"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.RELATION",
+    "EnglishName": "Relation",
+    "DutchName": "Relatie"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.SIGNATURE_DETAILS",
+    "EnglishName": "Signature Details",
+    "DutchName": "Handtekeninggegevens"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.EMAIL",
+    "EnglishName": "Email",
+    "DutchName": "E-mail"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.SEND",
+    "EnglishName": "Send Pdf",
+    "DutchName": "Stuur pdf"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.SAVE",
+    "EnglishName": "Save",
+    "DutchName": "Opslaan"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.BASIC_DETAILS",
+    "EnglishName": "Basic Details",
+    "DutchName": "Basisgegevens"
+  },
+  {
+    "Key": "STATISTICS.REVENUE.TITLE",
+    "EnglishName": "Revenue",
+    "DutchName": "Omzet"
+  },
+  {
+    "Key": "STATISTICS.REVENUE.FILTER",
+    "EnglishName": "Filter",
+    "DutchName": "Filter"
+  },
+  {
+    "Key": "STATISTICS.REVENUE.EXPORT_EXCEL",
+    "EnglishName": "Export Excel",
+    "DutchName": "Exporteer naar Excel"
+  },
+  {
+    "Key": "STATISTICS.REVENUE.SEARCH_PLACEHOLDER",
+    "EnglishName": "Search",
+    "DutchName": "Zoek Vanaf Datum tot Datum"
+  },
+  {
+    "Key": "STATISTICS.REVENUE.WEEK_NUMBER",
+    "EnglishName": "Week Number",
+    "DutchName": "Weeknummer"
+  },
+  {
+    "Key": "STATISTICS.REVENUE.MONTH_NAME",
+    "EnglishName": "Month Name",
+    "DutchName": "Maand"
+  },
+  {
+    "Key": "STATISTICS.REVENUE.QUARTERLY",
+    "EnglishName": "Quarterly",
+    "DutchName": "Kwartaal"
+  },
+  {
+    "Key": "STATISTICS.REVENUE.MONTHLY",
+    "EnglishName": "Monthly",
+    "DutchName": "Maandelijks"
+  },
+  {
+    "Key": "STATISTICS.REVENUE.WEEKLY",
+    "EnglishName": "Weekly",
+    "DutchName": "Wekelijks"
+  },
+  {
+    "Key": "STATISTICS.REVENUE.AMOUNT",
+    "EnglishName": "Amount",
+    "DutchName": "Totaalbedrag"
+  },
+  {
+    "Key": "STATISTICS.REVENUE.TAX",
+    "EnglishName": "Tax",
+    "DutchName": "BTW"
+  },
+  {
+    "Key": "STATISTICS.REVENUE.WITHOUT_TAX",
+    "EnglishName": "Without Tax",
+    "DutchName": "Exclusief BTW"
+  },
+  {
+    "Key": "STATISTICS.REVENUE.FROM_DATE",
+    "EnglishName": "From Date",
+    "DutchName": "Vanaf Datum"
+  },
+  {
+    "Key": "STATISTICS.REVENUE.TO_DATE",
+    "EnglishName": "To Date",
+    "DutchName": "Tot Datum"
+  },
+  {
+    "Key": "STATISTICS.REVENUE.NO_RECORDS",
+    "EnglishName": "No Records Found",
+    "DutchName": "Geen gegevens gevonden"
+  },
+  {
+    "Key": "STATISTICS.EXPENSES.TITLE",
+    "EnglishName": "Expenses",
+    "DutchName": "Uitgaven"
+  },
+  {
+    "Key": "STATISTICS.EXPENSES.FILTER",
+    "EnglishName": "Filter",
+    "DutchName": "Filter"
+  },
+  {
+    "Key": "STATISTICS.EXPENSES.SEARCH_PLACEHOLDER",
+    "EnglishName": "Search",
+    "DutchName": "Zoek Van Datum - tot Datum"
+  },
+  {
+    "Key": "STATISTICS.EXPENSES.WEEK_NUMBER",
+    "EnglishName": "Week Number",
+    "DutchName": "Weeknummer"
+  },
+  {
+    "Key": "STATISTICS.EXPENSES.MONTH_NAME",
+    "EnglishName": "Month Name",
+    "DutchName": "Maand"
+  },
+  {
+    "Key": "STATISTICS.EXPENSES.QUARTERLY",
+    "EnglishName": "Quarterly",
+    "DutchName": "Kwartaal"
+  },
+  {
+    "Key": "STATISTICS.EXPENSES.MONTHLY",
+    "EnglishName": "Monthly",
+    "DutchName": "Maandelijks"
+  },
+  {
+    "Key": "STATISTICS.EXPENSES.WEEKLY",
+    "EnglishName": "Weekly",
+    "DutchName": "Wekelijks"
+  },
+  {
+    "Key": "STATISTICS.EXPENSES.AMOUNT",
+    "EnglishName": "Amount",
+    "DutchName": "Totaalbedrag"
+  },
+  {
+    "Key": "STATISTICS.EXPENSES.TAX",
+    "EnglishName": "Tax",
+    "DutchName": "BTW"
+  },
+  {
+    "Key": "STATISTICS.EXPENSES.WITHOUT_TAX",
+    "EnglishName": "Without Tax",
+    "DutchName": "Exclusief BTW"
+  },
+  {
+    "Key": "STATISTICS.EXPENSES.FROM_DATE",
+    "EnglishName": "From Date",
+    "DutchName": "Vanaf Datum"
+  },
+  {
+    "Key": "STATISTICS.EXPENSES.TO_DATE",
+    "EnglishName": "To Date",
+    "DutchName": "Tot Datum"
+  },
+  {
+    "Key": "STATISTICS.EXPENSES.NO_RECORDS",
+    "EnglishName": "No Records Found",
+    "DutchName": "Geen gegevens gevonden"
+  },
+  {
+    "Key": "STATISTICS.EXPENSES.EXPORT_EXCEL",
+    "EnglishName": "Export Excel",
+    "DutchName": "Exporteer naar Excel"
+  },
+  {
+    "Key": "STATISTICS.EMPLOYEE_REVENUE.TITLE",
+    "EnglishName": "Employee Revenue",
+    "DutchName": "Employee Revenue"
+  },
+  {
+    "Key": "STATISTICS.EMPLOYEE_REVENUE.FILTER",
+    "EnglishName": "Filter",
+    "DutchName": "Filter"
+  },
+  {
+    "Key": "STATISTICS.EMPLOYEE_REVENUE.SEARCH_PLACEHOLDER",
+    "EnglishName": "Search From Date - To Date",
+    "DutchName": "Search From Date - To Date"
+  },
+  {
+    "Key": "STATISTICS.EMPLOYEE_REVENUE.WEEK_NUMBER",
+    "EnglishName": "Week Number",
+    "DutchName": "Week Number"
+  },
+  {
+    "Key": "STATISTICS.EMPLOYEE_REVENUE.MONTH_NAME",
+    "EnglishName": "Month Name",
+    "DutchName": "Month Name"
+  },
+  {
+    "Key": "STATISTICS.EMPLOYEE_REVENUE.QUARTERLY",
+    "EnglishName": "Quarterly",
+    "DutchName": "Quarterly"
+  },
+  {
+    "Key": "STATISTICS.EMPLOYEE_REVENUE.MONTHLY",
+    "EnglishName": "Monthly",
+    "DutchName": "Monthly"
+  },
+  {
+    "Key": "STATISTICS.EMPLOYEE_REVENUE.WEEKLY",
+    "EnglishName": "Weekly",
+    "DutchName": "Weekly"
+  },
+  {
+    "Key": "STATISTICS.EMPLOYEE_REVENUE.TO_DATE",
+    "EnglishName": "To Date",
+    "DutchName": "To Date"
+  },
+  {
+    "Key": "STATISTICS.EMPLOYEE_REVENUE.NO_RECORDS",
+    "EnglishName": "No Records Found",
+    "DutchName": "No Records Found"
+  },
+  {
+    "Key": "STATISTICS.EMPLOYEE_REVENUE.EMPLOYEE_NAME",
+    "EnglishName": "Employee Name",
+    "DutchName": "Naam werknemer"
+  },
+  {
+    "Key": "STATISTICS.EMPLOYEE_REVENUE.DUTCHPOAMOUNT",
+    "EnglishName": "PO Amount",
+    "DutchName": "PO-bedrag"
+  },
+  {
+    "Key": "STATISTICS.EMPLOYEE_REVENUE.DUTCHPAIDAMOUNT",
+    "EnglishName": "Paid Amount",
+    "DutchName": "Betaald bedrag"
+  },
+  {
+    "Key": "STATISTICS.EMPLOYEE_REVENUE.FROM_DATE",
+    "EnglishName": "From Date",
+    "DutchName": "Vanaf Datum"
+  },
+  {
+    "Key": "STATISTICS.EMPLOYEE_REVENUE.TO_DATE",
+    "EnglishName": "To Date",
+    "DutchName": "Tot Datum"
+  },
+  {
+    "Key": "STATISTICS.EMPLOYEE_REVENUE.VIEW_REPORT",
+    "EnglishName": "View Report",
+    "DutchName": "Bekijk rapport"
+  },
+  {
+    "Key": "STATISTICS.EMPLOYEE_REVENUE.CASE_HANDLER",
+    "EnglishName": "Case Handler",
+    "DutchName": "Behandelaar"
+  },
+  {
+    "Key": "COMPANIES.MASTER.TITLE",
+    "EnglishName": "Companies",
+    "DutchName": "Kantoren"
+  },
+  {
+    "Key": "COMPANIES.MASTER.ADD_NEW_COMPANY",
+    "EnglishName": "Add New Company",
+    "DutchName": "Kantoor toevoegen"
+  },
+  {
+    "Key": "COMPANIES.MASTER.FILTER",
+    "EnglishName": "Filter",
+    "DutchName": "Filter"
+  },
+  {
+    "Key": "COMPANIES.MASTER.SEARCH_PLACEHOLDER",
+    "EnglishName": "Search",
+    "DutchName": "Zoeken ..."
+  },
+  {
+    "Key": "COMPANIES.MASTER.NAME",
+    "EnglishName": "Name",
+    "DutchName": "Naam"
+  },
+  {
+    "Key": "COMPANIES.MASTER.CODE",
+    "EnglishName": "Code",
+    "DutchName": "Code"
+  },
+  {
+    "Key": "COMPANIES.MASTER.IMAGE",
+    "EnglishName": "Image",
+    "DutchName": "Afbeelding"
+  },
+  {
+    "Key": "COMPANIES.MASTER.ICON_IMAGE",
+    "EnglishName": "Icon Image",
+    "DutchName": "Icoon afbeelding"
+  },
+  {
+    "Key": "COMPANIES.MASTER.DESCRIPTION",
+    "EnglishName": "Description",
+    "DutchName": "Omschrijving"
+  },
+  {
+    "Key": "COMPANIES.MASTER.ACTION",
+    "EnglishName": "Action",
+    "DutchName": "Bewerken"
+  },
+  {
+    "Key": "COMPANIES.MASTER.NO_RECORDS",
+    "EnglishName": "No Records Found",
+    "DutchName": "Geen gegevens gevonden"
+  },
+  {
+    "Key": "COMPANIES.MASTER.POPUP_TITLE",
+    "EnglishName": "Edit company details",
+    "DutchName": "Wijzig kantoorgegevens"
+  },
+  {
+    "Key": "COMPANIES.MASTER.POPUP_TITLE2",
+    "EnglishName": "Create new company",
+    "DutchName": "Voeg nieuw kantoor toe"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USER_ROLE.TITLLE",
+    "EnglishName": "User Role's",
+    "DutchName": "Gebruikersrollen"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USER_ROLE.USER_ROLE_LABEL",
+    "EnglishName": "User Role",
+    "DutchName": "Gebruikersrol"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USER_ROLE.COMPANY",
+    "EnglishName": "Company",
+    "DutchName": "Bedrijf"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USER_ROLE.ADD_NEW_ROLE",
+    "EnglishName": "Add New Role",
+    "DutchName": "Voeg nieuwe rol toe"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USER_ROLE.SEARCH_PLACEHOLDER",
+    "EnglishName": "Search",
+    "DutchName": "Zoeken ..."
+  },
+  {
+    "Key": "USER_MANAGEMENT.USER_ROLE.FILTER",
+    "EnglishName": "Filter",
+    "DutchName": "Filter"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USER_ROLE.NAME",
+    "EnglishName": "Name",
+    "DutchName": "Naam"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USER_ROLE.DUTCH_NAME",
+    "EnglishName": "Dutch Name",
+    "DutchName": "Nederlands"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USER_ROLE.ACTION",
+    "EnglishName": "Action",
+    "DutchName": "Bewerken"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USERS.TITLE",
+    "EnglishName": "Users",
+    "DutchName": "Gebruikers"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USERS.ADD_NEW_USER",
+    "EnglishName": "Add New User",
+    "DutchName": "Gebruiker toevoegen"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USERS.SEARCH_PLACEHOLDER",
+    "EnglishName": "Search",
+    "DutchName": "Zoeken ..."
+  },
+  {
+    "Key": "USER_MANAGEMENT.USERS.FILTER",
+    "EnglishName": "Filter",
+    "DutchName": "Filter"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USERS.NAME",
+    "EnglishName": "Name",
+    "DutchName": "Naam"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USERS.CODE",
+    "EnglishName": "Code",
+    "DutchName": "Code"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USERS.MOBILE",
+    "EnglishName": "Mobile",
+    "DutchName": "Mobiele nummer"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USERS.EMAIL",
+    "EnglishName": "Email",
+    "DutchName": "Email"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USERS.ACTION",
+    "EnglishName": "Action",
+    "DutchName": "Bewerken"
+  },
+  {
+    "Key": "USER_MANAGEMENT.CREATE_NEW_USER.TITLE",
+    "EnglishName": "Create new user",
+    "DutchName": "Gebruiker toevoegen"
+  },
+  {
+    "Key": "USER_MANAGEMENT.CREATE_NEW_USER.NAME",
+    "EnglishName": "Name",
+    "DutchName": "Naam"
+  },
+  {
+    "Key": "USER_MANAGEMENT.CREATE_NEW_USER.EMAIL",
+    "EnglishName": "Email",
+    "DutchName": "Email"
+  },
+  {
+    "Key": "USER_MANAGEMENT.CREATE_NEW_USER.MOBILE",
+    "EnglishName": "Mobile",
+    "DutchName": "Mobiele nummer"
+  },
+  {
+    "Key": "USER_MANAGEMENT.CREATE_NEW_USER.GENDER",
+    "EnglishName": "Gender",
+    "DutchName": "Geslacht"
+  },
+  {
+    "Key": "USER_MANAGEMENT.CREATE_NEW_USER.MULTIFACTOR",
+    "EnglishName": "Multifactor",
+    "DutchName": "Tweestapsverificatie"
+  },
+  {
+    "Key": "USER_MANAGEMENT.CREATE_NEW_USER.LANGUAGE",
+    "EnglishName": "Language",
+    "DutchName": "Taal"
+  },
+  {
+    "Key": "USER_MANAGEMENT.CREATE_NEW_USER.PROFILE_PICTURE",
+    "EnglishName": "Profile Picture",
+    "DutchName": "Profiel afbeelding"
+  },
+  {
+    "Key": "USER_MANAGEMENT.CREATE_NEW_USER.SAVE_BTN",
+    "EnglishName": "Save",
+    "DutchName": "Opslaan"
+  },
+  {
+    "Key": "USER_MANAGEMENT.EDIT_USER.TITLE",
+    "EnglishName": "Edit user details",
+    "DutchName": "Gebruikersgegevens bewerken"
+  },
+  {
+    "Key": "USER_MANAGEMENT.EDIT_USER.BASIC_INFO",
+    "EnglishName": "Basic Info",
+    "DutchName": "Basis informatie"
+  },
+  {
+    "Key": "USER_MANAGEMENT.EDIT_USER.COMPANY_PERMISSIONS",
+    "EnglishName": "Company Permissions",
+    "DutchName": "Bedrijfsmachtigingen"
+  },
+  {
+    "Key": "USER_MANAGEMENT.EDIT_USER.SEARCH_PLACEHOLDER",
+    "EnglishName": "Search",
+    "DutchName": "Zoeken ..."
+  },
+  {
+    "Key": "USER_MANAGEMENT.EDIT_USER.ADD_USER_COMPANY_ROLE",
+    "EnglishName": "Add User Company Role",
+    "DutchName": "Voeg gebruiker-bedrijfsrol toe"
+  },
+  {
+    "Key": "USER_MANAGEMENT.EDIT_USER.COMPANY_NAME",
+    "EnglishName": "Company Name",
+    "DutchName": "Bedrijfsnaam"
+  },
+  {
+    "Key": "USER_MANAGEMENT.EDIT_USER.ROLE_NAME",
+    "EnglishName": "Role Name",
+    "DutchName": "Rol Naam"
+  },
+  {
+    "Key": "USER_MANAGEMENT.EDIT_USER.ACTION",
+    "EnglishName": "Action",
+    "DutchName": "Bewerken"
+  },
+  {
+    "Key": "USER_MANAGEMENT.EDIT_USER.CATEGORY",
+    "EnglishName": "Category",
+    "DutchName": "Categorie"
+  },
+  {
+    "Key": "USER_MANAGEMENT.EDIT_USER.NAME",
+    "EnglishName": "Name",
+    "DutchName": "Naam"
+  },
+  {
+    "Key": "USER_MANAGEMENT.EDIT_USER.EMAIL",
+    "EnglishName": "Email",
+    "DutchName": "Email"
+  },
+  {
+    "Key": "USER_MANAGEMENT.EDIT_USER.MOBILE",
+    "EnglishName": "Mobile",
+    "DutchName": "Mobiele nummer"
+  },
+  {
+    "Key": "USER_MANAGEMENT.EDIT_USER.GENDER",
+    "EnglishName": "Gender",
+    "DutchName": "Geslacht"
+  },
+  {
+    "Key": "USER_MANAGEMENT.EDIT_USER.MULTIFACTOR",
+    "EnglishName": "Multifactor",
+    "DutchName": "Tweestapsverificatie"
+  },
+  {
+    "Key": "USER_MANAGEMENT.EDIT_USER.LANGUAGE",
+    "EnglishName": "Language",
+    "DutchName": "Taal"
+  },
+  {
+    "Key": "USER_MANAGEMENT.EDIT_USER.PROFILE_PICTURE",
+    "EnglishName": "Profile Picture",
+    "DutchName": "Profiel afbeelding"
+  },
+  {
+    "Key": "USER_MANAGEMENT.EDIT_USER.SAVE_BTN",
+    "EnglishName": "Save",
+    "DutchName": "Opslaan"
+  },
+  {
+    "Key": "USER_MANAGEMENT.EDIT_USER.FILTER",
+    "EnglishName": "Filter",
+    "DutchName": "Filter"
+  },
+  {
+    "Key": "USER_MANAGEMENT.CREATE_NEW_USER_ROLE.NAME",
+    "EnglishName": "Name",
+    "DutchName": "Naam"
+  },
+  {
+    "Key": "USER_MANAGEMENT.CREATE_NEW_USER_ROLE.POPUP_TITLE",
+    "EnglishName": "Create new user role",
+    "DutchName": "Nieuwe rol toevoegen"
+  },
+  {
+    "Key": "USER_MANAGEMENT.CREATE_NEW_USER_ROLE.POPUP_TITLE2",
+    "EnglishName": "Edit user role",
+    "DutchName": "Bewerk gebruikersrol"
+  },
+  {
+    "Key": "USER_MANAGEMENT.CREATE_NEW_USER_ROLE.DUTCH_NAME",
+    "EnglishName": "Dutch Name",
+    "DutchName": "Nederlands"
+  },
+  {
+    "Key": "USER_MANAGEMENT.CREATE_NEW_USER_ROLE.SAVE_BTN",
+    "EnglishName": "Save",
+    "DutchName": "Opslaan"
+  },
+  {
+    "Key": "USER_MANAGEMENT.CREATE_NEW_USER_ROLE.CLOSE_BTN",
+    "EnglishName": "Close",
+    "DutchName": "Sluiten"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USER_COMPANY_ROLE_PERMISSION.NAME",
+    "EnglishName": "Name",
+    "DutchName": "Naam"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USER_COMPANY_ROLE_PERMISSION.POPUP_TITLE",
+    "EnglishName": "Manage permissions of",
+    "DutchName": "Wijzig rechten van"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USER_COMPANY_ROLE_PERMISSION.SAVE_BTN",
+    "EnglishName": "Save",
+    "DutchName": "Opslaan"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USER_COMPANY_ROLE_PERMISSION.CLOSE_BTN",
+    "EnglishName": "Close",
+    "DutchName": "Sluiten"
+  },
+  {
+    "Key": "STANDARDLETTERS.LETTERS.TITLE",
+    "EnglishName": "Standard Letters",
+    "DutchName": "Standaardbrieven"
+  },
+  {
+    "Key": "ALERT.SWAL.DELETE.TITLE",
+    "EnglishName": "Are you sure?",
+    "DutchName": "Weet je het zeker?"
+  },
+  {
+    "Key": "ALERT.SWAL.DELETE.MESSAGE",
+    "EnglishName": "You won't be able to revert this!",
+    "DutchName": "Je kunt dit niet meer terugdraaien!"
+  },
+  {
+    "Key": "ALERT.SWAL.DELETE.CONFIRM_BUTTON_TEXT",
+    "EnglishName": "Yes, delete it",
+    "DutchName": "Ja, verwijder het"
+  },
+  {
+    "Key": "ALERT.SWAL.DELETE.CANCEL_BUTTON_TEXT",
+    "EnglishName": "No, cancel",
+    "DutchName": "Nee, annuleer"
+  },
+  {
+    "Key": "ALERT.SWAL.WARNING.TITLE",
+    "EnglishName": "Invoice Details",
+    "DutchName": "Factuurgegevens"
+  },
+  {
+    "Key": "ALERT.SWAL.WARNING.MESSAGE",
+    "EnglishName": "Do You want to update detail line item with headar values.",
+    "DutchName": "Wilt u het detailregelitem bijwerken met kopwaarden."
+  },
+  {
+    "Key": "ALERT.SWAL.WARNING.CONFIRM_BUTTON_TEXT",
+    "EnglishName": "Yes!",
+    "DutchName": "Yes!"
+  },
+  {
+    "Key": "ALERT.SWAL.WARNING.CANCEL_BUTTON_TEXT",
+    "EnglishName": "No",
+    "DutchName": "No!"
+  },
+  {
+    "Key": "ALERT.SWAL.WARNING.INVOICE_TITLE",
+    "EnglishName": "OCR",
+    "DutchName": "OCR"
+  },
+  {
+    "Key": "ALERT.SWAL.WARNING.INVOICE_DETAILS",
+    "EnglishName": "Please verify your details, including address, email, and phone number. Do you want to save this information?",
+    "DutchName": "Controleer uw gegevens, inclusief adres, e-mailadres en telefoonnummer. Wilt u deze informatie opslaan?"
+  },
+  {
+    "Key": "TOASTR.SUCCESS.COMPANYTITLE",
+    "EnglishName": "Company",
+    "DutchName": "Company"
+  },
+  {
+    "Key": "TOASTR.SUCCESS.FILEMESSAGE",
+    "EnglishName": "Imported File successfully",
+    "DutchName": "Geimporteerd bestand succesvol"
+  },
+  {
+    "Key": "TOASTR.SUCCESS.BANKTITLE",
+    "EnglishName": "Bank-Transactions",
+    "DutchName": "Banktransacties"
+  },
+  {
+    "Key": "TOASTR.SUCCESS.HIDEMESSAGE",
+    "EnglishName": "Hide Record Successful",
+    "DutchName": "Record verbergen succesvol"
+  },
+  {
+    "Key": "TOASTR.SUCCESS.XLSXTITLE",
+    "EnglishName": "Export XLSX",
+    "DutchName": "XLSX exporteren"
+  },
+  {
+    "Key": "TOASTR.SUCCESS.XLSXMESSAGE",
+    "EnglishName": "XLSX File Download Successful",
+    "DutchName": "XLSX-bestand downloaden succesvol"
+  },
+  {
+    "Key": "TOASTR.ERROR.BANKTITLE",
+    "EnglishName": "Bank Transactions",
+    "DutchName": "Banktransacties"
+  },
+  {
+    "Key": "TOASTR.ERROR.HIDEMESSAGE",
+    "EnglishName": "Something went wrong!",
+    "DutchName": "Er is iets fout gegaan!"
+  },
+  {
+    "Key": "TOASTR.ERROR.OCRTITLE",
+    "EnglishName": "OCR",
+    "DutchName": "OCR"
+  },
+  {
+    "Key": "TOASTR.ERROR.OCRMESSAGE",
+    "EnglishName": "Please select atleast one file to continue",
+    "DutchName": "Selecteer ten minste één bestand om door te gaan"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.TITLE",
+    "EnglishName": "Case Details",
+    "DutchName": "Dossieroverzicht"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.ADD_NEW_BTN",
+    "EnglishName": "Add New Case",
+    "DutchName": "Dossier toevoegen"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.SEARCH_PLACEHOLDER",
+    "EnglishName": "Search for ...",
+    "DutchName": "Zoeken ..."
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.ACTION",
+    "EnglishName": "Action",
+    "DutchName": "Actie"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.CASE_NO",
+    "EnglishName": "Case No",
+    "DutchName": "Dossiernummer"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.CUSTOMER",
+    "EnglishName": "Customer",
+    "DutchName": "Client"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.VIA",
+    "EnglishName": "Referral",
+    "DutchName": "Referral"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.CASE_HANDLER",
+    "EnglishName": "Case Handler",
+    "DutchName": "Behandelaar"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.START_DATE",
+    "EnglishName": "Start Date",
+    "DutchName": "Begin datum"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.STATUS",
+    "EnglishName": "Status",
+    "DutchName": "toestand"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.DONE",
+    "EnglishName": "Done",
+    "DutchName": "Afgelegd"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.ALL",
+    "EnglishName": "All",
+    "DutchName": "Alle"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.NEW",
+    "EnglishName": "New",
+    "DutchName": "Nieuw"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.CASE_HANDLER_FILTER",
+    "EnglishName": "Case Handler",
+    "DutchName": "Behandelaar"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.INSURER_MANUAL_FILTER",
+    "EnglishName": "Insurer (Manual)",
+    "DutchName": "Wederpartij"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.STATUS_FILTER",
+    "EnglishName": "Status",
+    "DutchName": "Toestand"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.INSURER_MANUAL",
+    "EnglishName": "Insurer (Manual)",
+    "DutchName": "Wederpartij"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.UNACKNOWLEDGED",
+    "EnglishName": "Unacknowledged",
+    "DutchName": "Niet erkend"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.RUNNING",
+    "EnglishName": "Running",
+    "DutchName": "Rennen"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.SETTLING",
+    "EnglishName": "Settling",
+    "DutchName": "Afwikkeling"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.FINISHED",
+    "EnglishName": "Finished",
+    "DutchName": "Afgerond"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.CLOSED",
+    "EnglishName": "Closed",
+    "DutchName": "Gesloten"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.NO_SUCCESS",
+    "EnglishName": "No Success",
+    "DutchName": "Geen succes"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.REFERLPAY",
+    "EnglishName": "Referral Paid",
+    "DutchName": "VerwijzingBetaald"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.ACCEPTED",
+    "EnglishName": "Accepted",
+    "DutchName": "Erkenning"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.ACCEPTED_FILTER",
+    "EnglishName": "Accepted",
+    "DutchName": "Erkenning"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.ACCEPTED_PERCENTAGE",
+    "EnglishName": "Accepted%",
+    "DutchName": "Erkenning%"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.INVOICED",
+    "EnglishName": "Invoiced",
+    "DutchName": "Gefactureerd"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.PAID",
+    "EnglishName": "Paid",
+    "DutchName": "Betaald"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.PAID_AMOUNT",
+    "EnglishName": "Paid Amount",
+    "DutchName": "Betaald bedrag"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.FROM_DATE",
+    "EnglishName": "From Date",
+    "DutchName": "Vanaf datum"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.TO_DATE",
+    "EnglishName": "To Date",
+    "DutchName": "Tot datum"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.DAMAGE_DATE",
+    "EnglishName": "Damage Date",
+    "DutchName": "Schadedatum"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.CLOSE_DATE",
+    "EnglishName": "Closed Date",
+    "DutchName": "Sluitingsdatum"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.SHOULD_REFERRAL_BE_PAID",
+    "EnglishName": "Should Referral be Paid?",
+    "DutchName": "Moet de verwijzing worden betaald?"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.INTAKE_DATE",
+    "EnglishName": "Intake Date",
+    "DutchName": "Intakedatum"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.DAYS_RUNNING",
+    "EnglishName": "Days running",
+    "DutchName": "Dagen hardlopen"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.INVOICE_PER_DAY",
+    "EnglishName": "Invoiced per day",
+    "DutchName": "Gefactureerd per dag"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.PAID_PER_DAY",
+    "EnglishName": "Paid per day",
+    "DutchName": "Betaald per dag"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.OPEN",
+    "EnglishName": "Open",
+    "DutchName": "Open"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.YES",
+    "EnglishName": "Yes",
+    "DutchName": "Ja"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.NO",
+    "EnglishName": "No",
+    "DutchName": "Nee"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.NEW",
+    "EnglishName": "New",
+    "DutchName": "Nieuw"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.ALL",
+    "EnglishName": "All",
+    "DutchName": "Alle"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.UNACKNOWLEDGED",
+    "EnglishName": "Unacknowledged",
+    "DutchName": "Niet erkend"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.RUNNING",
+    "EnglishName": "Running",
+    "DutchName": "Rennen"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.SETTLING",
+    "EnglishName": "Settling",
+    "DutchName": "Afwikkeling"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.FINISHED",
+    "EnglishName": "Finished",
+    "DutchName": "Afgerond"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.CLOSED",
+    "EnglishName": "Closed",
+    "DutchName": "Gesloten"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.NO_SUCCESS",
+    "EnglishName": "No Success",
+    "DutchName": "Geen succes"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.OPEN",
+    "EnglishName": "Open",
+    "DutchName": "Open"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.FILTER",
+    "EnglishName": "Filter",
+    "DutchName": "Filter"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_DETAILS.SHOULD_REFERRAL_BE_PAID",
+    "EnglishName": "Should Referral be Paid?",
+    "DutchName": "Moet de verwijzing worden betaald?"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_DETAILS.SHOULD_REFERRAL_BE_PAID_VALUE.YES",
+    "EnglishName": "Yes",
+    "DutchName": "Ja"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_DETAILS.SHOULD_REFERRAL_BE_PAID_VALUE.NO",
+    "EnglishName": "No",
+    "DutchName": "Nee"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USERS.ALL",
+    "EnglishName": "All",
+    "DutchName": "Alles"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USERS.ACTIVE",
+    "EnglishName": "Active",
+    "DutchName": "Actief"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USERS.IN_ACTIVE",
+    "EnglishName": "InActive",
+    "DutchName": "Inactief"
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.CHECK",
+    "EnglishName": "Check",
+    "DutchName": "Rekening"
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.CLOSE",
+    "EnglishName": "Close",
+    "DutchName": "Dichtbij"
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.SAVE",
+    "EnglishName": "Save",
+    "DutchName": "Redden"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.PENDING_AMOUNT",
+    "EnglishName": "Pending Amount",
+    "DutchName": "Bedrag in afwachting"
+  },
+  {
+    "Key": "USER_MANAGEMENT.EDIT_USER.CHANGE_PASSWORD",
+    "EnglishName": "Change Password",
+    "DutchName": "Verander wachtwoord"
+  },
+  {
+    "Key": "COMPANIES.MASTER.SAVE",
+    "EnglishName": "Save",
+    "DutchName": "Opslaan"
+  },
+  {
+    "Key": "COMPANIES.MASTER.CLOSE",
+    "EnglishName": "Close",
+    "DutchName": "Sluiten"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.WHAT_WAS_YOUR_CONTRIBUTION",
+    "EnglishName": "What was your contribution to the household?",
+    "DutchName": "Wat was uw bijdrage aan het huishouden?"
+  },
+  {
+    "Key": "FINANCE.VENDOR_AMOUNT_DETAILS.TITLE",
+    "EnglishName": "Vendor Amount Details",
+    "DutchName": "Details van het leveranciersbedrag"
+  },
+  {
+    "Key": "FINANCE.VENDOR_AMOUNT_DETAILS.VIEW_PDF",
+    "EnglishName": "View PDF",
+    "DutchName": "Bekijk PDF"
+  },
+  {
+    "Key": "FINANCE.VENDOR_AMOUNT_DETAILS.CASE_NO",
+    "EnglishName": "Case No",
+    "DutchName": "Zaaknummer"
+  },
+  {
+    "Key": "FINANCE.VENDOR_AMOUNT_DETAILS.INVOICE_NO",
+    "EnglishName": "Invoice No",
+    "DutchName": "Factuurnummer"
+  },
+  {
+    "Key": "FINANCE.VENDOR_AMOUNT_DETAILS.VENDOR_NAME",
+    "EnglishName": "Vendor Name",
+    "DutchName": "Relatie"
+  },
+  {
+    "Key": "FINANCE.VENDOR_AMOUNT_DETAILS.INVOICE_DATE",
+    "EnglishName": "Invoice Date",
+    "DutchName": "Factuur datum"
+  },
+  {
+    "Key": "FINANCE.VENDOR_AMOUNT_DETAILS.WITHOUT_TAX",
+    "EnglishName": "Without tax",
+    "DutchName": "Exclusief BTW"
+  },
+  {
+    "Key": "FINANCE.VENDOR_AMOUNT_DETAILS.TAX_AMOUNT",
+    "EnglishName": "Tax Amount",
+    "DutchName": "Belastingbedrag"
+  },
+  {
+    "Key": "FINANCE.VENDOR_AMOUNT_DETAILS.AMOUNT",
+    "EnglishName": "Amount",
+    "DutchName": "Hoeveelheid"
+  },
+  {
+    "Key": "FINANCE.VENDOR_AMOUNT_DETAILS.TAX_RATE",
+    "EnglishName": "Tax Rate",
+    "DutchName": "Belastingtarief"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.INVOICE",
+    "EnglishName": "Invoice",
+    "DutchName": "Factuur"
+  },
+  {
+    "Key": "COMMON.TABLE.NO_RECORDS_FOUND",
+    "EnglishName": "No Data Available in table",
+    "DutchName": "Geen data beschikbaar in de tabel"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.ALL",
+    "EnglishName": "All",
+    "DutchName": "Alle"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.CASE_DETAILS.SELECT_ALL",
+    "EnglishName": "Select All",
+    "DutchName": "Selecteer alles"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.PENDING",
+    "EnglishName": "Pending",
+    "DutchName": "In behandeling"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.APPROVE",
+    "EnglishName": "Approve",
+    "DutchName": "Goedkeuren"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.REJECTED",
+    "EnglishName": "Rejected",
+    "DutchName": "Afgewezen"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.INVOICE",
+    "EnglishName": "Invoice",
+    "DutchName": "Factuur"
+  },
+  {
+    "Key": "FINANCE.CASE_PROFARMA.YES",
+    "EnglishName": "Yes",
+    "DutchName": "Ja"
+  },
+  {
+    "Key": "FINANCE.CASE_PROFARMA.NO",
+    "EnglishName": "No",
+    "DutchName": "Nee"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_MGM_LIST.YES",
+    "EnglishName": "Yes",
+    "DutchName": "Ja"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_UPSERT_DETAILS.YES",
+    "EnglishName": "Yes",
+    "DutchName": "Ja"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_UPSERT_DETAILS.NO",
+    "EnglishName": "No",
+    "DutchName": "Nee"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP.SELECT_STATUS",
+    "EnglishName": "Select Status",
+    "DutchName": "Selecteer Status"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_NOT_MATCH_HISTORY.VENDOR_STATUS",
+    "EnglishName": "Vendor Status",
+    "DutchName": "Status relatie"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_NOT_MATCH_HISTORY.TAX_PERCENTAGE",
+    "EnglishName": "Tax Percentage",
+    "DutchName": "Belasting Percentage"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_NOT_MATCH_HISTORY.PROCESS_DATE",
+    "EnglishName": "Process Date",
+    "DutchName": "Verwerkingsdatum"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_NOT_MATCH_HISTORY.SELECT",
+    "EnglishName": "Select",
+    "DutchName": "Selecteer"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_NOT_MATCH_HISTORY.FILTER",
+    "EnglishName": "Filter",
+    "DutchName": "Filter"
+  },
+  {
+    "Key": "FINANCE.UPLOAD_OCR.UPLOAD_OCR_EMAIL",
+    "EnglishName": "Email",
+    "DutchName": "E-mail"
+  },
+  {
+    "Key": "STATISTICS.REVENUE.PREVIOUS",
+    "EnglishName": "Previous",
+    "DutchName": "Vorig"
+  },
+  {
+    "Key": "STATISTICS.REVENUE.NEXT",
+    "EnglishName": "Next",
+    "DutchName": "Volgende"
+  },
+  {
+    "Key": "STATISTICS.REVENUE.VIEW_TABLE",
+    "EnglishName": "View Table",
+    "DutchName": "Bekijk tabel"
+  },
+  {
+    "Key": "STATISTICS.REVENUE.VIEW_REPORT",
+    "EnglishName": "View Report",
+    "DutchName": "Bekijk rapport"
+  },
+  {
+    "Key": "STATISTICS.EXPENSES.VIEW_TABLE",
+    "EnglishName": "View Table",
+    "DutchName": "Bekijk tabel"
+  },
+  {
+    "Key": "STATISTICS.EXPENSES.VIEW_REPORT",
+    "EnglishName": "View Report",
+    "DutchName": "Bekijk rapport"
+  },
+  {
+    "Key": "STATISTICS.EXPENSES.PREVIOUS",
+    "EnglishName": "Previous",
+    "DutchName": "Vorig"
+  },
+  {
+    "Key": "STATISTICS.EXPENSES.NEXT",
+    "EnglishName": "Next",
+    "DutchName": "Volgende"
+  },
+  {
+    "Key": "STATISTICS.EMPLOYEE_REVENUE.VIEW_TABLE",
+    "EnglishName": "View Table",
+    "DutchName": "Bekijk tabel"
+  },
+  {
+    "Key": "STATISTICS.EMPLOYEE_REVENUE.VIEW_REPORT",
+    "EnglishName": "View Report",
+    "DutchName": "Bekijk rapport"
+  },
+  {
+    "Key": "STATISTICS.EMPLOYEE_REVENUE.PREVIOUS",
+    "EnglishName": "Previous",
+    "DutchName": "Vorig"
+  },
+  {
+    "Key": "STATISTICS.EMPLOYEE_REVENUE.NEXT",
+    "EnglishName": "Next",
+    "DutchName": "Volgende"
+  },
+  {
+    "Key": "STATISTICS.EMPLOYEE_REVENUE.EXPORT_EXCEL",
+    "EnglishName": "Export Excel",
+    "DutchName": "Exporteer naar Excel"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USERS.DISABLE",
+    "EnglishName": "Disable",
+    "DutchName": "Uitzetten"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USERS.ENABLE",
+    "EnglishName": "Enable",
+    "DutchName": "Inschakelen"
+  },
+  {
+    "Key": "USER_MANAGEMENT.EDIT_USER.ACTIVE",
+    "EnglishName": "Active",
+    "DutchName": "Actief"
+  },
+  {
+    "Key": "USER_MANAGEMENT.EDIT_USER.IN_ACTIVE",
+    "EnglishName": "InActive",
+    "DutchName": "Inactief"
+  },
+  {
+    "Key": "USER_MANAGEMENT.EDIT_USER.NEW_PASSWORD",
+    "EnglishName": "New Password",
+    "DutchName": "Nieuw Paswoord"
+  },
+  {
+    "Key": "USER_MANAGEMENT.EDIT_USER.CONFIRM_PASSWORD",
+    "EnglishName": "Confirm Password",
+    "DutchName": "Bevestig Wachtwoord"
+  },
+  {
+    "Key": "USER_MANAGEMENT.EDIT_USER.SAVE_PASSWORD",
+    "EnglishName": "Save",
+    "DutchName": "Redden"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USER_PROFILE.TITLE",
+    "EnglishName": "User Profile",
+    "DutchName": "Gebruikersprofiel"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USER_PROFILE.ABOUT",
+    "EnglishName": "About",
+    "DutchName": "Over"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USER_PROFILE.CHANGE_PASSWORD",
+    "EnglishName": "Change Password",
+    "DutchName": "Verander wachtwoord"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USER_PROFILE.SETTING",
+    "EnglishName": "Setting",
+    "DutchName": "Instelling"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USER_PROFILE.MALE",
+    "EnglishName": "Male",
+    "DutchName": "Mannelijk"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USER_PROFILE.FEMALE",
+    "EnglishName": "Female",
+    "DutchName": "Vrouwelijk"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USER_PROFILE.SESSION_TIME",
+    "EnglishName": "Session Time",
+    "DutchName": "Sessie tijd"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USER_PROFILE.SESSION_SAVE",
+    "EnglishName": "SAVE",
+    "DutchName": "Opslaan"
+  },
+  {
+    "Key": "MEMBERS.VENDR_TYPE.APPROVED",
+    "EnglishName": "Approved",
+    "DutchName": "Goedgekeurd"
+  },
+  {
+    "Key": "MEMBERS.VENDR_TYPE.NOT_APPROVED",
+    "EnglishName": "Not Approved",
+    "DutchName": "Niet goedgekeurd"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USERS.MFA_STATUS",
+    "EnglishName": "MFA-Status",
+    "DutchName": "Toestand"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USERS.IS_ACTIVE",
+    "EnglishName": "Active/InActive",
+    "DutchName": "Actief inactief"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USER_COMPANY_ROLE_PERMISSION.CATEGORY",
+    "EnglishName": "Category",
+    "DutchName": "Categorie"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USER_COMPANY_ROLE_PERMISSION.ACTION",
+    "EnglishName": "Action",
+    "DutchName": "Actie"
+  },
+  {
+    "Key": "USER_MANAGEMENT.CASE_DETAILS.PENDING",
+    "EnglishName": "Pending",
+    "DutchName": "In behandeling"
+  },
+  {
+    "Key": "TRANSLATE_LANGUAGE.DETAILS.TITLE",
+    "EnglishName": "Language",
+    "DutchName": "Taal"
+  },
+  {
+    "Key": "TRANSLATE_LANGUAGE.DETAILS.SEARCH_PLACEHOLDER",
+    "EnglishName": "Search For",
+    "DutchName": "Zoeken naar ..."
+  },
+  {
+    "Key": "TRANSLATE_LANGUAGE.DETAILS.FILTER",
+    "EnglishName": "Filter",
+    "DutchName": "Filter"
+  },
+  {
+    "Key": "TRANSLATE_LANGUAGE.DETAILS.KEY",
+    "EnglishName": "Key",
+    "DutchName": "Sleutel"
+  },
+  {
+    "Key": "TRANSLATE_LANGUAGE.DETAILS.ENGLISH_NAME",
+    "EnglishName": "English Name",
+    "DutchName": "English Naam"
+  },
+  {
+    "Key": "TRANSLATE_LANGUAGE.DETAILS.DUTCH_NAME",
+    "EnglishName": "Dutch Name",
+    "DutchName": "Dutch Naam"
+  },
+  {
+    "Key": "TRANSLATE_LANGUAGE.DETAILS.ACTION",
+    "EnglishName": "Action",
+    "DutchName": "Actie"
+  },
+  {
+    "Key": "TRANSLATE_LANGUAGE.DETAILS.POPUP_TITLE",
+    "EnglishName": "Language",
+    "DutchName": "Taal"
+  },
+  {
+    "Key": "TRANSLATE_LANGUAGE.DETAILS.SAVE",
+    "EnglishName": "Save",
+    "DutchName": "Opslaan"
+  },
+  {
+    "Key": "TRANSLATE_LANGUAGE.DETAILS.CLOSE",
+    "EnglishName": "Close",
+    "DutchName": "Dichtbij"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_STATUS.POPUP_TITLE",
+    "EnglishName": "Update Case Status",
+    "DutchName": "Casestatus bijwerken"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_STATUS.POPUP_TITLE2",
+    "EnglishName": "Add Case Status",
+    "DutchName": "Casusstatus toevoegen"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_STATUS.CASE_NUMBER",
+    "EnglishName": "Case Number",
+    "DutchName": "Zaaknummer"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_STATUS.CUSTOMER",
+    "EnglishName": "Customer",
+    "DutchName": "Klant"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_STATUS.CASE_HANDLER",
+    "EnglishName": "Case Handler",
+    "DutchName": "Klant"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_STATUS.LIABLE_COMPANY",
+    "EnglishName": "Liable company",
+    "DutchName": "Aansprakelijk Bedrijf"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_STATUS.STATUS",
+    "EnglishName": "Status",
+    "DutchName": "Toestand"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_STATUS.ACCEPTED",
+    "EnglishName": "Accepted",
+    "DutchName": "Geaccepteerd"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_STATUS.ACCEPTED_PERCENTAGE",
+    "EnglishName": "Accepted%",
+    "DutchName": "Geaccepteerd%"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_STATUS.END_DATE",
+    "EnglishName": "End Date",
+    "DutchName": "Einddatum"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_STATUS.IS_ACTIVE",
+    "EnglishName": "Is active",
+    "DutchName": "Actief"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_STATUS.SAVE_BTN",
+    "EnglishName": "Save",
+    "DutchName": "Opslaan"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_STATUS.CLOSE_BTN",
+    "EnglishName": "Close",
+    "DutchName": "Dichtbij"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.UPSERT_STATUS.CLOSE_DATE",
+    "EnglishName": "Closed Date",
+    "DutchName": "Gesloten datum"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.BIC",
+    "EnglishName": "BIC",
+    "DutchName": "BIC"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP.CREATED_BY",
+    "EnglishName": "Created By",
+    "DutchName": "Gemaakt door"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP.UPDATED_BY",
+    "EnglishName": "Updated By",
+    "DutchName": "Bijgewerkt door"
+  },
+  {
+    "Key": "FINANCE.CASE_PROFARMA.UPLOAD_PROFORMA_FILE",
+    "EnglishName": "Upload Proforma File",
+    "DutchName": "Upload een proformabestand"
+  },
+  {
+    "Key": "FINANCE.CASE_PROFARMA.FILE_UPLOAD",
+    "EnglishName": "Upload File",
+    "DutchName": "Upload bestand"
+  },
+  {
+    "Key": "FINANCE.CASE_PROFARMA.CLOSE_BTN",
+    "EnglishName": "Close",
+    "DutchName": "Sluiten"
+  },
+  {
+    "Key": "FINANCE.CASE_PROFARMA.SAVE_BTN",
+    "EnglishName": "Save",
+    "DutchName": "Opslaan"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.SELECT",
+    "EnglishName": "Select",
+    "DutchName": "Selecteer"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.UPDATE",
+    "EnglishName": "Update",
+    "DutchName": "Update"
+  },
+  {
+    "Key": "FINANCE.PURCHASE_ORDER_HISTORY.USER_NAME",
+    "EnglishName": "User Name",
+    "DutchName": "Gebruikersnaam"
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.POPUP_TITLE",
+    "EnglishName": "Update Bank Transaction",
+    "DutchName": "Banktransactie bijwerken"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USER_ROLE.POPUP_TITLE",
+    "EnglishName": "Add new user company role",
+    "DutchName": "Voeg een nieuwe gebruikersbedrijfsrol toe"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USER_ROLE.SAVE",
+    "EnglishName": "Save",
+    "DutchName": "Opslaan"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USER_ROLE.CLOSE",
+    "EnglishName": "Close",
+    "DutchName": "Sluiten"
+  },
+  {
+    "Key": "TRANSLATE_LANGUAGE.DETAILS.SAVE_BTN",
+    "EnglishName": "Save",
+    "DutchName": "Opslaan"
+  },
+  {
+    "Key": "TRANSLATE_LANGUAGE.DETAILS.CLOSE_BTN",
+    "EnglishName": "Close",
+    "DutchName": "Sluiten"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.SELECT",
+    "EnglishName": "Select",
+    "DutchName": "Selecteer"
+  },
+  {
+    "Key": "HEADER.LOGIN.EMAIL",
+    "EnglishName": "Email",
+    "DutchName": "Email"
+  },
+  {
+    "Key": "HEADER.LOGIN.PASSWORD",
+    "EnglishName": "Password",
+    "DutchName": "Wachtwoord"
+  },
+  {
+    "Key": "HEADER.LOGIN.REMEMBER_ME",
+    "EnglishName": "Remember Me",
+    "DutchName": "Onthoud me"
+  },
+  {
+    "Key": "HEADER.LOGIN.LOGIN_BTN",
+    "EnglishName": "Log In",
+    "DutchName": "Log In"
+  },
+  {
+    "Key": "HEADER.LOGIN.FORGOT_PASSWORD",
+    "EnglishName": "Forgot your password",
+    "DutchName": "Je wachtwoord vergeten"
+  },
+  {
+    "Key": "HEADER.LOGIN.TITLE",
+    "EnglishName": "Welkom terug !",
+    "DutchName": "Welcome Back !"
+  },
+  {
+    "Key": "HEADER.LOGIN.SIGN_IN_TO_CONTINUE",
+    "EnglishName": "Sign in to continue",
+    "DutchName": "Meld u aan om door te gaan"
+  },
+  {
+    "Key": "HEADER.FORGOT_PASSWORD.TITLE",
+    "EnglishName": "Forgot Password",
+    "DutchName": "Wachtwoord vergeten"
+  },
+  {
+    "Key": "HEADER.FORGOT_PASSWORD.RECOVER_BY_EMAIL",
+    "EnglishName": "Recover by email address",
+    "DutchName": "Herstellen via e-mailadres"
+  },
+  {
+    "Key": "HEADER.FORGOT_PASSWORD.EMAIL",
+    "EnglishName": "Email",
+    "DutchName": "Email"
+  },
+  {
+    "Key": "HEADER.FORGOT_PASSWORD.RESET",
+    "EnglishName": "Reset",
+    "DutchName": "Opnieuw instellen"
+  },
+  {
+    "Key": "HEADER.FORGOT_PASSWORD.REMEMBER_ME",
+    "EnglishName": "Remember Me",
+    "DutchName": "Onthoud het? Onderteken het hier"
+  },
+  {
+    "Key": "HEADER.RESET_PASSWORD.TITLE",
+    "EnglishName": "Welcome Back !",
+    "DutchName": "Welkom terug !"
+  },
+  {
+    "Key": "HEADER.RESET_PASSWORD.RESET_PASSWORD",
+    "EnglishName": "Reset your password",
+    "DutchName": "Stel je wachtwoord opnieuw in"
+  },
+  {
+    "Key": "HEADER.RESET_PASSWORD.NEW_PASSWORD",
+    "EnglishName": "New Password",
+    "DutchName": "Nieuw Paswoord"
+  },
+  {
+    "Key": "HEADER.RESET_PASSWORD.CONFIRM_PASSWORD",
+    "EnglishName": "Confirm Password",
+    "DutchName": "bevestig wachtwoord"
+  },
+  {
+    "Key": "HEADER.RESET_PASSWORD.SUBMT",
+    "EnglishName": "Submit",
+    "DutchName": "Indienen"
+  },
+  {
+    "Key": "COMMON.ICONS.EDIT",
+    "EnglishName": "Edit",
+    "DutchName": "Bewerking"
+  },
+  {
+    "Key": "COMMON.ICONS.DELETE",
+    "EnglishName": "Delete",
+    "DutchName": "Verwijderen"
+  },
+  {
+    "Key": "COMMON.ICONS.DOWNLOAD",
+    "EnglishName": "Download",
+    "DutchName": "Downloaden"
+  },
+  {
+    "Key": "COMMON.ICONS.PROCESS_INDIVIDUAL_INVOICES",
+    "EnglishName": "Process Individual Invoices",
+    "DutchName": "Individuele facturen verwerken"
+  },
+  {
+    "Key": "COMMON.ICONS.PDF",
+    "EnglishName": "PDF",
+    "DutchName": "PDF"
+  },
+  {
+    "Key": "COMMON.ICONS.INTAKE_FORM",
+    "EnglishName": "Intake Form",
+    "DutchName": "Intakeformulier"
+  },
+  {
+    "Key": "COMMON.ICONS.PERMISSIONS",
+    "EnglishName": "Permissions",
+    "DutchName": "Rechten"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP_EDIT_UPDATE.SELECT_GENDER",
+    "EnglishName": "Select gender",
+    "DutchName": "Selecteer geslacht"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_MGM_LIST.ALL",
+    "EnglishName": "All",
+    "DutchName": " Alle"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_MGM_LIST.OPEN",
+    "EnglishName": "Open",
+    "DutchName": "Open"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_MGM_LIST.CLOSE",
+    "EnglishName": "Close",
+    "DutchName": "Sluiten"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_MGM_LIST.SUCCESS",
+    "EnglishName": "Success",
+    "DutchName": "Succes"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.TYPE_REQUIRED",
+    "EnglishName": "Type is required",
+    "DutchName": "Type is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.SUBTYPE_REQUIRED",
+    "EnglishName": "Subtype is Required",
+    "DutchName": "Subtype is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.FIRST_NAME_IS_REQUIRED",
+    "EnglishName": "First Name is required",
+    "DutchName": "Voornaam is verplicht"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.LAST_NAME_IS_REQUIRED",
+    "EnglishName": "Last Name is required",
+    "DutchName": "Achternaam is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.ADDRESS_IS_REQUIRED",
+    "EnglishName": "Address is required",
+    "DutchName": " adres is nodig"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.HOUSE_NUMBER_IS_INVALID",
+    "EnglishName": "House number is invalid",
+    "DutchName": "Huisnummer is ongeldig"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.ZIP_CODE_IS_INVALID",
+    "EnglishName": "Zip code is invalid",
+    "DutchName": " Postcode is ongeldig"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.CITY_IS_REQUIRED",
+    "EnglishName": "City Is Required",
+    "DutchName": "Plaats is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.EMAIL_IS_REQUIRED",
+    "EnglishName": "Email is required",
+    "DutchName": "E-mail is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.EMAIL_IS_NOT_VALID",
+    "EnglishName": "Email is not valid",
+    "DutchName": "E-mail is niet geldig"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.PHONE_NUMBER_TYPE_IS_REQUIRED",
+    "EnglishName": "Phone number type is required",
+    "DutchName": "Type telefoonnummer is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.PHONE_NUMBER_IS_REQUIRED",
+    "EnglishName": "Phone number is required",
+    "DutchName": " Telefoonnummer is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.IBAN_IS_INVALID",
+    "EnglishName": "IBAN is invalid",
+    "DutchName": "IBAN is ongeldig"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.NAME_IS_REQUIRED",
+    "EnglishName": "Name is required",
+    "DutchName": "Naam is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.CASE_NO_IS_REQUIRED",
+    "EnglishName": "Case no is required",
+    "DutchName": "Casusnr. is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.SELECT_CUSTOMER",
+    "EnglishName": "Select customer",
+    "DutchName": "Selecteer klant"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.SELECT_COLLEAGUE",
+    "EnglishName": "Select colleague",
+    "DutchName": "Selecteer collega"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.SELECT_INSURER",
+    "EnglishName": "Select insurer",
+    "DutchName": "Selecteer verzekeraar"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.FROM_DATE_IS_REQUIRED",
+    "EnglishName": "Date is required",
+    "DutchName": "Datum is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.ACCEPTED_PERCENTAGE_IS_REQUIRED",
+    "EnglishName": "Accepted percentage is required",
+    "DutchName": "Geaccepteerd percentage is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.MOBILE_NO_IS_REQUIRED",
+    "EnglishName": "Mobile no is  required",
+    "DutchName": " Mobiel nummer is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.SELECT_GENDER",
+    "EnglishName": "Select gender",
+    "DutchName": "Selecteer geslacht"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.SELECT_LANGUAGE",
+    "EnglishName": "Select language",
+    "DutchName": " Selecteer taal"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.DUTCH_NAME_IS_REQUIRED",
+    "EnglishName": "Dutch name is required",
+    "DutchName": "Nederlandse naam is verplicht"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.FILE_IS_REQUIRED",
+    "EnglishName": "File is required",
+    "DutchName": " Bestand is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.PLEASE_ENTER_RECIEPT_NO",
+    "EnglishName": "Please enter reciept no",
+    "DutchName": "Vul ontvangstnr. in"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.INVOICE_DATE_IS_REQUIRED",
+    "EnglishName": "Invoice date is required",
+    "DutchName": "Factuurdatum is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.ENGLISH_NAME_IS_REQUIRED",
+    "EnglishName": "Name is required",
+    "DutchName": "Naam is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.STATUS_IS_REQUIRED",
+    "EnglishName": "Status is required",
+    "DutchName": "Status is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.CLOSE_DATE_IS_REQUIRED",
+    "EnglishName": "Close date is required",
+    "DutchName": "Sluitingsdatum is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.TO_DATE_IS_REQUIRED",
+    "EnglishName": "To date is required",
+    "DutchName": "Tot op heden is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.ACCEPTED_PERCENTAGE_CANNOT_BE_ZERO",
+    "EnglishName": "Accepted percentage cannot be 0",
+    "DutchName": "Het geaccepteerde percentage kan niet 0 zijn"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.ACCEPTED_IS_REQUIRED",
+    "EnglishName": "Accepted is required",
+    "DutchName": "Geaccepteerd is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.INSURER_ID_IS_REQUIRED",
+    "EnglishName": "Insurer ID is required",
+    "DutchName": "Verzekeraar-ID is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.PASSWORD_IS_REQUIRED",
+    "EnglishName": "Password is required",
+    "DutchName": "Verzekeraar-ID is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.NEW_PASSWORD_IS_REQUIRED",
+    "EnglishName": "New password is required",
+    "DutchName": "Nieuw wachtwoord is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.PAID_IS_REQUIRED",
+    "EnglishName": "Paid is required",
+    "DutchName": "Betaald is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.INVOICED_IS_REQUIRED",
+    "EnglishName": "Invoiced is required",
+    "DutchName": "Gefactureerd is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.PAID_AMOUNT_IS_REQUIRED",
+    "EnglishName": "Paid Amount is required",
+    "DutchName": "Betaald bedrag is vereist "
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.ENTER_VALID_PERCENTAGE",
+    "EnglishName": "Enter Valid Percentage",
+    "DutchName": "Voer een geldig percentage in"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.DAMAGE_DATE_IS_REQUIRED",
+    "EnglishName": "Damage date is required",
+    "DutchName": "Schadedatum is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.PLEASE_SELECT_PAST_DATE",
+    "EnglishName": "Please select a past date",
+    "DutchName": "Selecteer een datum in het verleden"
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.UPLOAD_CASE_TRANSACTION_FILE",
+    "EnglishName": "Upload Case Transaction File",
+    "DutchName": "Casetransactiebestand uploaden"
+  },
+  {
+    "Key": "FINANCE.BANK_TRANSACTION.FILE_UPLOAD",
+    "EnglishName": "File Upload",
+    "DutchName": "Bestand upload"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.SESSION_TIME_IS_REQUIRED",
+    "EnglishName": "Session Time is required",
+    "DutchName": "Sessietijd is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.SESSION_TIME_CANNOT_BE_ZERO",
+    "EnglishName": "Session time cannot be 0",
+    "DutchName": "De sessietijd kan niet 0 zijn"
+  },
+  {
+    "Key": "USER_MANAGEMENT.EDIT_USER.VIEW",
+    "EnglishName": "View",
+    "DutchName": "Weergave"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.CONFIRM_PASSWORD_DID_NOT_MATCH",
+    "EnglishName": "Confirm Password didn't match",
+    "DutchName": "Bevestig het wachtwoord komt niet overeen"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.CONFIRM_PASSWORD",
+    "EnglishName": "Confirm password is required",
+    "DutchName": "Bevestig dat het wachtwoord vereist is"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.ROLE_IS_REQUIRED",
+    "EnglishName": "Role is required",
+    "DutchName": "Rol is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.COMPANY_IS_REQUIRED",
+    "EnglishName": "Company is required",
+    "DutchName": "Bedrijf is vereist"
+  },
+  {
+    "Key": "USER_MANAGEMENT.USER_ROLE.SELECT",
+    "EnglishName": "Select",
+    "DutchName": "Selecteer"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.TYPE_IS_REQUIRED",
+    "EnglishName": "Type is required",
+    "DutchName": "Type is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.KIND_IS_REQUIRED",
+    "EnglishName": "Kind is required",
+    "DutchName": "Soort is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.INCIDENT_TYPE_REQUIRED",
+    "EnglishName": "Incident type is required",
+    "DutchName": "Incidenttype is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.ACCIDENT_DATE_IS_REQUIRED",
+    "EnglishName": "Accident date is required",
+    "DutchName": "Ongevalsdatum is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.SELECT_CASE_NO",
+    "EnglishName": "Select Case No",
+    "DutchName": "Selecteer zaaknr"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.COUNTER_ACCOUNT_IS_REQUIRED",
+    "EnglishName": "Counter Account is required",
+    "DutchName": "Tegenrekening is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.PLEASE_SELECT_TYPE_OF_LIVING_TOGETHER",
+    "EnglishName": "Please select type of living together",
+    "DutchName": "Selecteer de vorm van samenwonen"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.TOTAL_CONTRIBUTION_EXCEEDS",
+    "EnglishName": "Total contribution exceeds 100%",
+    "DutchName": "Totale bijdrage groter dan 100%"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.ENTER_VALID_INJURY_RATING",
+    "EnglishName": "Enter a valid Injury Rating (between 1 and 10)",
+    "DutchName": "Voer een geldige blessurebeoordeling in (tussen 1 en 10)"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.INJURY_RATING_CANNOT_BE_ZERO",
+    "EnglishName": "Injury Rating cannot be 0",
+    "DutchName": "Blessurebeoordeling kan niet 0 zijn"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.CLIENT_CONTRIBUTION_CANNOT_BE_ZERO",
+    "EnglishName": "Client Contribution cannot be 0",
+    "DutchName": "Klantbijdrage kan niet 0 zijn"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.ENTER_VALID_CLIENT_CONTRIBUTION",
+    "EnglishName": "Enter a valid Client Contribution(between 1 and 100)",
+    "DutchName": "Voer een geldige klantbijdrage in (tussen 1 en 100)"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.CLIENT_CONTRIBUTION_IS_REQUIRED",
+    "EnglishName": "Client Contribution is required",
+    "DutchName": "Klantbijdrage is vereist"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.INVALID_DATE_INPUT_PLEASE_ENTER_VALID_DATE",
+    "EnglishName": "Invalid date input. Please enter a valid date in MM/DD/YYYY format",
+    "DutchName": "Ongeldige datuminvoer. Voer een geldige datum in in de notatie MM/DD/YYYY"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.PLEASE_FILL_ALL_DETAILS",
+    "EnglishName": "Please fill all details",
+    "DutchName": "Vul alle gegevens in"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.PLEASE_ADD_ATLEAST_ONE_RECORD_IN_BANK_DETAILS",
+    "EnglishName": "Please add atleast one record in bank detail",
+    "DutchName": "Voeg minstens een record toe in bankgegevens"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.PLEASE_ADD_ATLEAST_ONE_RECORD_IN_ADDRESS_DETAILS",
+    "EnglishName": "Please add atleast one record in address detail",
+    "DutchName": "Voeg minstens een record toe in adresgegevens"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.NO_INVOICE_AVAILABE_FOR_SPECIFIED_DATE_RANGE",
+    "EnglishName": "No Invoice Available For Specified Date Range",
+    "DutchName": "Geen factuur beschikbaar voor opgegeven datumbereik"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.INVOICES",
+    "EnglishName": "Invoices",
+    "DutchName": "Facturen"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.INVOICES_DOWNLODED_SCCESSFULLY",
+    "EnglishName": "Invoices Downloaded Successfully.",
+    "DutchName": "Facturen succesvol gedownload"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.PLEASE_SELECT_THE_DATE_RANGE",
+    "EnglishName": "Please select the Date Range",
+    "DutchName": "Selecteer alstublieft het datumbereik."
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.PLEASE_SELECT_THE_SPECIFIC_DATE_RANGE_AND_TYPE",
+    "EnglishName": "Please select the specific date range and type.",
+    "DutchName": "Selecteer het specifieke datumbereik en type."
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.EXPORT_XLSX",
+    "EnglishName": "Export XLSX",
+    "DutchName": "Exporteer XLSX"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.ADDED_CONTACT_SUCCESSFULLY",
+    "EnglishName": "Added contact successfully",
+    "DutchName": "Contact succesvol toegevoegd"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.CONTACT",
+    "EnglishName": "Contact",
+    "DutchName": "Contact"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.UPDATED_CONTACT_SUCCESSFULLY",
+    "EnglishName": "Updated contact successfully",
+    "DutchName": "Contact succesvol bijgewerkt"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.RELATIONSHIP",
+    "EnglishName": "Relationship",
+    "DutchName": "Relatie"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.PLEASE_SELECT_ATLEAST_ONE_ADDRESS_TO_CONTINUE",
+    "EnglishName": "Please select atleast one address to continue",
+    "DutchName": "Selecteer ten minste een adres om door te gaan"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.EMPLOYEE",
+    "EnglishName": "Employee",
+    "DutchName": "Werknemer"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.PLEASE_SELECT_THE_SPECIFIC_DATE_RANGE",
+    "EnglishName": "Please select specific date range",
+    "DutchName": "Selecteer de specifieke datumbereik en type"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.XML_FILE_DOWNLOAD_SUCCESSFULLY",
+    "EnglishName": "XML file downloaded successfully",
+    "DutchName": "XML-bestand succesvol gedownload"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.EXPORT_XML",
+    "EnglishName": "Export XML",
+    "DutchName": "Exporteer XML"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.PLEASE_CHECK_THE_CHECKBOX",
+    "EnglishName": "Please check the checkbox",
+    "DutchName": "Vink het selectievakje aan, alstublieft!"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.RELATIONSHIP_STATUS_UPDATED_SUCCESSFULLY",
+    "EnglishName": "Relationship status updated successfully",
+    "DutchName": "Relatiestatus succesvol bijgewerkt"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.SUBTYPE",
+    "EnglishName": "Subtype",
+    "DutchName": "Subtype"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.USER",
+    "EnglishName": "User",
+    "DutchName": "Gebruiker"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.MFA",
+    "EnglishName": "MFA",
+    "DutchName": "MFA"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.TEXT_COPIED_SUCCESSFULLY",
+    "EnglishName": "Text copied successfully !",
+    "DutchName": "Tekst succesvol gekopieerd !"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.DEFAULT_LANGUAGE_UPDATED_SUCCESSFULLY",
+    "EnglishName": "Default language updated successfully!",
+    "DutchName": "Standaardtaal succesvol bijgewerkt!"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.LANGUAGE",
+    "EnglishName": "Language",
+    "DutchName": "Taal"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.COMPANY_SWITCHTED_SUCCESSFULLY",
+    "EnglishName": "Company switchted successfully!",
+    "DutchName": "Bedrijf succesvol geswitcht!"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.COMPANY_SWITCH",
+    "EnglishName": "Company switch",
+    "DutchName": "Bedrijf overstap"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.PASSWORD_HAS_BEEN_SUCCESSFULLY_UPDATED",
+    "EnglishName": "Password has been succesfully updated.",
+    "DutchName": "Wachtwoord is succesvol bijgewerkt."
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.PASSWORD_HAS_BEEN_SUCCESSFULLY_UPDATED_PLEASE_CHECK_MAIL",
+    "EnglishName": "Password has been succesfully updated, Please check you mail",
+    "DutchName": "Wachtwoord is succesvol bijgewerkt, controleer uw e-mail"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.UNABLE_TO_PROCESS_AS_COMPANY_IS_NOT_ASSIGNED",
+    "EnglishName": "Unable to process as company is not assigned to the user. Please contact your Admin",
+    "DutchName": "Kan niet verwerken omdat het bedrijf niet aan de gebruiker is toegewezen. Neem contact op met uw beheerder."
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.PLEASE_ENTER_INJURY_DETAILS_BEFORE_ADDING",
+    "EnglishName": "Please enter Injury Details before adding.",
+    "DutchName": "Voer blessuregegevens in voordat u toevoegt."
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.VENDOR_DETAILS_FOUND",
+    "EnglishName": "Vendor details found",
+    "DutchName": "Leveranciersgegevens gevonden"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.DETAILS_FROM_INVOICE_ARE_ADDED_NOW",
+    "EnglishName": "Details from invoice are added now",
+    "DutchName": "Details van de factuur zijn nu toegevoegd"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.RN_CODE_IS_REQUIRED",
+    "EnglishName": "RN code is required",
+    "DutchName": "RN-code is vereist"
+  },
+  {
+    "Key": "ALERT.SWAL.WARNING.YOUR_CLIENT_INJURY_FOM_HAS_BEEN_SAVED",
+    "EnglishName": "Your Client Injury Form  has been saved",
+    "DutchName": "Uw letselschadeformulier is opgeslagen"
+  },
+  {
+    "Key": "TRANSLATE_LANGUAGE.DETAILS.ADD_LANGUAGE",
+    "EnglishName": "Add Language",
+    "DutchName": "Taal toevoegen"
+  },
+  {
+    "Key": "TRANSLATE_LANGUAGE.DETAILS.EDIT",
+    "EnglishName": "Edit",
+    "DutchName": "Bewerking"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.YOUR_CLIENT_INJURY_FORM_HAS_BEEN_SAVED",
+    "EnglishName": "Your Client Injury Form  has been saved",
+    "DutchName": "Uw letselschadeformulier is opgeslagen"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.YOUR_DATA_HAS_BEEN_DELETED",
+    "EnglishName": "Your data has been deleted",
+    "DutchName": "Uw gegevens zijn verwijderd"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.ERROR_WHILE_DELETING_DATA",
+    "EnglishName": "Error occured while deleting the data",
+    "DutchName": "Er is een fout opgetreden bij het verwijderen van de gegevens"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.CANCELLED",
+    "EnglishName": "Cancelled",
+    "DutchName": "Geannuleerd"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.DELETED",
+    "EnglishName": "Deleted",
+    "DutchName": "Verwijderd"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.UPDATED_INJURY_FORM",
+    "EnglishName": "Updated Injury Form Successfully",
+    "DutchName": "Blessureformulier succesvol bijgewerkt"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.LEAD_MGM",
+    "EnglishName": "Lead Mgm",
+    "DutchName": "Lead Mgm"
+  },
+  {
+    "Key": "COMMON.VALIDATIONS.PLEASE_FILL_ALL_ENTREPRENUER_DETAILS",
+    "EnglishName": "Please fill in all Entrepreneur Details required fields before adding",
+    "DutchName": "Vul alle verplichte velden met Ondernemersgegevens in voordat u deze toevoegt"
+  },
+  {
+    "Key": " LEAD_MANAGEMENT.LEAD_MGM_LIST.SUBMIT_DATE",
+    "EnglishName": "Submit Date",
+    "DutchName": "Datum indiening"
+  },
+  {
+    "Key": " LEAD_MANAGEMENT.LEAD_MGM_LIST.SUBMIT_TIME",
+    "EnglishName": "Submit Time",
+    "DutchName": "Tijd indienen"
+  },
+  {
+    "Key": "TRANSLATE_LANGUAGE.DETAILS.ADD_NEW",
+    "EnglishName": "Add new",
+    "DutchName": "Nieuw toevoegen"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.CLIENT_INJURY_DETAILS",
+    "EnglishName": "Client Injury Details",
+    "DutchName": "Cliëntletsel Details"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.LEAD_MGM",
+    "EnglishName": "Lead Mgm",
+    "DutchName": "Leadbeheer"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.CASE_STATUS_UPDATED_SUCCESSFULLY",
+    "EnglishName": "Case Status Updated Successfully",
+    "DutchName": "Status van zaak succesvol bijgewerkt"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.CASE_STATUS_UPDATE",
+    "EnglishName": "Case Status Update",
+    "DutchName": "Zaakstatus Bijwerken"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.CASE_ADDED_SUCCESSFULLY",
+    "EnglishName": "Case Added Successfully",
+    "DutchName": "Zaak succesvol toegevoegd"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.CASE_ADD",
+    "EnglishName": "Case Add",
+    "DutchName": "Zaak Toevoegen"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.CASE_UPDATE",
+    "EnglishName": "Case Update",
+    "DutchName": "Zaak Bijwerken"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.CASE_UPDATED_CHILD_TABLE_SUCCESSFULLY",
+    "EnglishName": "Case Updated Child Table Successfully",
+    "DutchName": "Zaak Succesvol Bijgewerkt in Kindertabel"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.SOMETHING_WENT_WRONG",
+    "EnglishName": "Something went wrong!",
+    "DutchName": "Er is iets misgegaan!"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.BANK_TRANSACTION_UPDATED_SUCCESSFULLY",
+    "EnglishName": "Bank Transaction Updated Successfully",
+    "DutchName": "Banktransactie succesvol bijgewerkt"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.BANK_TRANSACTION",
+    "EnglishName": "Bank Transaction",
+    "DutchName": "Banktransactie"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.PROFARMA",
+    "EnglishName": "Profarma",
+    "DutchName": "Profarma"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.INVALID_FILE",
+    "EnglishName": "Invalid File",
+    "DutchName": "Ongeldig Bestand"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.PLEASE_SELECT_XLS_XLSX_FILE",
+    "EnglishName": "Please select a .xls or .xlsx file.",
+    "DutchName": "Selecteer alstublieft een .xls- of .xlsx-bestand."
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.NO_FILE_SELECTED",
+    "EnglishName": "No File Selected",
+    "DutchName": "Geen bestand geselecteerd"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.PLEASE_SELECT_FILE",
+    "EnglishName": "Please select a file.",
+    "DutchName": "Selecteer alstublieft een bestand."
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.PROCESS_QUEUE_RECORD_SUCCESSFULLY",
+    "EnglishName": "Process Queue Record Successful",
+    "DutchName": "Record succesvol verwerken in wachtrij"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.PROCESS_QUEUE",
+    "EnglishName": "Process Queue",
+    "DutchName": "Wachtrij Verwerken"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.PLEASE_CHECK_CHECKBOX",
+    "EnglishName": "Please check the checkbox!",
+    "DutchName": "Controleer alstublieft het selectievakje!"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.USER_ROLE",
+    "EnglishName": "User role",
+    "DutchName": "Gebruikersrol"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.USER_ROLE_DETAILS_ADDED_SUCCESSFULLY",
+    "EnglishName": "User role details added successfully",
+    "DutchName": "Gegevens gebruikersrol succesvol toegevoegd"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.USER_ROLE_DETAILS_UPDATED_SUCCESSFULLY",
+    "EnglishName": "User role details updated successfully !",
+    "DutchName": "Gegevens gebruikersrol succesvol bijgewerkt!"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.ERROR_OCCURED_WHILE_GETTING_USER_ROLE_PERMISSION",
+    "EnglishName": "Error occured while getting user role permissions.",
+    "DutchName": "Fout opgetreden bij het ophalen van gebruikersrolmachtigingen."
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.CANNOT_DELETE_THIS_ROLE",
+    "EnglishName": "Can not delete this role since it is mapped with users !",
+    "DutchName": "Deze rol kan niet worden verwijderd omdat deze is gekoppeld aan gebruikers!"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.COMPANY_ROLE_DETAILS_ADDED_SUCCESSFULLY",
+    "EnglishName": "Company user role details added successfully !",
+    "DutchName": "Details gebruikersrol voor bedrijf succesvol toegevoegd!"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.PLEASE_REMOVE_DOT",
+    "EnglishName": "Please remove the last entered dot",
+    "DutchName": "Verwijder alstublieft de laatst ingevoerde punt"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.PLEASE_ENTER_THE_KEYWORDS",
+    "EnglishName": "Please Enter the Keywords",
+    "DutchName": "Voer alstublieft de trefwoorden in"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.LANGUAGE_TRANSLATE_UPDATED_SUCCESSFULLY",
+    "EnglishName": "Language Translate Updated Successfully",
+    "DutchName": "Taalvertaling succesvol bijgewerkt"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.LANGUAGE_TRANSLATE_ADDED_SUCCESSFULLY",
+    "EnglishName": "Language Translate Added Successfully",
+    "DutchName": "Taalvertaling succesvol toegevoegd"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.COMPANY_DETAILS_ADDED_SUCCESSFULLY",
+    "EnglishName": "Company details added successfully",
+    "DutchName": "Bedrijfs"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.COMPANY",
+    "EnglishName": "Company",
+    "DutchName": "Bedrijf"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.COMPANY_DETAILS_UPDATED_SUCCESSFULLY",
+    "EnglishName": "Company details updated successfully",
+    "DutchName": "Bedrijfsgegevens succesvol bijgewerkt"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.SUBTYPE_DETAILS_ADDED_SUCCESSFULLY",
+    "EnglishName": "Subtype details added successfully",
+    "DutchName": "Details subtype succesvol toegevoegd"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.SUBTYPE_DETAILS_UPDATED_SUCCESSFULLY",
+    "EnglishName": "Subtype details updated successfully",
+    "DutchName": "Details subtype succesvol bijgewerkt"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.PHONE_DELETED_SUCCESSFULLY",
+    "EnglishName": "Phone deleted successfully.",
+    "DutchName": "Telefoon succesvol verwijderd."
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.PHONE_NUMBER_ALREADY_EXISTS",
+    "EnglishName": "Phone number is already exist",
+    "DutchName": "Telefoonnummer bestaat al"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.EMAIL_DELETED_SUCCESFULLY",
+    "EnglishName": "Email deleted successfully",
+    "DutchName": "E-mail succesvol verwijderd"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.EMAIL_ALREADY_EXISTS",
+    "EnglishName": "Email is already exist",
+    "DutchName": "E-mailadres bestaat al"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.INVALID_IBAN_NO",
+    "EnglishName": "Invalid Iban No",
+    "DutchName": "Ongeldig IBAN-nummer"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.BIC",
+    "EnglishName": "BIC",
+    "DutchName": "BIC"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.IBAN_ALREADY_EXISTS",
+    "EnglishName": "IBAN already exists",
+    "DutchName": "IBAN bestaat al"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.INVALID_IBAN_FORMAT",
+    "EnglishName": "Invalid IBAN format. Please enter in this format: NL09ABCD12345 with uppercase letters.",
+    "DutchName": "Ongeldig IBAN-formaat. Voer alstublieft in dit formaat: NL09ABCD12345 met hoofdletters."
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.IBAN_IS_REQUIRED",
+    "EnglishName": "IBAN is required",
+    "DutchName": "IBAN is verplicht"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.BANK_DELETED_SUCCESSFULLY",
+    "EnglishName": "Please Submit.",
+    "DutchName": "Dien aub in."
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.ADDRESS_DELETED_SUCCESSFULLY",
+    "EnglishName": "Address deleted successfully.",
+    "DutchName": "Adres succesvol verwijderd."
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.ADDRESS_ALREADY_EXISTS",
+    "EnglishName": "Address is already exist",
+    "DutchName": "Adres bestaat al"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.UPDATED_LEAD_SUCCESFULLY",
+    "EnglishName": "Updated Lead Successful",
+    "DutchName": "Lead succesvol bijgewerkt"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.ADDED_LEAD_SUCCESSFULLY",
+    "EnglishName": "Added Lead Successfully",
+    "DutchName": "Lead succesvol toegevoegd"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.FILE_DELETED_SUCCESFULLY",
+    "EnglishName": "File Deleted Succesfully",
+    "DutchName": "Bestand succesvol verwijderd"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.OCR",
+    "EnglishName": "OCR",
+    "DutchName": "OCR"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.PURCHASE_ORDER_HISTORY",
+    "EnglishName": "PURCHASE_ORDER_HISTORY",
+    "DutchName": "Aankoopordergeschiedenis"
+  },
+  {
+    "Key": "ALERT.SWAL.ERROR.BIC_UPDATED_SUCCESSFULLY",
+    "EnglishName": "BIC No Updated Successfully",
+    "DutchName": "BIC-nummer succesvol bijgewerkt"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.INVOICE_AMOUNT_TRANSACTION.TITLE",
+    "EnglishName": "Invoice Amount Transaction",
+    "DutchName": "Factuur Bedrag Transactie"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.INVOICE_AMOUNT_TRANSACTION.SEARCH_PLACEHOLDER",
+    "EnglishName": "Search",
+    "DutchName": "Zoeken"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.INVOICE_AMOUNT_TRANSACTION.CASE_NO",
+    "EnglishName": "Case No",
+    "DutchName": "Dossiernummer"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.INVOICE_AMOUNT_TRANSACTION.PROFORMA",
+    "EnglishName": "Proforma No",
+    "DutchName": "Proforma"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.INVOICE_AMOUNT_TRANSACTION.AMOUNT",
+    "EnglishName": "Amount",
+    "DutchName": "Bedrag"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.INVOICE_AMOUNT_TRANSACTION.TAX_AMOUNT",
+    "EnglishName": "Tax Amount",
+    "DutchName": " zonder Belasting"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.INVOICE_AMOUNT_TRANSACTION.TOTAL_AMOUNT",
+    "EnglishName": "Total Amount",
+    "DutchName": "Totaalbedrag"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.INVOICE_AMOUNT_TRANSACTION.OUTSTANDING",
+    "EnglishName": "Outstanding",
+    "DutchName": "Uitstekend"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.INVOICE_AMOUNT_TRANSACTION.INTERESTED_PARTY",
+    "EnglishName": "Interested Party",
+    "DutchName": "Beschrijving"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.INVOICE_AMOUNT_TRANSACTION.PRACTITIONER",
+    "EnglishName": "Practitioner",
+    "DutchName": "Beoefenaar"
+  },
+  {
+    "Key": "CASE_MANAGEMENT.INVOICE_AMOUNT_TRANSACTION.DEBTOR",
+    "EnglishName": "Debtor",
+    "DutchName": "Schuldenaar"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_UPSERT_DETAILS.SAVE_AND_INTAKE",
+    "EnglishName": "Save & Intake",
+    "DutchName": "Opslaan & Intake"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.WHO_OTHER_MATERIAL_DAMAGE",
+    "EnglishName": "Who claims the other material damage",
+    "DutchName": "Wie claimt de voertuigschade"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.WHO_CLAIM_VEHICLE_DAMAGE",
+    "EnglishName": "Who claims the vehicle damage",
+    "DutchName": "Die andere materiële schade claimt"
+  },
+  {
+    "Key": "COMMON.ICONS.VIEW",
+    "EnglishName": "View",
+    "DutchName": "Weergave"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.TAKE_NOTES",
+    "EnglishName": "Notes",
+    "DutchName": "Opmerkingen"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.SHOW_PDF",
+    "EnglishName": "Show PDF",
+    "DutchName": "PDF weergeven"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.LEAD_MGM_LIST.NOTES",
+    "EnglishName": "Notes",
+    "DutchName": "Opmerkingen"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.TYPE_YOUR_MESSAGE",
+    "EnglishName": "Type your message",
+    "DutchName": "Schrijf je bericht"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.BOY_CHILD_AGE",
+    "EnglishName": "Boy child age",
+    "DutchName": "Jongen kind leeftijd"
+  },
+  {
+    "Key": "LEAD_MANAGEMENT.INJURY_FORM.GIRL_CHILD_AGE",
+    "EnglishName": "Girl child age",
+    "DutchName": "De kinderleeftijd van het meisje"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP.EDIT_DEPARTMENT",
+    "EnglishName": "Edit department",
+    "DutchName": "Afdeling bewerken"
+  },
+  {
+    "Key": "MEMBERS.RELATIONSHIP.DEPARTMENT_DETAILS",
+    "EnglishName": "Department details",
+    "DutchName": "Afdelingsgegevens"
+  },
+  {
+    "Key": "THIRDPARTYFINANCES.BANK.PARK_TO_PO",
+    "EnglishName": "Park to PO",
+    "DutchName": "Parkeer bij PO"
+  }
+  ,
+  {
+    "Key": "THIRDPARTYFINANCES.BANK.PARK_TO_CUSTOMER",
+    "EnglishName": "Park to Custmer",
+    "DutchName": "Parkeer bij Customer"
+  }
+  ,
+  {
+    "Key": "THIRDPARTYFINANCES.BANK.AMOUNT",
+    "EnglishName": "Amount",
+    "DutchName": "Hoeveelheid"
+  }
+  
+  ,
+  {
+    "Key": "THIRDPARTYFINANCES.BANK.SPLIT_AMOUNT",
+    "EnglishName": "Split Amount",
+    "DutchName": "Gesplitst Bedrag"
+  }
+  ,
+  {
+    "Key": "THIRDPARTYFINANCES.BANK.SPLIT_PERCENTAGE",
+    "EnglishName": "Split Percentage",
+    "DutchName": "Gesplitst Percentage"
+    
+  },
+  {
+    "Key": "THIRDPARTYFINANCES.BANK.CUSTOMER_AMOUNT",
+    "EnglishName": "Customer Amount",
+    "DutchName": "Klant Bedrag"
+  }
+  ,
+  {
+    "Key": "THIRDPARTYFINANCES.BANK.CUSTOMER_AMOUNT_Error_Message",
+    "EnglishName": "Customer Amount is required and should be a positive number.",
+    "DutchName": "Klantbedrag is vereist en moet een positief getal zijn."
+  }
+  ,
+  {
+    "Key": "THIRDPARTYFINANCES.BANK.PO_AMOUNT_Error_Message",
+    "EnglishName": "PO Amount is required and should be a positive number.",
+    "DutchName": "PO-bedrag is vereist en moet een positief getal zijn."
+  }
+  ,
+  {
+    "Key": "THIRDPARTYFINANCES.BANK.Purchase_Order",
+    "EnglishName": "PO Amount",
+    "DutchName": "PO-bedrag"
+  }
+  , 
+  {
+    "Key": "THIRDPARTYFINANCES.BANK.CUSTOMER_AMOUNT",
+    "EnglishName": "Customer Amount",
+    "DutchName": "Klant Bedrag"
+  }
+  ,
+  {
+    "Key": "THIRDPARTYFINANCES.BANK.CUSTOMER_AMOUNT_Error_Message",
+    "EnglishName": "Customer Amount is required and should be a positive number.",
+    "DutchName": "Klantbedrag is vereist en moet een positief getal zijn."
+  }
+  ,
+  {
+    "Key": "THIRDPARTYFINANCES.BANK.PO_AMOUNT_Error_Message",
+    "EnglishName": "PO Amount is required and should be a positive number.",
+    "DutchName": "PO-bedrag is vereist en moet een positief getal zijn."
+  }
+ 
+ 
+  
+  
+]
