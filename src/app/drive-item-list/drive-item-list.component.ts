@@ -12,7 +12,7 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [HttpClientModule, CommonModule,RouterModule],
   templateUrl: './drive-item-list.component.html',
-  styleUrl: './drive-item-list.component.css',
+  styleUrls: ['./drive-item-list.component.css'],
   providers:[ProviderList]
 })
 export class DriveItemListComponent {

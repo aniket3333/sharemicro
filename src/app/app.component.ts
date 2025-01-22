@@ -11,7 +11,7 @@ import { NgxUiLoaderModule } from 'ngx-ui-loader';
   standalone: true,
   imports: [RouterOutlet, FinanceExample,AllSitesListComponent,CommonModule,NgxUiLoaderModule],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
   title = 'ag-grid-finance-example-angular';

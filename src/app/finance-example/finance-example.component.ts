@@ -13,7 +13,7 @@ import { AgGridAngular } from '@ag-grid-community/angular';
 import { ClientSideRowModelModule } from '@ag-grid-community/client-side-row-model';
 import { ModuleRegistry } from '@ag-grid-community/core';
 import { AdvancedFilterModule } from '@ag-grid-enterprise/advanced-filter';
-import { GridChartsModule } from '@ag-grid-enterprise/charts-enterprise';
+ import { GridChartsModule } from '@ag-grid-enterprise/chngarts-enterprise';
 import { ColumnsToolPanelModule } from '@ag-grid-enterprise/column-tool-panel';
 import { ExcelExportModule } from '@ag-grid-enterprise/excel-export';
 import { FiltersToolPanelModule } from '@ag-grid-enterprise/filter-tool-panel';
@@ -36,7 +36,7 @@ import { SitesModal } from '../common/siteModal';
 import { ProviderList } from '../app-provider-registrar';
 import { NgxUiLoaderConfig, NgxUiLoaderModule, NgxUiLoaderService, PB_DIRECTION, POSITION, SPINNER } from "ngx-ui-loader";
 import { sparklineTooltipRenderer } from './cell-renderers/sparklineTooltipRrnderer';
-import { AgChartsEnterpriseModule } from 'ag-charts-enterprise';
+// import { AgChartsEnterpriseModule } from 'ag-charts-enterprise';
 ModuleRegistry.registerModules([
   ClientSideRowModelModule,
   AdvancedFilterModule,
@@ -74,7 +74,7 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
   standalone: true,
   imports: [AgGridAngular, TickerCellRenderer,HttpClientModule, NgxUiLoaderModule],
   templateUrl: './finance-example.component.html',
-  styleUrl: './finance-example.component.css',
+  styleUrls: ['./finance-example.component.css'],
   encapsulation: ViewEncapsulation.None,
     providers:[ProviderList]
 })

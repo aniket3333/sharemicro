@@ -12,7 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
   standalone: true,
   imports: [HttpClientModule, CommonModule,RouterModule],
   templateUrl: './drives-sites-list.component.html',
-  styleUrl: './drives-sites-list.component.css',
+  styleUrls: ['./drives-sites-list.component.css'],
     providers:[ProviderList]
 })
 export class DrivesSitesListComponent {

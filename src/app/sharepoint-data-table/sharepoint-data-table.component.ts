@@ -55,7 +55,7 @@ const numberFormatter: ValueFormatterFunc = (params) => {
   standalone: true,
   imports: [HttpClientModule, CommonModule,RouterModule,AgGridAngular,NgxUiLoaderModule, TickerCellRenderer,FinanceExample,],
   templateUrl: './sharepoint-data-table.component.html',
-  styleUrl: './sharepoint-data-table.component.css',
+  styleUrls: ['./sharepoint-data-table.component.css'],
    providers:[ProviderList]
 })
 export class SharepointDataTableComponent {
