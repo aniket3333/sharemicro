@@ -1,0 +1,25 @@
+/* Style for the site-card */
+.site-card {
+  border: 1px solid #ddd; /* Optional, for styling */
+  padding: 15px;
+  margin-bottom: 20px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+/* Site name styling */
+.site-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+/* Folder icon styling */
+.site-name i {
+  font-size: 30px; /* Adjust the icon size */
+  color: #007bff;  /* Customize the icon color */
+}
