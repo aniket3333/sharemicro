@@ -13,7 +13,7 @@ import { AgGridAngular } from '@ag-grid-community/angular';
 import { ClientSideRowModelModule } from '@ag-grid-community/client-side-row-model';
 import { ModuleRegistry } from '@ag-grid-community/core';
 import { AdvancedFilterModule } from '@ag-grid-enterprise/advanced-filter';
- import { GridChartsModule } from '@ag-grid-enterprise/chngarts-enterprise';
+//  import { GridChartsModule } from '@ag-grid-enterprise/chngarts-enterprise';
 import { ColumnsToolPanelModule } from '@ag-grid-enterprise/column-tool-panel';
 import { ExcelExportModule } from '@ag-grid-enterprise/excel-export';
 import { FiltersToolPanelModule } from '@ag-grid-enterprise/filter-tool-panel';
@@ -24,8 +24,8 @@ import { RowGroupingModule } from '@ag-grid-enterprise/row-grouping';
 import { SetFilterModule } from '@ag-grid-enterprise/set-filter';
 import { SparklinesModule } from '@ag-grid-enterprise/sparklines';
 import { StatusBarModule } from '@ag-grid-enterprise/status-bar';
-import '@ag-grid-community/styles/ag-grid.css';
-import '@ag-grid-community/styles/ag-theme-quartz.css';
+// import '@ag-grid-community/styles/ag-grid.css';
+// import '@ag-grid-community/styles/ag-theme-quartz.css';
 import { getData } from './data';
 
 import { TickerCellRenderer } from './cell-renderers/ticker-cell-renderer.component';
@@ -43,7 +43,7 @@ ModuleRegistry.registerModules([
   ColumnsToolPanelModule,
   ExcelExportModule,
   FiltersToolPanelModule,
-  GridChartsModule,
+  // GridChartsModule,
   MenuModule,
   RangeSelectionModule,
   RowGroupingModule,
