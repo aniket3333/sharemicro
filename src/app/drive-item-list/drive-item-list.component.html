@@ -10,8 +10,8 @@
       <button *ngIf="!uploafFileFlag" type="button" class="btn btn-sm btn-primary" (click)="uploadFile()">Upload File</button>
      
         <!-- <label  *ngIf="uploafFileFlag" for="imageFile">Upload File</label> -->
-        <input   *ngIf="uploafFileFlag" id="imageFile" type="file" class="form-control" />  <div class="row mt-3">
-          <button *ngIf="!uploafFileFlag" type="button" class="btn btn-sm btn-primary" (click)="uploadFile()">Upload File</button>
+        <input   *ngIf="uploafFileFlag" id="imageFile" type="file" class="form-control" (change)="onFileSelected($event)" />  <div class="row mt-3">
+
     
     </div>
   </div>

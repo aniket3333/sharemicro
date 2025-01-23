@@ -6,6 +6,7 @@ import { SHARE_POINTS_SERVICE, ISharePointService } from '../Ishare-point.servic
 import { ProviderList } from '../app-provider-registrar';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
+import { UploadFile } from '../model/upload-file.model';
 
 @Component({
   selector: 'app-drive-item-list',
@@ -20,6 +21,8 @@ export class DriveItemListComponent {
   sitesData:any
   DriveId: string='';
   uploafFileFlag: boolean;
+  selectedFile: File;
+  uploadFilei:UploadFile;
   constructor(
     @Inject(SHARE_POINTS_SERVICE) private sharePointService: ISharePointService, private router :Router,private activateRoute:ActivatedRoute
   ) {
@@ -35,6 +38,8 @@ navigate(site:any){
   this.router.navigate(["/drive-view-file",fileUrl])
 }
   ngOnInit(): void {
+    this.uploadFilei =new  UploadFile();
+
     this.getAllSites();
   }
   getAllSites() {
@@ -53,5 +58,25 @@ navigate(site:any){
   uploadFile()
   {
    this.uploafFileFlag = true; 
+  }
+  onFileSelected(event: Event): void {
+    const file = (event.target as HTMLInputElement)?.files?.[0];
+    if (file) {
+      this.selectedFile = file;
+      this.uploadFilei.file = file;
+      this.uploadFilei.DriveId = this.DriveId;
+      this.uploadFilei.SiteId = '';
+
+      this.sharePointService.uploadFile(this.uploadFilei).subscribe((res) => {
+        if (res.Status == HttpStatus.Success) {
+          debugger
+          console.log(res);
+          this.getAllSites();
+         
+        }
+      });
+    } else {
+   
+    }
   }
 }
