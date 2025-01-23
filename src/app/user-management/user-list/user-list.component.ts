@@ -60,7 +60,7 @@ private getUserList() {
     
 }
 
-deletePurchaseHistory(id: number) {
+deleteUser(id: number) {
   if (!id) {
     return;
   }
