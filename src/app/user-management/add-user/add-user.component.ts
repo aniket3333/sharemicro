@@ -51,11 +51,11 @@ console.log(formValue);
   formData.append('MFAStatusId', formValue.MFAStatusId);
   formData.append('LanguageId', formValue.LanguageId);
   formData.append('GenderId', formValue.GenderId);
+  if (formValue.ImportFile) {
+    formData.append('ImportFile', this.selectedFile);
+  }
 
-  // Debug: Log the content of FormData
-  formData.forEach((value, key) => {
-    console.log(`${key}: ${value}`);
-  });
+  
 
   return formData;
 }
