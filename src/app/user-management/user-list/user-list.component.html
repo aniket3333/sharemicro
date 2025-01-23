@@ -27,7 +27,12 @@
                         <tr *ngFor="let user of leadTableDataList.DataList; let i = index">
                             <td>{{ i + 1 }}</td>
                           
-                            <td> <button type="button" class="btn btn-sm btn-soft-danger" (click)="deleteUser(user.Id)">Delete</button></td>
+                          
+                              <td>
+                                <button type="button" class="btn btn-sm btn-soft-danger" (click)="deleteUser(user.Id)">
+                                    <i class="bi bi-trash text-danger"></i>
+                                  </button>
+                              </td>
                             <td>{{ user.Name }}</td>
                             <td>{{ user.EmailAddress }}</td>
 
