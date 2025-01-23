@@ -47,25 +47,32 @@ export class SharePointService  implements ISharePointService{
   getAllSites():Observable<BaseResponseModel<DataTableModel<SitesModal>>>{
 
     // return this.http.get("https://rnapi.sdaemon.com/Api/api/v1/SharePoint/GetSites")
+    const url = 'https://rnapi.sdaemon.com/Api/api/v1/SharePoint/GetSites';
 
+    const options = this.createHttpOptions(); 
     return this.http.get<BaseResponseModel<DataTableModel<SitesModal>>>(
-     "https://rnapi.sdaemon.com/Api/api/v1/SharePoint/GetSites",
+    url,options
 
     );
   }
   getDrivesBySiteId(SiteId:string):Observable<BaseResponseModel<DataTableModel<SitesModal>>>{
     // return this.http.get("https://rnapi.sdaemon.com/Api/api/v1/SharePoint/GetSites")
     let params = new HttpParams().set("SiteId", SiteId)
-
-    return this.http.get<BaseResponseModel<DataTableModel<SitesModal>>>("https://rnapi.sdaemon.com/Api/api/v1/SharePoint/GetDrivesBySiteId",{params}
+    const url = "https://rnapi.sdaemon.com/Api/api/v1/SharePoint/GetDrivesBySiteId";
+    const options = this.createHttpOptions(); 
+    return this.http.get<BaseResponseModel<DataTableModel<SitesModal>>>(url, { 
+      params,      // Attach query parameters
+      ...options   // Spread the options (headers, etc.)
+    }
 
     );
   }
   getDrivesItemByDriveId(DriveId:string):Observable<BaseResponseModel<DataTableModel<SitesModal>>>{
     // return this.http.get("https://rnapi.sdaemon.com/Api/api/v1/SharePoint/GetSites")
     let params = new HttpParams().set("DriveId", DriveId)
-
-    return this.http.get<BaseResponseModel<DataTableModel<SitesModal>>>("https://rnapi.sdaemon.com/Api/api/v1/SharePoint/GetDrivesItemByDriveId",{params}
+    const url  = "https://rnapi.sdaemon.com/Api/api/v1/SharePoint/GetDrivesItemByDriveId";
+    const options = this.createHttpOptions(); 
+    return this.http.get<BaseResponseModel<DataTableModel<SitesModal>>>(url,{params,...options}
 
     );
   }
