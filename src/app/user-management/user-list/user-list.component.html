@@ -1,1 +1,23 @@
-<p>user-list works!</p>
+<app-navbar></app-navbar>
+<div class="container mt-4">
+    <h4>User List</h4>
+    <table class="table table-bordered table-striped">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of users; let i = index">
+          <td>{{ i + 1 }}</td>
+          <td>{{ user.name }}</td>
+          <td>{{ user.email }}</td>
+          <td><span class="badge">{{ user.status }}</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

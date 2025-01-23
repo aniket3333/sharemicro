@@ -1,0 +1,22 @@
+.navbar {
+    background-color: #007bff; /* Custom blue color */
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #fff !important;
+  }
+  
+  .navbar-nav .nav-item img {
+    border: 3px solid #fff; /* White border around profile picture */
+  }
+  
+  .navbar-nav .nav-item .ms-3 h5 {
+    font-size: 1.1rem;
+  }
+  
+  .navbar-nav .nav-item .ms-3 p {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7); /* Lighter color for the title */
+  }
+  
