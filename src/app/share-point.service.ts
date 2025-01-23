@@ -92,7 +92,7 @@ export class SharePointService  implements ISharePointService{
   //   );
   // }
 
-  addUser(model: UserModel): Observable<BaseResponseModel<DataTableModel<UserModel>>> {
+  addUser(model: FormData): Observable<BaseResponseModel<DataTableModel<UserModel>>> {
     const url = 'https://rnapi.sdaemon.com/Api/api/v1/Microsoft365User/CreateUser';
 
     const options = this.createHttpOptions();  // Get the HTTP options with Authorization header

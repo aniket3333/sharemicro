@@ -47,22 +47,13 @@ onSubmit() {
       }
     });
 }
-onFileSelected(event: any): void {
-  const file = event.target.files[0];
-  if (file) {
-    this.convertFileToBase64(file).then((base64: string) => {
-      this.addUserForm.get("ImageFile").setValue(base64); // Save the base64 string in the form control
-    });
+onFileSelected(event: any) {
+  let file: File = event.target.files[0];
+  if (!(file)) {
+    return;
   }
-}
-convertFileToBase64(file: File): Promise<string> {
-  return new Promise((resolve, reject) => {
-    const reader = new FileReader();
-    reader.readAsDataURL(file); // This will convert the file to base64
-    reader.onload = () => {
-      resolve(reader.result as string);
-    };
-    reader.onerror = (error) => reject(error);
-  });
+
+  this.addUserForm.imageFile = file;
+
 }
 }

@@ -1,5 +1,4 @@
 import { FormGroup, FormControl, Validators } from "@angular/forms";
-import { UserModel } from "./user.model"; // Assuming the UserModel is in a file user.model.ts
 
 export class UserCreateForm extends FormGroup {
     imageFile: File;
@@ -14,41 +13,29 @@ export class UserCreateForm extends FormGroup {
       MFAStatusId: new FormControl(5), // Default MFAStatusId value (change if needed)
       LanguageId: new FormControl(1), // Default MFAStatusId value (change if needed)
       GenderId: new FormControl(1), // Default MFAStatusId value (change if needed)
-      ImageFile: new FormControl(null)
+    
      
 
       
     });
   }
 
+  getFormData(): FormData {
+    let formData = new FormData();
 
-  getFormData(): UserModel {
-    let model = new UserModel();
- 
-    model.Name = this.get("Name").value;
-    model.MobileNumber = this.get("MobileNumber").value;
-    model.EmailAddress = this.get("EmailAddress").value;
-    model.MFAStatusId = this.get("MFAStatusId").value;
-    model.LanguageId = this.get("LanguageId").value;
-    model.GenderId = this.get("GenderId").value;
-    model.ImageFile = this.get("ImageFile").value;
+    formData.set('Name', this.get('name').value);
+    formData.set('MobileNumber', this.get('MobileNumber').value);
+    formData.set('EmailAddress', this.get('EmailAddress').value);
+    formData.set('MFAStatusId', this.get('MFAStatusId').value);
+    formData.set('LanguageId', this.get('LanguageId').value);
+    formData.set('GenderId', this.get('GenderId').value);
 
-    return model;
-  };
+    if (this.imageFile) {
+      formData.set('ImageFile', this.imageFile, this.imageFile.name);
+    }
+    return formData;
+  }
 
   
-  setControlValues(model: UserModel) {
-    if (!model) {
-      return;
-    }
-    this.get("Id").setValue(model.Id);
-    this.get("Name").setValue(model.Name);
-    this.get("MobileNumber").setValue(model.MobileNumber);
-    this.get("EmailAddress").setValue(model.EmailAddress);
-    this.get("MFAStatusId").setValue(model.MFAStatusId);
-    this.get("LanguageId").setValue(model.LanguageId);
-    this.get("GenderId").setValue(model.GenderId);
-    this.get("ImageFile").setValue(model.ImageFile);
-   
-}
+ 
 }
