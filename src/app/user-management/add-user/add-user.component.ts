@@ -21,6 +21,7 @@ import { NavbarComponent } from 'src/app/navbar/navbar.component';
 export class AddUserComponent implements OnInit{
   addUserForm:FormGroup;
   selectedFile: File | null = null; // Stores the selected file
+  showError: string;
 
  get f(){
  return this.addUserForm.controls;
@@ -72,15 +73,21 @@ onSubmit() {
   debugger
   this.sharePointService.addUser(formData)
     .subscribe((response) => {
+      if(response.Status == HttpStatus.Failed){
+        this.showError = response.Message.trim();
+      }
       if (response.Status == HttpStatus.Success) {
+        this.showError = response.Message.trim();
         this.cancelAddUpdateModel();
       } else {
-        this.cancelAddUpdateModel();
+        this.showError =response.Message.trim();
+        // this.cancelAddUpdateModel();
       }
    
     },
   (error)=>{
-    this.cancelAddUpdateModel();
+    this.showError ='';
+    // this.cancelAddUpdateModel();
   });
 }
 onFileSelected(event: Event): void {

@@ -9,13 +9,13 @@
                     <div class="d-flex align-items-center">
                         <h5 class="mb-0 card-title flex-grow-1">
                         Create User</h5>
-                       
-                      
                         <button type="button" class="btn btn-danger btn-md" (click)="cancelAddUpdateModel()">
                            Back
                           </button>
-                      
                       </div>
+                </div>
+                <div *ngIf="showError !='' && showError !=null" class="card-body text-danger">
+                    <span>{{showError}}</span>
                 </div>
                 <div class="card-body">
                     <div class="row">
