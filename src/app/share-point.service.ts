@@ -31,6 +31,16 @@ export class SharePointService  implements ISharePointService{
     });
     return { headers };
   }
+  private createHttpOption(): { headers: HttpHeaders } {
+    const token = this.getAuthToken();  // Retrieve the token dynamically
+    
+    // Only add Authorization header if the token exists
+    const headers = new HttpHeaders({
+      'AccessToken': token ? `Bearer ${token}` : '',  // Include AccessToken header with token
+    });
+    
+    return { headers };
+  }
 
   
  
@@ -92,12 +102,22 @@ export class SharePointService  implements ISharePointService{
   //   );
   // }
 
-  addUser(model: FormData): Observable<BaseResponseModel<DataTableModel<UserModel>>> {
-    const url = 'https://rnapi.sdaemon.com/Api/api/v1/Microsoft365User/CreateUser';
-
-    const options = this.createHttpOptions();  // Get the HTTP options with Authorization header
+//   addUser(model: FormData): Observable<BaseResponseModel<string>> {
+//     const url = 'https://rnapi.sdaemon.com/Api/api/v1/Microsoft365User/CreateUser';
+// debugger
+//     const options = this.createHttpOptions();  // Get the HTTP options with Authorization header
     
-    return this.http.post<BaseResponseModel<DataTableModel<UserModel>>>(url, { model }, options);
+//     return this.http.post<BaseResponseModel<string>>(url, model , options);
+//   }
+
+  addUser(model: FormData): Observable<BaseResponseModel<string>> {
+    const url = 'https://rnapi.sdaemon.com/Api/api/v1/Microsoft365User/CreateUser';
+  
+    // Prepare HTTP options if you need additional headers
+    const options = this.createHttpOption();
+  
+    // Send the FormData directly as the body of the POST request
+    return this.http.post<BaseResponseModel<string>>(url, model, options);
   }
   uploadFile(model: UploadFile): Observable<BaseResponseModel<DataTableModel<any>>> {
     const url = 'https://localhost:44339/Api/api/v1/MicrosoftSharePoint/UploadFile';

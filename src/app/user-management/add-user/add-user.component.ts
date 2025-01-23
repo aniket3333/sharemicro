@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { HTTP_INTERCEPTORS, HttpClient, HttpClientModule } from '@angular/common/http';
 import { Component, Inject, OnInit, ViewEncapsulation } from '@angular/core';
-import { ReactiveFormsModule, UntypedFormBuilder } from '@angular/forms';
+import { FormBuilder, FormGroup, ReactiveFormsModule, UntypedFormBuilder } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ProviderList } from 'src/app/app-provider-registrar';
 import { HttpStatus } from 'src/app/common/http-status';
@@ -19,17 +19,47 @@ import { NavbarComponent } from 'src/app/navbar/navbar.component';
     providers: [ProviderList]
 })
 export class AddUserComponent implements OnInit{
- addUserForm: UserCreateForm;
+  addUserForm:FormGroup;
+  selectedFile: File | null = null; // Stores the selected file
 
  get f(){
  return this.addUserForm.controls;
  }
-constructor(private http: HttpClient,private _formBuilder: UntypedFormBuilder,
+constructor(private fb:FormBuilder,private http: HttpClient,private _formBuilder: UntypedFormBuilder,
     private _router: Router,private _route: ActivatedRoute,private route: ActivatedRoute,@Inject(SHARE_POINTS_SERVICE) private sharePointService: ISharePointService
 ) { }
 ngOnInit(): void {
-  this.addUserForm =  new UserCreateForm();
+  this.addUserForm = this.fb.group({
+    Name: [''],
+    MobileNumber: [''],
+    EmailAddress: [''],
+    MFAStatusId: [5],
+    LanguageId: [1],
+    GenderId: [1],
+    ImageFile: [null]
+  })
 }
+
+
+createFormData(formValue: any): FormData {
+  const formData = new FormData();
+console.log(formValue);
+  formData.append('Name', formValue.Name);
+  formData.append('MobileNumber', formValue.MobileNumber);
+  formData.append('EmailAddress', formValue.EmailAddress);
+  formData.append('MFAStatusId', formValue.MFAStatusId);
+  formData.append('LanguageId', formValue.LanguageId);
+  formData.append('GenderId', formValue.GenderId);
+
+  // Debug: Log the content of FormData
+  formData.forEach((value, key) => {
+    console.log(`${key}: ${value}`);
+  });
+
+  return formData;
+}
+
+
 cancelAddUpdateModel()
 {
   this._router.navigate(['/user-management/user-list']);
@@ -37,9 +67,10 @@ cancelAddUpdateModel()
 
 onSubmit() {
   debugger
- let model =  this.addUserForm.getFormData();
- console.log(model);
-  this.sharePointService.addUser(model)
+  const formData = this.createFormData(this.addUserForm.value);
+  console.log(formData);
+  debugger
+  this.sharePointService.addUser(formData)
     .subscribe((response) => {
       if (response.Status == HttpStatus.Success) {
         
@@ -47,13 +78,17 @@ onSubmit() {
       }
     });
 }
-onFileSelected(event: any) {
-  let file: File = event.target.files[0];
-  if (!(file)) {
-    return;
+onFileSelected(event: Event): void {
+  const file = (event.target as HTMLInputElement)?.files?.[0];
+
+  if (file) {
+    this.selectedFile = file;
+    this.addUserForm.patchValue({ ImageFile: file });
+    this.addUserForm.get('ImageFile')?.updateValueAndValidity();
+  } else {
+    this.addUserForm.patchValue({ ImageFile: null });
+    this.addUserForm.get('ImageFile')?.updateValueAndValidity();
   }
-
-  this.addUserForm.imageFile = file;
-
 }
+
 }

@@ -1,4 +1,4 @@
-import { Component, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -9,7 +9,12 @@ import { Component, ViewEncapsulation } from '@angular/core';
     encapsulation: ViewEncapsulation.None,
     providers: []
 })
-export class NavbarComponent {
+export class NavbarComponent implements OnInit {
   userName: string = 'John Doe';
-  userTitle: string = 'Software Engineer';
+  constructor(){}
+
+  ngOnInit(): void {
+    let userName = localStorage.getItem('name');
+    this.userName = userName ? userName : 'John Doe';
+  }
 }

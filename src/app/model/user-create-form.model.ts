@@ -1,41 +1,37 @@
-import { FormGroup, FormControl, Validators } from "@angular/forms";
+import { FormGroup, FormControl } from '@angular/forms';
 
 export class UserCreateForm extends FormGroup {
-    imageFile: File;
-    imageFileUrl: string;
-  
+  imageFile: File;
+
   constructor() {
     super({
-        
-      Name: new FormControl(''), // Name is required
-      MobileNumber: new FormControl(''), // MobileNumber must be a 10 digit number
-      EmailAddress: new FormControl(''), // Email is required and should be a valid email format
-      MFAStatusId: new FormControl(5), // Default MFAStatusId value (change if needed)
-      LanguageId: new FormControl(1), // Default MFAStatusId value (change if needed)
-      GenderId: new FormControl(1), // Default MFAStatusId value (change if needed)
-    
-     
-
-      
+      Name: new FormControl(''), 
+      MobileNumber: new FormControl(''), 
+      EmailAddress: new FormControl(''), 
+      MFAStatusId: new FormControl(5), 
+      LanguageId: new FormControl(1), 
+      GenderId: new FormControl(1),
+      ImageFile: new FormControl(null),
     });
   }
 
   getFormData(): FormData {
+    debugger
     let formData = new FormData();
 
-    formData.set('Name', this.get('name').value);
-    formData.set('MobileNumber', this.get('MobileNumber').value);
-    formData.set('EmailAddress', this.get('EmailAddress').value);
-    formData.set('MFAStatusId', this.get('MFAStatusId').value);
-    formData.set('LanguageId', this.get('LanguageId').value);
-    formData.set('GenderId', this.get('GenderId').value);
+    // Add form controls to FormData
+    formData.append('Name', this.get('Name').value);
+    formData.append('MobileNumber', this.get('MobileNumber').value);
+    formData.append('EmailAddress', this.get('EmailAddress').value);
+    formData.append('MFAStatusId', this.get('MFAStatusId').value);
+    formData.append('LanguageId', this.get('LanguageId').value);
+    formData.append('GenderId', this.get('GenderId').value);
 
+    // If the image file is present, add it to the FormData
     if (this.imageFile) {
-      formData.set('ImageFile', this.imageFile, this.imageFile.name);
+      formData.append('ImageFile', this.imageFile, this.imageFile.name);
     }
+
     return formData;
   }
-
-  
- 
 }

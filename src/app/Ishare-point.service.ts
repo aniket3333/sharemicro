@@ -21,6 +21,6 @@ export interface ISharePointService{
   getAccessToken(AuthorizationCode:any):Observable<BaseResponseModel<DataTableModel<any>>>;
   getUserList(model:UserSearch):Observable<BaseResponseModel<DataTableModel<UserModel>>>;
   deleteByIdUser(id:number):Observable<BaseResponseModel<DataTableModel<any>>>;
-  addUser(model:FormData):Observable<BaseResponseModel<DataTableModel<any>>>;
+  addUser(model:FormData):Observable<BaseResponseModel<string>>;
   uploadFile(model:UploadFile):Observable<BaseResponseModel<DataTableModel<any>>>;
 }
