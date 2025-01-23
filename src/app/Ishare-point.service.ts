@@ -8,6 +8,7 @@ import { DataTableModel } from './common/datatable.model';
 import { SitesModal } from './common/siteModal';
 import { UserModel } from './model/user.model';
 import { UserSearch } from './model/user.search.model';
+import { UploadFile } from './model/upload-file.model';
 
 export const SHARE_POINTS_SERVICE = new InjectionToken("share points service");
 
@@ -21,4 +22,5 @@ export interface ISharePointService{
   getUserList(model:UserSearch):Observable<BaseResponseModel<DataTableModel<UserModel>>>;
   deleteByIdUser(id:number):Observable<BaseResponseModel<DataTableModel<any>>>;
   addUser(model:UserModel):Observable<BaseResponseModel<DataTableModel<any>>>;
+  uploadFile(model:UploadFile):Observable<BaseResponseModel<DataTableModel<any>>>;
 }

@@ -8,6 +8,7 @@ import { ISharePointService } from './Ishare-point.service';
 import { UserModel } from './model/user.model';
 import { UserSearch } from './model/user.search.model';
 import { HttpHeaders } from '@angular/common/http';
+import { UploadFile } from './model/upload-file.model';
 
 
 
@@ -93,6 +94,13 @@ export class SharePointService  implements ISharePointService{
 
   addUser(model: UserModel): Observable<BaseResponseModel<DataTableModel<UserModel>>> {
     const url = 'https://rnapi.sdaemon.com/Api/api/v1/Microsoft365User/CreateUser';
+
+    const options = this.createHttpOptions();  // Get the HTTP options with Authorization header
+    
+    return this.http.post<BaseResponseModel<DataTableModel<UserModel>>>(url, { model }, options);
+  }
+  uploadFile(model: UploadFile): Observable<BaseResponseModel<DataTableModel<any>>> {
+    const url = 'https://localhost:44339/Api/api/v1/MicrosoftSharePoint/UploadFile';
 
     const options = this.createHttpOptions();  // Get the HTTP options with Authorization header
     
