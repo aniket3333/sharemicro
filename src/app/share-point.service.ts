@@ -27,7 +27,7 @@ export class SharePointService  implements ISharePointService{
     const token = this.getAuthToken();  // Retrieve the token dynamically
     const headers = new HttpHeaders({
       'Content-Type': 'application/json',
-      'AccessToken': token ? `Bearer ${token}` : ''  // Only add Authorization if token exists
+      'AccessToken': token ? `${token}` : '' // Only add Authorization if token exists
     });
     return { headers };
   }
@@ -36,7 +36,7 @@ export class SharePointService  implements ISharePointService{
     
     // Only add Authorization header if the token exists
     const headers = new HttpHeaders({
-      'AccessToken': token ? `Bearer ${token}` : '',  // Include AccessToken header with token
+      'AccessToken': token ? `${token}` : ''  // Include AccessToken header with token
     });
     
     return { headers };
