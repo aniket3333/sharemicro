@@ -36,6 +36,7 @@ import { SitesModal } from '../common/siteModal';
 import { ProviderList } from '../app-provider-registrar';
 import { NgxUiLoaderConfig, NgxUiLoaderModule, NgxUiLoaderService, PB_DIRECTION, POSITION, SPINNER } from "ngx-ui-loader";
 import { sparklineTooltipRenderer } from './cell-renderers/sparklineTooltipRrnderer';
+import { NavbarComponent } from '../navbar/navbar.component';
 // import { AgChartsEnterpriseModule } from 'ag-charts-enterprise';
 ModuleRegistry.registerModules([
   ClientSideRowModelModule,
@@ -72,7 +73,7 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
 @Component({
   selector: 'finance-example',
   standalone: true,
-  imports: [AgGridAngular, TickerCellRenderer,HttpClientModule, NgxUiLoaderModule],
+  imports: [AgGridAngular, TickerCellRenderer,HttpClientModule, NgxUiLoaderModule,NavbarComponent],
   templateUrl: './finance-example.component.html',
   styleUrls: ['./finance-example.component.css'],
   encapsulation: ViewEncapsulation.None,

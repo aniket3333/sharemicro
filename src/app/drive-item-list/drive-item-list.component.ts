@@ -7,11 +7,12 @@ import { ProviderList } from '../app-provider-registrar';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { UploadFile } from '../model/upload-file.model';
+import { NavbarComponent } from '../navbar/navbar.component';
 
 @Component({
   selector: 'app-drive-item-list',
   standalone: true,
-  imports: [HttpClientModule, CommonModule,RouterModule],
+  imports: [HttpClientModule, CommonModule,RouterModule,NavbarComponent],
   templateUrl: './drive-item-list.component.html',
   styleUrls: ['./drive-item-list.component.css'],
   providers:[ProviderList]

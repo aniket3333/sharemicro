@@ -8,11 +8,12 @@ import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
+import { NavbarComponent } from '../navbar/navbar.component';
 
 @Component({
   selector: 'app-all-sites-list',
   standalone: true, // This indicates that the component is standalone
-  imports: [HttpClientModule, CommonModule, RouterModule], // List of imported modules
+  imports: [HttpClientModule, CommonModule, RouterModule,NavbarComponent], // List of imported modules
   templateUrl: './all-sites-list.component.html', // Path to the HTML template
   styleUrls: ['./all-sites-list.component.css'], // Use styleUrls (plural)
   providers: [ProviderList] // List of providers (services)
