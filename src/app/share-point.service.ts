@@ -12,7 +12,7 @@ import { HttpHeaders } from '@angular/common/http';
 const httpOptions = {
   headers: new HttpHeaders({
     'Content-Type':  'application/json',
-    Authorization: 'my-auth-token'
+    AccessToken: 'my-auth-token'
   })
 };
 
@@ -27,6 +27,7 @@ export class SharePointService  implements ISharePointService{
     return localStorage.getItem('accesstoken');  // Get the token from localStorage (or sessionStorage)
   }
   private createHttpOptions(): { headers: HttpHeaders } {
+    debugger
     const token = this.getAuthToken();  // Retrieve the token dynamically
     const headers = new HttpHeaders({
       'Content-Type': 'application/json',
