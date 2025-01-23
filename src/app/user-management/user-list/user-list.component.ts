@@ -74,6 +74,9 @@ deletePurchaseHistory(id: number) {
       (response) => {
         if (response.Status == HttpStatus.Success) {
           this._sweetAlertService.deleteConfirmationSuccessAlert();
+          this.model.page=1;
+  this.model.pageSize=10;
+  this.model.searchText='';
           this.getUserList();
         } else {
           this._sweetAlertService.deleteConfirmationFailedAlert();
