@@ -22,6 +22,7 @@ export class AddUserComponent implements OnInit{
   addUserForm:FormGroup;
   selectedFile: File | null = null; // Stores the selected file
   showError: string;
+  showSuccess: string;
 
  get f(){
  return this.addUserForm.controls;
@@ -77,7 +78,7 @@ onSubmit() {
         this.showError = response.Message.trim();
       }
       if (response.Status == HttpStatus.Success) {
-        this.showError = response.Message.trim();
+        this.showSuccess = response.Message.trim();
         setTimeout(()=>{
           this.cancelAddUpdateModel();
         },1500)
