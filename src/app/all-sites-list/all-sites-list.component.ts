@@ -41,7 +41,7 @@ navigate(siteId:string){
   debugger
   if(siteId=='111')
   {
-    this.router.navigate(["/drive-list", siteId])
+    this.router.navigate(["/user-management/user-list"])
   }
   else{
     this.router.navigate(["/drive-list", siteId])

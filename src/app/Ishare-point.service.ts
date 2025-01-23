@@ -16,4 +16,5 @@ export interface ISharePointService{
   getDrivesItemByDriveId(DriveId:string):Observable<BaseResponseModel<DataTableModel<SitesModal>>>;
   viewDrivesfile(fileUrl:string):Observable<BaseResponseModel<DataTableModel<SitesModal>>>;
   getAccessToken(AuthorizationCode:any):Observable<BaseResponseModel<DataTableModel<any>>>;
+  getUserList():Observable<BaseResponseModel<DataTableModel<any>>>;
 }

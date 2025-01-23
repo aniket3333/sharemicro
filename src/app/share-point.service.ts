@@ -48,5 +48,12 @@ export class SharePointService  implements ISharePointService{
     return this.http.post<BaseResponseModel<DataTableModel<any>>>("https://rnapi.sdaemon.com/Api/api/v1/Microsoft365User/GetAccessToken",{AuthorizationCode}
     );
   }
+  getUserList():Observable<BaseResponseModel<DataTableModel<any>>>{
+    
+    let params = new HttpParams().set("SearchText", '')
+    .set("Page", 1).set("PageSize", 10)
+    return this.http.get<BaseResponseModel<DataTableModel<SitesModal>>>("https://rnapi.sdaemon.com/Api/api/v1/User/GetUserList",{params}
+    );
+  }
 
 }
