@@ -51,6 +51,8 @@ export class LoginComponent implements OnInit {
 
   ngOnInit() {
     debugger
+    localStorage.removeItem('accesstoken');
+localStorage.removeItem('name');
     this.route.queryParams.subscribe((params) => {
       this.code = params['code'];
       console.log('Code parameter:', this.code);
