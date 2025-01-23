@@ -23,6 +23,7 @@ export class DriveItemListComponent {
   uploafFileFlag: boolean;
   selectedFile: File;
   uploadFilei:UploadFile;
+  successMessage: string;
   constructor(
     @Inject(SHARE_POINTS_SERVICE) private sharePointService: ISharePointService, private router :Router,private activateRoute:ActivatedRoute
   ) {
@@ -79,8 +80,14 @@ navigate(site:any){
       this.sharePointService.uploadFile(formData).subscribe((res) => {
         if (res.Status == HttpStatus.Success) {
           debugger
+          this.uploafFileFlag = false;
+          this.successMessage = 'File uploaded successfully';
           console.log(res);
-          this.getAllSites();
+          setTimeout(()=>{
+            this.successMessage='';
+            this.getAllSites();
+          },2000);
+        
          
         }
       });
