@@ -81,7 +81,7 @@ onSubmit() {
         this.showSuccess = response.Message.trim();
         setTimeout(()=>{
           this.cancelAddUpdateModel();
-        },1500)
+        },2000)
       } else {
         this.showError =response.Message.trim();
         // this.cancelAddUpdateModel();
