@@ -65,7 +65,7 @@ export class SweetAlertService {
         return this.swalWithBootstrapButtons.fire({
             title: title ?? "Deleted",
             text:
-                text ?? "Your data is deleted successfully"
+                text ?? "User deleted successfully"
             ,
             icon: "success",
         });
