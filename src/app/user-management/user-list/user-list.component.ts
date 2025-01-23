@@ -10,6 +10,7 @@ import { ISharePointService, SHARE_POINTS_SERVICE } from 'src/app/Ishare-point.s
 import { UserModel } from 'src/app/model/user.model';
 import { UserSearch } from 'src/app/model/user.search.model';
 import { NavbarComponent } from 'src/app/navbar/navbar.component';
+import { SweetAlertService } from 'src/app/services/sweat-alert.service';
 
 @Component({
   selector: 'app-user-list',
@@ -29,7 +30,7 @@ export class UserListComponent implements OnInit {
     { name: 'Charlie Brown', email: 'charlie@example.com', status: 'Pending', statusClass: 'bg-warning' }
   ];
 constructor(private http: HttpClient,private _formBuilder: UntypedFormBuilder,
-    private _router: Router,private _route: ActivatedRoute,private route: ActivatedRoute,@Inject(SHARE_POINTS_SERVICE) private sharePointService: ISharePointService
+  private _sweetAlertService: SweetAlertService, private _router: Router,private _route: ActivatedRoute,private route: ActivatedRoute,@Inject(SHARE_POINTS_SERVICE) private sharePointService: ISharePointService
 ) { }
 
 ngOnInit(){
@@ -56,6 +57,33 @@ private getUserList() {
         this.leadTableDataList.DataList = []; // Assign an empty array if DataList is null or undefined
       }
     });
+    
+}
+
+deletePurchaseHistory(id: number) {
+  if (!id) {
+    return;
+  }
+  //show confirmation popup
+  this._sweetAlertService.deleteConfirmationAlert().then((result) => {
+    if (!result.value) {
+      return;
+    }
+    //delete the record
+    this.sharePointService.deleteByIdUser(id).subscribe(
+      (response) => {
+        if (response.Status == HttpStatus.Success) {
+          this._sweetAlertService.deleteConfirmationSuccessAlert();
+          this.getUserList();
+        } else {
+          this._sweetAlertService.deleteConfirmationFailedAlert();
+        }
+      },
+      (error) => {
+        this._sweetAlertService.deleteConfirmationFailedAlert(null, error);
+      }
+    );
+  });
 }
 navigateToCreateUser()
 {

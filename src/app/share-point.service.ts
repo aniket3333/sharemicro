@@ -57,6 +57,13 @@ export class SharePointService  implements ISharePointService{
     return this.http.get<BaseResponseModel<DataTableModel<UserModel>>>("https://rnapi.sdaemon.com/Api/api/v1/User/GetUserList",{params}
     );
   }
+  deleteByIdUser(id:number):Observable<BaseResponseModel<DataTableModel<any>>>{
+    
+    let params = new HttpParams().set("Id", id)
+   
+    return this.http.get<BaseResponseModel<DataTableModel<UserModel>>>("https://rnapi.sdaemon.com/Api/api/v1/User/DeleteUser",{params}
+    );
+  }
   addUser(model:UserModel):Observable<BaseResponseModel<DataTableModel<UserModel>>>{
     
   

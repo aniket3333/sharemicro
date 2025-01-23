@@ -19,5 +19,6 @@ export interface ISharePointService{
   viewDrivesfile(fileUrl:string):Observable<BaseResponseModel<DataTableModel<SitesModal>>>;
   getAccessToken(AuthorizationCode:any):Observable<BaseResponseModel<DataTableModel<any>>>;
   getUserList(model:UserSearch):Observable<BaseResponseModel<DataTableModel<UserModel>>>;
+  deleteByIdUser(id:number):Observable<BaseResponseModel<DataTableModel<any>>>;
   addUser(model:UserModel):Observable<BaseResponseModel<DataTableModel<any>>>;
 }
