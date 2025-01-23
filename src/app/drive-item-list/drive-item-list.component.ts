@@ -65,7 +65,7 @@ navigate(site:any){
       this.selectedFile = file;
       this.uploadFilei.file = file;
       this.uploadFilei.DriveId = this.DriveId;
-      this.uploadFilei.SiteId = '';
+      this.uploadFilei.SiteId = '4b9eabb3-e8c0-4bfa-8568-1c7addced90f,7ac7501c-6905-4db8-b7a9-3b04184102ef';
 
       this.sharePointService.uploadFile(this.uploadFilei).subscribe((res) => {
         if (res.Status == HttpStatus.Success) {
