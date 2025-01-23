@@ -69,7 +69,9 @@ export class LoginComponent implements OnInit {
     debugger
     this.sharePointService.getAccessToken(this.code).subscribe((res) => {
         debugger
-console.log(res);
+console.log(res.Data.AccessToken,'jkjkjkjkjkjk');
+localStorage.setItem('accesstoken',res.Data.AccessToken);
+
 this._router.navigate(['/all-sites']);
     
     });

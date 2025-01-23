@@ -6,6 +6,8 @@ import { Observable } from 'rxjs';
 import { BaseResponseModel } from './common/base-response.model';
 import { DataTableModel } from './common/datatable.model';
 import { SitesModal } from './common/siteModal';
+import { UserModel } from './model/user.model';
+import { UserSearch } from './model/user.search.model';
 
 export const SHARE_POINTS_SERVICE = new InjectionToken("share points service");
 
@@ -16,5 +18,6 @@ export interface ISharePointService{
   getDrivesItemByDriveId(DriveId:string):Observable<BaseResponseModel<DataTableModel<SitesModal>>>;
   viewDrivesfile(fileUrl:string):Observable<BaseResponseModel<DataTableModel<SitesModal>>>;
   getAccessToken(AuthorizationCode:any):Observable<BaseResponseModel<DataTableModel<any>>>;
-  getUserList():Observable<BaseResponseModel<DataTableModel<any>>>;
+  getUserList(model:UserSearch):Observable<BaseResponseModel<DataTableModel<UserModel>>>;
+  addUser(model:UserModel):Observable<BaseResponseModel<DataTableModel<any>>>;
 }

@@ -5,6 +5,8 @@ import { DataTableModel } from './common/datatable.model';
 import { SitesModal } from './common/siteModal';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { ISharePointService } from './Ishare-point.service';
+import { UserModel } from './model/user.model';
+import { UserSearch } from './model/user.search.model';
 
 @Injectable({
   providedIn: 'root'
@@ -48,11 +50,17 @@ export class SharePointService  implements ISharePointService{
     return this.http.post<BaseResponseModel<DataTableModel<any>>>("https://rnapi.sdaemon.com/Api/api/v1/Microsoft365User/GetAccessToken",{AuthorizationCode}
     );
   }
-  getUserList():Observable<BaseResponseModel<DataTableModel<any>>>{
+  getUserList(model:UserSearch):Observable<BaseResponseModel<DataTableModel<UserModel>>>{
     
-    let params = new HttpParams().set("SearchText", '')
-    .set("Page", 1).set("PageSize", 10)
-    return this.http.get<BaseResponseModel<DataTableModel<SitesModal>>>("https://rnapi.sdaemon.com/Api/api/v1/User/GetUserList",{params}
+    let params = new HttpParams().set("SearchText", model.searchText)
+    .set("Page", model.page).set("PageSize", model.pageSize)
+    return this.http.get<BaseResponseModel<DataTableModel<UserModel>>>("https://rnapi.sdaemon.com/Api/api/v1/User/GetUserList",{params}
+    );
+  }
+  addUser(model:UserModel):Observable<BaseResponseModel<DataTableModel<UserModel>>>{
+    
+  
+    return this.http.post<BaseResponseModel<DataTableModel<UserModel>>>("https://rnapi.sdaemon.com/Api/api/v1/Microsoft365User/CreateUser",{model}
     );
   }
 

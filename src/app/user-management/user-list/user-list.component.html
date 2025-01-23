@@ -1,23 +1,45 @@
 <app-navbar></app-navbar>
-<div class="container mt-4">
-    <h4>User List</h4>
-    <table class="table table-bordered table-striped">
-      <thead>
-        <tr>
-          <th>#</th>
-          <th>Name</th>
-          <th>Email</th>
-          <th>Status</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr *ngFor="let user of users; let i = index">
-          <td>{{ i + 1 }}</td>
-          <td>{{ user.name }}</td>
-          <td>{{ user.email }}</td>
-          <td><span class="badge">{{ user.status }}</span></td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-  
+<div class="container-fluid mt-4">
+    <div class="card">
+        <div class="card-body border-bottom py-2">
+            <div class="d-flex align-items-center">
+                <h5 class="mb-0 card-title flex-grow-1">
+                User List</h5>
+               
+                <button type="button" class="btn btn-md btn-primary" (click)="navigateToCreateUser()">Add User</button>
+              
+              </div>
+        </div>
+        <div class="card-body border-bottom py-2">
+            <div class="table-responsive">
+                <table class="table align-middle dt-responsive nowrap w-100 table-check table-striped 
+            table-bordered datatables dtr-inline b-grey">
+       <thead>
+           <tr>
+               <th>#</th>
+               <th>Name</th>
+               <th>Email</th>
+           </tr>
+       </thead>
+       <tbody>
+
+           <tr *ngFor="let user of leadTableDataList.DataList; let i = index">
+               <td>{{ i + 1 }}</td>
+               <td>{{ user.Name }}</td>
+               <td>{{ user.EmailAddress }}</td>
+
+           </tr>
+       </tbody>
+   </table>
+            </div>
+            
+        </div>
+    </div>
+    
+
+
+
+
+
+    
+</div>
