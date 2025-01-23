@@ -2,6 +2,9 @@ import { FormGroup, FormControl, Validators } from "@angular/forms";
 import { UserModel } from "./user.model"; // Assuming the UserModel is in a file user.model.ts
 
 export class UserCreateForm extends FormGroup {
+    imageFile: File;
+    imageFileUrl: string;
+  
   constructor() {
     super({
         
@@ -11,7 +14,8 @@ export class UserCreateForm extends FormGroup {
       MFAStatusId: new FormControl(5), // Default MFAStatusId value (change if needed)
       LanguageId: new FormControl(1), // Default MFAStatusId value (change if needed)
       GenderId: new FormControl(1), // Default MFAStatusId value (change if needed)
-      ImageFile: new FormControl(), // Default MFAStatusId value (change if needed)
+      ImageFile: new FormControl(null)
+     
 
       
     });
@@ -28,7 +32,6 @@ export class UserCreateForm extends FormGroup {
     model.LanguageId = this.get("LanguageId").value;
     model.GenderId = this.get("GenderId").value;
     model.ImageFile = this.get("ImageFile").value;
-   
 
     return model;
   };
