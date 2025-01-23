@@ -7,8 +7,8 @@ import { FinanceExample } from './finance-example/finance-example.component';
 import { LoginComponent } from './login/login/login.component';
 
 export const routes: Routes = [
-  {path:"" , redirectTo:"login",pathMatch:"full"},
-  {path:"login" , component :LoginComponent},
+  {path:"" , redirectTo:"Test/Callback",pathMatch:"full"},
+  {path:"Test/Callback" , component :LoginComponent},
   {path:"all-sites" , component :AllSitesListComponent},
   {path:"drive-list/:siteId" , component :DrivesSitesListComponent},
   {path:"drive-item/:DriveId" , component :DriveItemListComponent},
