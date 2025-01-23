@@ -4,45 +4,45 @@
         <div class="card-body border-bottom py-2">
             <div class="d-flex align-items-center">
                 <h5 class="mb-0 card-title flex-grow-1">
-                User List</h5>
-               
+                    User List</h5>
+
                 <button type="button" class="btn btn-md btn-primary" (click)="navigateToCreateUser()">Add User</button>
-              
-              </div>
+
+            </div>
         </div>
         <div class="card-body border-bottom py-2">
             <div class="table-responsive">
                 <table class="table align-middle dt-responsive nowrap w-100 table-check table-striped 
             table-bordered datatables dtr-inline b-grey">
-       <thead>
-           <tr>
-               <th>#</th>
-               <th>Action</th>
-               <th>Name</th>
-               <th>Email</th>
-           </tr>
-       </thead>
-       <tbody>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Action</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
 
-           <tr *ngFor="let user of leadTableDataList.DataList; let i = index">
-               <td>{{ i + 1 }}</td>
-               <td > <a href="javascript:void(0);" data-bs-toggle="modal" class="btn btn-sm btn-soft-danger "
-                (click)="deleteUser(user.Id)"><i class="mdi mdi-delete-outline "></i></a></td>
-               <td>{{ user.Name }}</td>
-               <td>{{ user.EmailAddress }}</td>
+                        <tr *ngFor="let user of leadTableDataList.DataList; let i = index">
+                            <td>{{ i + 1 }}</td>
+                          
+                            <td> <button type="button" class="btn btn-sm btn-soft-danger" (click)="deleteUser(user.Id)">Delete</button></td>
+                            <td>{{ user.Name }}</td>
+                            <td>{{ user.EmailAddress }}</td>
 
-           </tr>
-       </tbody>
-   </table>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-            
+
         </div>
     </div>
-    
 
 
 
 
 
-    
+
+
 </div>
