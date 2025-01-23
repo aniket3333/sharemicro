@@ -19,6 +19,7 @@ export class DriveItemListComponent {
   sitesModel: SitesModal = new SitesModal();
   sitesData:any
   DriveId: string='';
+  uploafFileFlag: boolean;
   constructor(
     @Inject(SHARE_POINTS_SERVICE) private sharePointService: ISharePointService, private router :Router,private activateRoute:ActivatedRoute
   ) {
@@ -48,5 +49,9 @@ navigate(site:any){
   getDownloadUrl(site: any): string {
     debugger
     return site['@microsoft.graph.downloadUrl'];
+  }
+  uploadFile()
+  {
+   this.uploafFileFlag = true; 
   }
 }

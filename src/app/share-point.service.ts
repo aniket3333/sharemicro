@@ -129,7 +129,7 @@ export class SharePointService  implements ISharePointService{
     return this.http.post<BaseResponseModel<string>>(url, model, options);
   }
   uploadFile(model: UploadFile): Observable<BaseResponseModel<DataTableModel<any>>> {
-    const url = 'https://localhost:44339/Api/api/v1/MicrosoftSharePoint/UploadFile';
+    const url = 'https://rnapi.sdaemon.com/Api/api/v1/MicrosoftSharePoint/UploadFile';
 
     const options = this.createHttpOptions();  // Get the HTTP options with Authorization header
     
