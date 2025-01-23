@@ -14,7 +14,7 @@
                           </button>
                       </div>
                 </div>
-                <div *ngIf="showError !='' && showError !=null" class="card-body text-danger">
+                <div *ngIf="showError !='' && showError !=null" class="card-body text-danger text-center">
                     <span>{{showError}}</span>
                 </div>
                 <div class="card-body">
@@ -33,7 +33,7 @@
                             <label for="imageFile">Profile Image</label>
                             <input id="imageFile" type="file" class="form-control" (change)="onFileSelected($event)" />
                           
-                            <button type="submit">Submit</button>
+                            <button type="submit" class="btn btn-primary btn-sm">Submit</button>
                           </form>
                           
         
