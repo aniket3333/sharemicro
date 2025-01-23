@@ -71,7 +71,14 @@
               "browserTarget": "sharemicro:build:development"
             }
           },
-          "defaultConfiguration": "development"
+          "defaultConfiguration": "development",
+          "options": {
+  "ssl": true,
+  "sslKey": "C:/Users/USER/ssl-key.pem",
+  "sslCert": "C:/Users/USER/ssl-cert.pem",
+  "port": 44313,
+  "host": "localhost"
+}
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
