@@ -78,7 +78,9 @@ onSubmit() {
       }
       if (response.Status == HttpStatus.Success) {
         this.showError = response.Message.trim();
-        this.cancelAddUpdateModel();
+        setTimeout(()=>{
+          this.cancelAddUpdateModel();
+        },1500)
       } else {
         this.showError =response.Message.trim();
         // this.cancelAddUpdateModel();
