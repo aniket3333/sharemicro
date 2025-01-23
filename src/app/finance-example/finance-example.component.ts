@@ -9,11 +9,11 @@ import {
   type ValueFormatterFunc,
   type ValueGetterParams,
 } from '@ag-grid-community/core';
-import { AgGridAngular } from '@ag-grid-community/angular';
+import { AgGridAngular, AgGridModule } from '@ag-grid-community/angular';
 import { ClientSideRowModelModule } from '@ag-grid-community/client-side-row-model';
 import { ModuleRegistry } from '@ag-grid-community/core';
 import { AdvancedFilterModule } from '@ag-grid-enterprise/advanced-filter';
-//  import { GridChartsModule } from '@ag-grid-enterprise/chngarts-enterprise';
+import { GridChartsModule } from '@ag-grid-enterprise/charts-enterprise';
 import { ColumnsToolPanelModule } from '@ag-grid-enterprise/column-tool-panel';
 import { ExcelExportModule } from '@ag-grid-enterprise/excel-export';
 import { FiltersToolPanelModule } from '@ag-grid-enterprise/filter-tool-panel';
@@ -24,8 +24,8 @@ import { RowGroupingModule } from '@ag-grid-enterprise/row-grouping';
 import { SetFilterModule } from '@ag-grid-enterprise/set-filter';
 import { SparklinesModule } from '@ag-grid-enterprise/sparklines';
 import { StatusBarModule } from '@ag-grid-enterprise/status-bar';
-// import '@ag-grid-community/styles/ag-grid.css';
-// import '@ag-grid-community/styles/ag-theme-quartz.css';
+import '@ag-grid-community/styles/ag-grid.css';
+import '@ag-grid-community/styles/ag-theme-quartz.css';
 import { getData } from './data';
 
 import { TickerCellRenderer } from './cell-renderers/ticker-cell-renderer.component';
@@ -44,7 +44,7 @@ ModuleRegistry.registerModules([
   ColumnsToolPanelModule,
   ExcelExportModule,
   FiltersToolPanelModule,
-  // GridChartsModule,
+  GridChartsModule,
   MenuModule,
   RangeSelectionModule,
   RowGroupingModule,
@@ -73,7 +73,7 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
 @Component({
   selector: 'finance-example',
   standalone: true,
-  imports: [AgGridAngular, TickerCellRenderer,HttpClientModule, NgxUiLoaderModule,NavbarComponent],
+  imports: [AgGridAngular, TickerCellRenderer,HttpClientModule, NgxUiLoaderModule,NavbarComponent ],
   templateUrl: './finance-example.component.html',
   styleUrls: ['./finance-example.component.css'],
   encapsulation: ViewEncapsulation.None,
