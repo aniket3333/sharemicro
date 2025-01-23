@@ -128,12 +128,12 @@ export class SharePointService  implements ISharePointService{
     // Send the FormData directly as the body of the POST request
     return this.http.post<BaseResponseModel<string>>(url, model, options);
   }
-  uploadFile(model: UploadFile): Observable<BaseResponseModel<DataTableModel<any>>> {
+  uploadFile(model: FormData): Observable<BaseResponseModel<DataTableModel<any>>> {
     const url = 'https://rnapi.sdaemon.com/Api/api/v1/MicrosoftSharePoint/UploadFile';
 
-    const options = this.createHttpOptions();  // Get the HTTP options with Authorization header
+    const options = this.createHttpOption();  // Get the HTTP options with Authorization header
     
-    return this.http.post<BaseResponseModel<DataTableModel<UserModel>>>(url, { model }, options);
+    return this.http.post<BaseResponseModel<DataTableModel<UserModel>>>(url,  model , options);
   }
 
 }

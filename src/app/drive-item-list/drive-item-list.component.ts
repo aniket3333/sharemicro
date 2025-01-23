@@ -59,6 +59,14 @@ navigate(site:any){
   {
    this.uploafFileFlag = true; 
   }
+  createFormData(formValue: any): FormData {
+    const formData = new FormData();
+  console.log(formValue);
+    formData.append('file', formValue.file);
+    formData.append('DriveId', formValue.DriveId);
+    formData.append('SiteId', formValue.SiteId);
+    return formData;
+  }
   onFileSelected(event: Event): void {
     const file = (event.target as HTMLInputElement)?.files?.[0];
     if (file) {
@@ -66,8 +74,9 @@ navigate(site:any){
       this.uploadFilei.file = file;
       this.uploadFilei.DriveId = this.DriveId;
       this.uploadFilei.SiteId = '4b9eabb3-e8c0-4bfa-8568-1c7addced90f,7ac7501c-6905-4db8-b7a9-3b04184102ef';
-
-      this.sharePointService.uploadFile(this.uploadFilei).subscribe((res) => {
+      const formData = this.createFormData(this.uploadFilei);
+      console.log(formData);
+      this.sharePointService.uploadFile(formData).subscribe((res) => {
         if (res.Status == HttpStatus.Success) {
           debugger
           console.log(res);
