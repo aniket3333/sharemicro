@@ -19,7 +19,18 @@ import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 })
 export class AllSitesListComponent implements OnInit {
   sitesModel: SitesModal = new SitesModal();
-  sitesData:any
+  sitesData:any;
+   responseData = {
+    createdDateTime: "2020-07-03T09:35:09Z",
+    description: null,
+    displayName: "Communication site",
+    id: "sdaemoninfo.sharepoint.com,975cfc94-1126-43b5-b653-4c2ce9c4c79d,f7ee00fe-393b-40fa-930b-c701a3b526eb",
+    lastModifiedDateTime: "2020-06-27T19:31:33Z",
+    name: "sdaemoninfo.sharepoint.com",
+    root: {},
+    siteCollection: { hostname: 'sdaemoninfo.sharepoint.com' },
+    webUrl: "https://sdaemoninfo.sharepoint.com"
+  };
   constructor(
     @Inject(SHARE_POINTS_SERVICE) private sharePointService: ISharePointService, private router :Router
   ) {
@@ -39,6 +50,11 @@ navigate(siteId:string){
         debugger
         this.sitesModel = res.Data.value;
         this.sitesData= res.Data.value;
+        this.sitesData.push({
+          displayName: this.responseData.displayName,
+          id: this.responseData.id
+        });
+        console.log(this.sitesData);
       }
     });
   }
