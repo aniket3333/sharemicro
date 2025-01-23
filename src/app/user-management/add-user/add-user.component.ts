@@ -73,10 +73,15 @@ onSubmit() {
   this.sharePointService.addUser(formData)
     .subscribe((response) => {
       if (response.Status == HttpStatus.Success) {
-        
+        this.cancelAddUpdateModel();
       } else {
+        this.cancelAddUpdateModel();
       }
-    });
+   
+    },
+  (error)=>{
+    this.cancelAddUpdateModel();
+  });
 }
 onFileSelected(event: Event): void {
   const file = (event.target as HTMLInputElement)?.files?.[0];

@@ -71,6 +71,7 @@ export class LoginComponent implements OnInit {
         debugger
 console.log(res.Data.AccessToken,'jkjkjkjkjkjk');
 localStorage.setItem('accesstoken',res.Data.AccessToken);
+debugger
 localStorage.setItem('name',res.Data.Name);
 
 this._router.navigate(['/all-sites']);
