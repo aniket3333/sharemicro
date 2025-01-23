@@ -6,11 +6,12 @@ import { SHARE_POINTS_SERVICE, ISharePointService } from '../Ishare-point.servic
 import { ProviderList } from '../app-provider-registrar';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
+import { NavbarComponent } from '../navbar/navbar.component';
 
 @Component({
   selector: 'app-drives-sites-list',
   standalone: true,
-  imports: [HttpClientModule, CommonModule,RouterModule],
+  imports: [HttpClientModule, CommonModule,RouterModule,NavbarComponent],
   templateUrl: './drives-sites-list.component.html',
   styleUrls: ['./drives-sites-list.component.css'],
     providers:[ProviderList]
