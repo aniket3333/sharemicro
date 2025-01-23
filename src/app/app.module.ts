@@ -3,22 +3,19 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HTTP_INTERCEPTORS } from '@angular/common/http';
-import { AuthInterceptor } from './AuthInterceptor';
+import {  HttpClientModule } from '@angular/common/http';
+import { ProviderList } from './app-provider-registrar';
 
 @NgModule({
   declarations: [
     AppComponent  ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [
-    {
-      provide: HTTP_INTERCEPTORS,
-      useClass: AuthInterceptor,  // Register the AuthInterceptor
-      multi: true // Allow multiple interceptors
-    }
+   ProviderList
   ],
   bootstrap: [AppComponent]
 })

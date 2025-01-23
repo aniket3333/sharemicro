@@ -8,6 +8,7 @@ export class AuthInterceptor implements HttpInterceptor {
   intercept(req: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
     // Retrieve the token from localStorage or sessionStorage
     const token = localStorage.getItem('accesstoken');  // Or sessionStorage if you prefer
+    alert(token);
 
     // If the token is available, clone the request and add the Authorization header
     if (token) {
