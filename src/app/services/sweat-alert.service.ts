@@ -30,14 +30,14 @@ export class SweetAlertService {
         text?: string
     ): Promise<SweetAlertResult<Awaited<any>>> {
         return this.swalWithBootstrapButtons.fire({
-            title: title ?? "ALERT.SWAL.DELETE.TITLE",
-            text: text ?? "ALERT.SWAL.DELETE.MESSAGE",
+            title: title ?? "Are you sure",
+            text: text ?? "Cannot revert after delete",
             icon: "warning",
             confirmButtonText:
-                "ALERT.SWAL.DELETE.CONFIRM_BUTTON_TEXT"
+                "Yes"
             ,
             cancelButtonText:
-                "ALERT.SWAL.DELETE.CANCEL_BUTTON_TEXT"
+                "No"
             ,
             showCancelButton: true,
         });
@@ -49,10 +49,10 @@ export class SweetAlertService {
     ): Promise<SweetAlertResult<Awaited<any>>> {
         return this.swalWithBootstrapButtons.fire({
             title: 
-                title ?? "ALERT.SWAL.ERROR.CANCELLED"
+                title ?? "Cancelled"
             ,
             text:
-                text ?? "ALERT.SWAL.ERROR.ERROR_WHILE_DELETING_DATA"
+                text ?? "Error while fetching data"
             ,
             icon: "error",
         });
@@ -63,9 +63,9 @@ export class SweetAlertService {
         text?: string
     ): Promise<SweetAlertResult<Awaited<any>>> {
         return this.swalWithBootstrapButtons.fire({
-            title: title ?? "ALERT.SWAL.ERROR.DELETED",
+            title: title ?? "Deleted",
             text:
-                text ?? "ALERT.SWAL.ERROR.YOUR_DATA_HAS_BEEN_DELETED"
+                text ?? "Your data is deleted successfully"
             ,
             icon: "success",
         });
