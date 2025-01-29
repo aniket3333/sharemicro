@@ -1,18 +1,14 @@
 <app-navbar></app-navbar>
-
- <div class="container-fluid mt-4">
-    <div class="row">
-        <div  class="col-md-6 offset-3">
-            
-            <div class="card">
+<div class="container-fluid mt-4">
+    <div class="d-flex justify-content-center">
+        <div class="col-md-4">
+            <div class="card shadow">
                 <div class="card-body border-bottom py-2">
                     <div class="d-flex align-items-center">
                         <h5 class="mb-0 card-title flex-grow-1">
                         Create User</h5>
-                        <button type="button" class="btn btn-danger btn-md" (click)="cancelAddUpdateModel()">
-                           Back
-                          </button>
-                      </div>
+
+                    </div>
                 </div>
                 <div *ngIf="showError !='' && showError !=null" class="card-body text-danger text-center">
                     <span>{{showError}}</span>
@@ -22,30 +18,51 @@
                 </div>
                 <div class="card-body">
                     <div class="row">
-                      
                         <form [formGroup]="addUserForm" (ngSubmit)="onSubmit()">
-                            <label for="name">Name</label>
-                            <input id="name" formControlName="Name" class="form-control" type="text" required />
-                          
-                            <label for="email">Email</label>
-                            <input id="email" formControlName="EmailAddress" class="form-control" type="email" required />
-                          
-                            <label for="mobile">Mobile Number</label>
-                            <input id="mobile" formControlName="MobileNumber" class="form-control" type="text" required />
-                          
-                            <label for="imageFile">Profile Image</label>
-                            <input id="imageFile" type="file" class="form-control" (change)="onFileSelected($event)" />
-                          
-                            <button type="submit" class="btn btn-primary btn-sm mt-2">Submit</button>
-                          </form>
-                          
-        
+                            <!-- Name -->
+                            <div class="form-group position-relative">
+                                <label for="name">Name</label>
+                                <input id="name" formControlName="Name" class="form-control" required />
+                                <div class="invalid-feedback">Please enter your name.</div>
+                            </div>
+
+                            <!-- Mobile Number -->
+                            <div class="form-group">
+                                <label for="mobile">Mobile Number</label>
+                                <input id="mobile" formControlName="MobileNumber" type="text" class="form-control"
+                                    required />
+                            </div>
+
+                            <!-- Email Address -->
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input id="email" formControlName="EmailAddress" type="email" class="form-control"
+                                    required />
+                            </div>
+
+                            <!-- Image File -->
+                            <div class="form-group">
+                                <label for="imageFile">Image</label>
+                                <!-- <input id="imageFile" formControlName="ImageFile" type="file" class="form-control" /> -->
+                                <input type="file" accept="image/*" class="form-control" id="image"
+                                    (change)="onFileSelected($event)" />
+                            </div>
+                            <div class="d-flex justify-content-between form-group mt-4">
+                                <!-- Cancel or back button -->
+                                <button type="button" class="btn btn-danger btn-md" (click)="cancelAddUpdateModel()">
+                                    <!-- Back -->
+                                    Cancel
+                                </button>
+                                <!-- Submit Button -->
+                                <button type="submit" class="btn btn-primary pointer" [disabled]="addUserForm.invalid">
+                                    <!-- Submit -->
+                                    Create
+                                </button>
+                            </div>
+                        </form>
                     </div>
-                 
-                    
                 </div>
             </div>
         </div>
     </div>
-  </div>
-  
+</div>
