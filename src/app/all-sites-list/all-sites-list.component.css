@@ -1,8 +1,14 @@
+.navbar{
+  background-color: #fff;
+}
+
 /* Style for the site-card */
 .site-card {
-  border: 1px solid #ddd; /* Optional, for styling */
-  padding: 15px;
-  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 5px;
   text-align: left;
   display: flex;
   align-items: center;
@@ -10,8 +16,8 @@
 
 /* Site name styling */
 .site-name {
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 14px;
+  font-weight: normal;
   color: #333;
   text-decoration: none;
   display: flex;
@@ -21,5 +27,37 @@
 /* Folder icon styling */
 .site-name i {
   font-size: 30px; /* Adjust the icon size */
-  color: #007bff;  /* Customize the icon color */
+  color: #007bff; /* Customize the icon color */
+}
+
+.input-box {
+  height: 2rem;
+  width: 20rem;
+}
+
+.form-control {
+  height: 30px;
+}
+
+.form-control:focus {
+  color: #0d6efd;
+}
+
+.profile-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: url("https://img.freepik.com/premium-vector/office-worker-wearing-glasses_277909-81.jpg?w=740");
+  background-size: cover;
+}
+
+/* Responsive styles */
+@media (max-width: 601px) {
+  .input-box {
+    height: 2rem;
+    width: 12rem;
+  }
+}
+
+@media (max-width: 901px) {
 }
