@@ -4,7 +4,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {   HttpClientModule } from '@angular/common/http';
 import { ProviderList } from './app-provider-registrar';
-import { AgGridModule } from '@ag-grid-community/angular/lib/ag-grid-angular.module';
 
 @NgModule({
   declarations: [
